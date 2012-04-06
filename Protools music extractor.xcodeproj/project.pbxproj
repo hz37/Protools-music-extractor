@@ -7,28 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E062C371509511D00459147 /* music2.icns in Resources */ = {isa = PBXBuildFile; fileRef = 9E062C361509511D00459147 /* music2.icns */; };
+		9E1A36DB150FE7B400F17EB2 /* PrintView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E1A36DA150FE7B400F17EB2 /* PrintView.m */; };
+		9E33F804150E250D00C494D1 /* all.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E33F803150E250D00C494D1 /* all.png */; };
+		9E33F807150E2A9E00C494D1 /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E33F806150E2A9E00C494D1 /* Utility.m */; };
+		9E8A0085150B860F00336FBB /* MiniUniverse.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E8A0084150B860F00336FBB /* MiniUniverse.m */; };
 		9EB6798E15064D9400C4BA76 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB6798D15064D9400C4BA76 /* Cocoa.framework */; };
 		9EB6799815064D9400C4BA76 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9EB6799615064D9400C4BA76 /* InfoPlist.strings */; };
 		9EB6799A15064D9400C4BA76 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EB6799915064D9400C4BA76 /* main.m */; };
 		9EB6799E15064D9400C4BA76 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 9EB6799C15064D9400C4BA76 /* Credits.rtf */; };
 		9EB679A115064D9400C4BA76 /* HZ37_AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EB679A015064D9400C4BA76 /* HZ37_AppDelegate.m */; };
 		9EB679A415064D9500C4BA76 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EB679A215064D9500C4BA76 /* MainMenu.xib */; };
+		9EB679AC15064E5000C4BA76 /* ProtoolsData.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EB679AB15064E5000C4BA76 /* ProtoolsData.m */; };
+		9EB679AF15064F6A00C4BA76 /* Track.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EB679AE15064F6A00C4BA76 /* Track.m */; };
+		9EB679B215064FEB00C4BA76 /* Region.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EB679B115064FEB00C4BA76 /* Region.m */; };
+		9EB679B51506506700C4BA76 /* RegionUsage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EB679B41506506700C4BA76 /* RegionUsage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9E062C361509511D00459147 /* music2.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = music2.icns; sourceTree = "<group>"; };
+		9E1A36D9150FE7B400F17EB2 /* PrintView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrintView.h; sourceTree = "<group>"; };
+		9E1A36DA150FE7B400F17EB2 /* PrintView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrintView.m; sourceTree = "<group>"; };
+		9E33F803150E250D00C494D1 /* all.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = all.png; sourceTree = "<group>"; };
+		9E33F805150E2A9E00C494D1 /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
+		9E33F806150E2A9E00C494D1 /* Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utility.m; sourceTree = "<group>"; };
+		9E8A0083150B860F00336FBB /* MiniUniverse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiniUniverse.h; sourceTree = "<group>"; };
+		9E8A0084150B860F00336FBB /* MiniUniverse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MiniUniverse.m; sourceTree = "<group>"; };
 		9EB6798915064D9400C4BA76 /* Protools music extractor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Protools music extractor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EB6798D15064D9400C4BA76 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		9EB6799015064D9400C4BA76 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		9EB6799115064D9400C4BA76 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		9EB6799215064D9400C4BA76 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		9EB6799515064D9400C4BA76 /* Protools music extractor-Info.plist */ = {isa = PBXFileReference; path = "Protools music extractor-Info.plist"; sourceTree = "<group>"; };
+		9EB6799515064D9400C4BA76 /* Protools music extractor-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Protools music extractor-Info.plist"; sourceTree = "<group>"; };
 		9EB6799715064D9400C4BA76 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9EB6799915064D9400C4BA76 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		9EB6799B15064D9400C4BA76 /* Protools music extractor-Prefix.pch */ = {isa = PBXFileReference; path = "Protools music extractor-Prefix.pch"; sourceTree = "<group>"; };
+		9EB6799B15064D9400C4BA76 /* Protools music extractor-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Protools music extractor-Prefix.pch"; sourceTree = "<group>"; };
 		9EB6799D15064D9400C4BA76 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		9EB6799F15064D9400C4BA76 /* HZ37_AppDelegate.h */ = {isa = PBXFileReference; path = HZ37_AppDelegate.h; sourceTree = "<group>"; };
+		9EB6799F15064D9400C4BA76 /* HZ37_AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZ37_AppDelegate.h; sourceTree = "<group>"; };
 		9EB679A015064D9400C4BA76 /* HZ37_AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZ37_AppDelegate.m; sourceTree = "<group>"; };
 		9EB679A315064D9500C4BA76 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		9EB679AA15064E5000C4BA76 /* ProtoolsData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProtoolsData.h; sourceTree = "<group>"; };
+		9EB679AB15064E5000C4BA76 /* ProtoolsData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProtoolsData.m; sourceTree = "<group>"; };
+		9EB679AD15064F6A00C4BA76 /* Track.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Track.h; sourceTree = "<group>"; };
+		9EB679AE15064F6A00C4BA76 /* Track.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Track.m; sourceTree = "<group>"; };
+		9EB679B015064FEB00C4BA76 /* Region.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Region.h; sourceTree = "<group>"; };
+		9EB679B115064FEB00C4BA76 /* Region.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Region.m; sourceTree = "<group>"; };
+		9EB679B31506506700C4BA76 /* RegionUsage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegionUsage.h; sourceTree = "<group>"; };
+		9EB679B41506506700C4BA76 /* RegionUsage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegionUsage.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +71,7 @@
 		9EB6797E15064D9400C4BA76 = {
 			isa = PBXGroup;
 			children = (
+				9E062C361509511D00459147 /* music2.icns */,
 				9EB6799315064D9400C4BA76 /* Protools music extractor */,
 				9EB6798C15064D9400C4BA76 /* Frameworks */,
 				9EB6798A15064D9400C4BA76 /* Products */,
@@ -83,9 +109,23 @@
 			isa = PBXGroup;
 			children = (
 				9EB6799F15064D9400C4BA76 /* HZ37_AppDelegate.h */,
+				9EB679AD15064F6A00C4BA76 /* Track.h */,
+				9EB679AE15064F6A00C4BA76 /* Track.m */,
 				9EB679A015064D9400C4BA76 /* HZ37_AppDelegate.m */,
+				9EB679AA15064E5000C4BA76 /* ProtoolsData.h */,
 				9EB679A215064D9500C4BA76 /* MainMenu.xib */,
 				9EB6799415064D9400C4BA76 /* Supporting Files */,
+				9EB679AB15064E5000C4BA76 /* ProtoolsData.m */,
+				9EB679B015064FEB00C4BA76 /* Region.h */,
+				9EB679B115064FEB00C4BA76 /* Region.m */,
+				9EB679B31506506700C4BA76 /* RegionUsage.h */,
+				9EB679B41506506700C4BA76 /* RegionUsage.m */,
+				9E8A0083150B860F00336FBB /* MiniUniverse.h */,
+				9E8A0084150B860F00336FBB /* MiniUniverse.m */,
+				9E33F805150E2A9E00C494D1 /* Utility.h */,
+				9E33F806150E2A9E00C494D1 /* Utility.m */,
+				9E1A36D9150FE7B400F17EB2 /* PrintView.h */,
+				9E1A36DA150FE7B400F17EB2 /* PrintView.m */,
 			);
 			path = "Protools music extractor";
 			sourceTree = "<group>";
@@ -93,6 +133,7 @@
 		9EB6799415064D9400C4BA76 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9E33F803150E250D00C494D1 /* all.png */,
 				9EB6799515064D9400C4BA76 /* Protools music extractor-Info.plist */,
 				9EB6799615064D9400C4BA76 /* InfoPlist.strings */,
 				9EB6799915064D9400C4BA76 /* main.m */,
@@ -156,6 +197,8 @@
 				9EB6799815064D9400C4BA76 /* InfoPlist.strings in Resources */,
 				9EB6799E15064D9400C4BA76 /* Credits.rtf in Resources */,
 				9EB679A415064D9500C4BA76 /* MainMenu.xib in Resources */,
+				9E062C371509511D00459147 /* music2.icns in Resources */,
+				9E33F804150E250D00C494D1 /* all.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,6 +211,13 @@
 			files = (
 				9EB6799A15064D9400C4BA76 /* main.m in Sources */,
 				9EB679A115064D9400C4BA76 /* HZ37_AppDelegate.m in Sources */,
+				9EB679AC15064E5000C4BA76 /* ProtoolsData.m in Sources */,
+				9EB679AF15064F6A00C4BA76 /* Track.m in Sources */,
+				9EB679B215064FEB00C4BA76 /* Region.m in Sources */,
+				9EB679B51506506700C4BA76 /* RegionUsage.m in Sources */,
+				9E8A0085150B860F00336FBB /* MiniUniverse.m in Sources */,
+				9E33F807150E2A9E00C494D1 /* Utility.m in Sources */,
+				9E1A36DB150FE7B400F17EB2 /* PrintView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,7 +257,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
-				COPY_PHASE_STRIP = NO;
+				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
@@ -234,7 +284,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
-				COPY_PHASE_STRIP = YES;
+				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
@@ -244,6 +294,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -254,6 +305,8 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Protools music extractor/Protools music extractor-Prefix.pch";
 				INFOPLIST_FILE = "Protools music extractor/Protools music extractor-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -262,9 +315,12 @@
 		9EB679A915064D9500C4BA76 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"COPY_PHASE_STRIP[sdk=*]" = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Protools music extractor/Protools music extractor-Prefix.pch";
 				INFOPLIST_FILE = "Protools music extractor/Protools music extractor-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -289,6 +345,7 @@
 				9EB679A915064D9500C4BA76 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

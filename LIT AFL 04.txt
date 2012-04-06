@@ -1,0 +1,1370 @@
+SESSION NAME:	LIT AFL 04
+SAMPLE RATE:	48000.000000
+BIT DEPTH:	16-bit
+TIME CODE FORMAT:	25 Frame
+# OF AUDIO TRACKS:	16
+# OF AUDIO REGIONS:	2753
+# OF AUDIO FILES:	2676
+
+
+T R A C K  L I S T I N G
+TRACK NAME:	M&E (Stereo)
+USER DELAY:	0 Samples
+CHANNEL	EVENT	REGION NAME	START TIME	END TIME	DURATION
+
+
+
+
+TRACK NAME:	MIX (Stereo)
+USER DELAY:	0 Samples
+CHANNEL	EVENT	REGION NAME	START TIME	END TIME	DURATION
+1	1	Mix LIT Afl 04.L	00:00:00:00	00:46:29:07	00:46:29:07
+
+
+2	1	Mix LIT Afl 04.R	00:00:00:00	00:46:29:07	00:46:29:07
+
+
+TRACK NAME:	VO.01
+USER DELAY:	0 Samples
+CHANNEL	EVENT	REGION NAME	START TIME	END TIME	DURATION
+1	1	VO_04-28	00:02:04:15	00:02:10:22	00:00:06:07
+1	2	VO_04-30	00:02:13:08	00:02:16:21	00:00:03:12
+1	3	VO_05-29	00:02:17:12	00:02:20:08	00:00:02:21
+1	4	VO_06-32	00:02:20:09	00:02:25:09	00:00:04:24
+1	5	VO_06-33	00:02:29:19	00:02:33:10	00:00:03:16
+1	6	VO_07-34	00:03:20:10	00:03:24:23	00:00:04:12
+1	7	VO_07-35	00:03:31:12	00:03:35:23	00:00:04:11
+1	8	VO_08-36	00:04:34:24	00:04:42:24	00:00:07:24
+1	9	VO_10-37	00:05:35:01	00:05:38:01	00:00:03:00
+1	10	VO_11-38	00:06:28:13	00:06:31:17	00:00:03:03
+1	11	VO_12-39	00:06:48:11	00:06:52:08	00:00:03:22
+1	12	VO_13-40	00:07:03:09	00:07:06:23	00:00:03:13
+1	13	VO_15-41	00:07:32:02	00:07:39:04	00:00:07:02
+1	14	VO_16-43	00:07:50:14	00:07:53:16	00:00:03:01
+1	15	VO_16-44	00:08:15:13	00:08:19:09	00:00:03:20
+1	16	VO_18-46	00:08:51:13	00:08:58:02	00:00:06:14
+1	17	VO_19-47	00:09:33:16	00:09:36:16	00:00:02:24
+1	18	VO_20-48	00:09:43:14	00:09:45:15	00:00:02:00
+1	19	VO_21-49	00:10:50:06	00:10:54:07	00:00:04:01
+1	20	VO_23-25	00:11:34:10	00:11:39:13	00:00:05:03
+1	21	VO.01_26-65	00:11:42:07	00:11:44:07	00:00:02:00
+1	22	VO_25-50	00:12:34:03	00:12:38:19	00:00:04:15
+1	23	VO.01_28-03	00:14:05:04	00:14:08:08	00:00:03:04
+1	24	VO.01_29-66	00:14:20:07	00:14:24:05	00:00:03:22
+1	25	VO.01_29-68	00:14:38:07	00:14:44:03	00:00:05:21
+1	26	VO.01_30-69	00:15:00:14	00:15:02:15	00:00:02:01
+1	27	VO.01_30-07	00:15:18:12	00:15:22:00	00:00:03:12
+1	28	VO.01_32-09	00:16:26:03	00:16:29:10	00:00:03:07
+1	29	VO.01_33-71	00:17:18:13	00:17:23:19	00:00:05:06
+1	30	VO.01_33-72	00:17:30:23	00:17:33:17	00:00:02:19
+1	31	VO.01_36-17	00:18:03:24	00:18:08:06	00:00:04:06
+1	32	VO.01_38-75	00:18:51:11	00:18:54:13	00:00:03:01
+1	33	VO.01_39-74	00:19:00:05	00:19:05:21	00:00:05:15
+1	34	VO.01_40-21	00:20:13:13	00:20:19:20	00:00:06:07
+1	35	VO.01_41-22	00:22:54:03	00:23:00:12	00:00:06:08
+1	36	VO.01_42-23	00:24:25:02	00:24:28:07	00:00:03:04
+1	37	VO.01_43-27	00:25:03:09	00:25:05:23	00:00:02:14
+1	38	VO.01_46-35	00:26:05:23	00:26:11:17	00:00:05:19
+1	39	VO.01_45-33	00:26:15:11	00:26:18:15	00:00:03:04
+1	40	VO.01_47-36	00:27:06:24	00:27:10:00	00:00:03:00
+1	41	VO.01_49-38	00:27:42:19	00:27:44:24	00:00:02:04
+1	42	VO.01_53-42	00:30:30:17	00:30:33:16	00:00:02:23
+1	43	VO.01_56-45	00:31:01:23	00:31:06:08	00:00:04:10
+1	44	VO.01_58-76	00:31:29:10	00:31:34:03	00:00:04:18
+1	45	VO.01_58-77	00:31:35:06	00:31:38:17	00:00:03:10
+1	46	VO.01_59-48	00:32:58:19	00:33:04:02	00:00:05:08
+1	47	VO.01_60-49	00:38:18:08	00:38:24:06	00:00:05:23
+1	48	VO.01_61-54	00:38:53:24	00:38:54:16	00:00:00:16
+1	49	VO.01_62-78	00:38:57:11	00:39:00:14	00:00:03:02
+1	50	VO.01_62-79	00:39:02:09	00:39:03:20	00:00:01:11
+1	51	VO.01_65-58	00:40:05:22	00:40:13:13	00:00:07:15
+1	52	VO.01_66-61	00:41:00:09	00:41:03:17	00:00:03:08
+1	53	VO.01_67-62	00:43:25:01	00:43:35:24	00:00:10:22
+1	54	VO.01_68-81	00:46:11:07	00:46:16:14	00:00:05:07
+1	55	VO.01_68-85	00:46:18:04	00:46:21:22	00:00:03:17
+
+
+TRACK NAME:	D1
+USER DELAY:	0 Samples
+CHANNEL	EVENT	REGION NAME	START TIME	END TIME	DURATION
+1	1	Vismarkt 02.new.01-03.A1	00:02:10:20	00:02:12:10	00:00:01:15
+1	2	Vismarkt 02.new.02-01.A1	00:02:12:10	00:02:13:05	00:00:00:19
+1	3	AANLOOP DUEL_ LEON _ 1x shibuja,  is horkerig en gaat curry eten..new.01-02.A1	00:02:13:05	00:02:17:14	00:00:04:09
+1	4	Jap over Eva_ goed idee, water en schoonmaken, heel slim __.new.01-02.A1	00:02:26:17	00:02:27:22	00:00:01:05
+1	5	EXAMEN GADGETS_ Ronald met groep japanners.new.01-01.A1	00:02:28:06	00:02:30:10	00:00:02:03
+1	6	UITSLAG EXAMEN GADGETS_ Shot kandi's (zie ook band 9-2-2v3) Ronald en Joost.new.01-03.A1	00:02:33:22	00:02:37:17	00:00:03:20
+1	7	SFEER BEELDEN VAN JAPAN STRAAT.new.03-01.A1	00:02:38:22	00:02:39:24	00:00:01:02
+1	8	SFEER BEELDEN VAN JAPAN!.new.01-01.A1	00:02:40:17	00:02:41:05	00:00:00:13
+1	9	SFEER BEELDEN VAN JAPAN STRAAT.new.01-01.A1	00:02:41:05	00:02:41:21	00:00:00:16
+1	10	SFEER BEELDEN VAN JAPAN!.new.02-01.A1	00:02:41:21	00:02:42:07	00:00:00:11
+1	11	SFEER BEELDEN VAN JAPAN STRAAT.new.02-01.A1	00:02:42:07	00:02:42:19	00:00:00:12
+1	12	STAND UPPER aflevering 4.new.01-01.A1	00:02:42:19	00:03:00:15	00:00:17:21
+1	13	REALITY DUEL_ Terugkomst Mira, komt aanlopen in straat.new.01-01.A1	00:03:13:01	00:03:21:21	00:00:08:20
+1	14	CONFESSIE_ Natasja. Afl 3, 4.new.01-01.A1	00:03:36:01	00:03:38:14	00:00:02:13
+1	15	CONFESSIE_ Natasja. Afl 3, 4.new.02-03.A1	00:03:38:14	00:03:43:21	00:00:05:07
+1	16	REALITY DUEL_EXAMEN Thuiskomst Mira, komt uit lift en naar rest (prima leality).new.02-03.A1	00:03:43:21	00:03:51:04	00:00:07:08
+1	17	REALITY DUEL_EXAMEN Thuiskomst Mira, komt uit lift en naar rest (prima leality).new.03-04.A1	00:03:53:09	00:04:21:23	00:00:28:14
+1	18	BOB NEW 1.new.01-01.A1	00:04:43:02	00:05:18:04	00:00:35:01
+1	19	VOTING, INT, Renate en haar algemene tekst, toepratend naar thema find a friend.new.02-01.A1	00:05:18:04	00:05:22:20	00:00:04:16
+1	20	VOTING, INT, Renate en haar algemene tekst, toepratend naar thema find a friend.new.01-01.A1	00:05:22:20	00:05:25:00	00:00:02:05
+1	21	VOTING, INT, Renate wil van iedereen twee namen horen..new.01-01.A1	00:05:25:00	00:05:34:12	00:00:09:12
+1	22	VOTING, INT, iedereen brengt stem uit..new.01-03.A1	00:05:38:23	00:05:40:04	00:00:01:06
+1	23	VOTING, INT, iedereen brengt stem uit..new.01-06.A1	00:05:40:04	00:05:57:22	00:00:17:17
+1	24	VOTING, Renate opnieuw conclusie en groep loopt weg..new.01-01.A1	00:05:57:22	00:06:02:00	00:00:04:02
+1	25	VOTING, INT, Renate met de twee duelisten.new.01-01.A1	00:06:02:00	00:06:15:19	00:00:13:19
+1	26	VOTING, INT, Renate legt uit wat ze moeten doen voor duel.new.01-01.A1	00:06:15:19	00:06:16:07	00:00:00:13
+1	27	VOTING, INT, Renate legt uit wat ze moeten doen voor duel.new.01-02.A1	00:06:16:07	00:06:17:03	00:00:00:21
+1	28	VOTING, INT, Renate legt uit wat ze moeten doen voor duel.new.01-03.A1	00:06:17:03	00:06:25:14	00:00:08:11
+1	29	VOTING, INT, Op renate medium. Met uitleg over mobiele telefoons..new.01-01.A1	00:06:25:14	00:06:29:12	00:00:03:23
+1	30	VOTING Groep noemt twee namen p.p..new.01-03.A1	00:06:29:12	00:06:31:05	00:00:01:18
+1	31	VOTING Groep noemt twee namen p.p..new.01-02.A1	00:06:31:08	00:06:48:11	00:00:17:03
+1	32	VOTING QUOTE of ze gaat winnen.new.01-02.A1	00:06:52:13	00:07:02:18	00:00:10:04
+1	33	DV 10 - 04 - 02 deel 1.new.01-01.A1	00:07:02:18	00:07:05:06	00:00:02:12
+1	34	AANLOOP DUEL_ Willemijn en Corne; Find a friend.new.01-01.A1	00:07:05:06	00:07:07:21	00:00:02:15
+1	35	DV 10 - 04 - 02 deel 1.new.02-03.A1	00:07:07:21	00:07:15:07	00:00:07:11
+1	36	VOTING QUOTE over zijn tegenstander willemijn.new.01-01.A1	00:07:15:07	00:07:20:01	00:00:04:18
+1	37	AANLOOP DUEL_ Willemijn en Corne; Find a friend.new.03-04.A1	00:07:20:01	00:07:31:12	00:00:11:10
+1	38	AANLOOP DUEL_ Willemijn en Corne; Find a friend.new.02-01.A1	00:07:31:12	00:07:34:11	00:00:02:24
+1	39	AANLOOP DUEL_ Willemijn en Corne; Find a friend.new.05-01.A1	00:07:34:11	00:07:37:14	00:00:03:03
+1	40	DUEL_ Willemijn moet een vriend zoeken deel 3.new.01-01.A1	00:07:37:14	00:07:39:14	00:00:02:00
+1	41	DV 40 2 5v5 .new.01-02.A1	00:07:39:14	00:07:50:00	00:00:10:10
+1	42	REALITY VOTING, bij tempel.new.01-01.A3	00:07:50:00	00:07:52:15	00:00:02:15
+1	43	REALITY VOTING, bij tempel.new.02-01.A3	00:07:52:15	00:07:56:03	00:00:03:13
+1	44	REALITY VOTING, bij tempel.new.04-01.A3	00:07:56:03	00:08:00:10	00:00:04:07
+1	45	CONFESSIE_ Orfeus.02.new.02-01.A1	00:08:02:23	00:08:15:10	00:00:12:12
+1	46	Confessie Natasja (op meisjeskam) Ik heb ze niet hoog zitten die Jappen.new.02-01.A1	00:08:24:22	00:08:43:07	00:00:18:10
+1	47	CONFESSIE_ Orfeus.02.new.01-01.A1	00:08:47:08	00:08:51:09	00:00:04:01
+1	48	REALITY VOTING, Japanners.new.01-08.A3	00:08:58:05	00:09:09:23	00:00:11:17
+1	49	Confessie Natasja (op meisjeskam) Ik heb ze niet hoog zitten die Jappen.new.01-03.A1	00:09:10:04	00:09:28:21	00:00:18:17
+1	50	AANLOOP DUEL_ Willemijn en Corne; Find a friend.new.06-01.A1	00:09:32:06	00:09:54:14	00:00:22:08
+1	51	28-1-3v3-X.new.03-03.A1	00:09:54:21	00:10:07:15	00:00:12:18
+1	52	28-1-3v3-X.new.01-01.A1	00:10:09:22	00:10:48:00	00:00:38:03
+1	53	DV 10 - 04 - 02 deel 1.new.03-01.A1	00:10:49:10	00:11:14:22	00:00:25:12
+1	54	Confessie Corné.new.04-02.A1	00:11:14:22	00:11:39:23	00:00:25:01
+1	55	DUEL_ Corne finding a friend DEEL 1.new.01-15.A1	00:11:58:00	00:12:34:09	00:00:36:08
+1	56	AANLOOP EXAMEN; Willemijn is op zoek naar modellen.new.02-02.A1	00:12:38:15	00:12:42:19	00:00:04:04
+1	57	AANLOOP EXAMEN;  Bob gaat opzoek naar kandidaten.new.04-01.A1	00:12:45:07	00:12:47:20	00:00:02:13
+1	58	DUEL_ Willemijn zoekt een vriend.new.06-01.A1	00:14:08:08	00:14:36:00	00:00:27:16
+1	59	Confessie Corné.new.02-01	00:14:48:23	00:14:51:11	00:00:02:13
+1	60	Confessie Corné.new.03-01	00:14:51:11	00:14:59:23	00:00:08:12
+1	61	DUEL_ Corne finding a friend DEEL 4.new.01-02.A1	00:15:02:20	00:15:14:11	00:00:11:16
+1	62	DUEL_ Willemijn op zoek naar een vriend deel 2.new.02-01.A1	00:15:21:18	00:15:39:19	00:00:18:00
+1	63	DUEL_ Willemijn op zoek naar een vriend deel 2.new.06-02.A1	00:15:43:05	00:15:48:08	00:00:05:03
+1	64	SHIBUYA TIMELAPS LAAG.new.01-01.A1	00:15:48:08	00:15:48:12	00:00:00:03
+1	65	20 1 4V4 X straten 's avonds van boven.new.01-01.A1	00:15:48:12	00:15:48:18	00:00:00:06
+1	66	NEON SHIBUYA + MENSEN.new.02-01.A1	00:15:48:18	00:15:48:23	00:00:00:05
+1	67	NEON SHIBUYA + MENSEN.new.01-01.A1	00:15:48:23	00:15:49:09	00:00:00:11
+1	68	DUEL_ Willemijn op zoek naar een vriend deel 3.new.01-01.A1	00:15:49:09	00:16:43:01	00:00:53:17
+1	69	DUEL_ Corne maakt vrienden DEEL 1.new.01-01.A1	00:16:46:19	00:17:15:18	00:00:28:24
+1	70	REALITY KLEIN INT in karaokebar.new.01-01.A1	00:17:15:18	00:17:23:10	00:00:07:17
+1	71	REALITY KLEIN INT in karaokebar.new.02-01.A1	00:17:23:10	00:17:30:16	00:00:07:06
+1	72	REALITY KLEIN INT in karaokebar.new.03-01.A1	00:17:30:16	00:17:37:04	00:00:06:13
+1	73	REALITY KLEIN INT in karaokebar.new.04-02.A1	00:17:37:04	00:17:42:07	00:00:05:03
+1	74	REALITY KLEIN INT in karaokebar.new.04-01.A1	00:17:45:05	00:18:45:18	00:01:00:13
+1	75	Yamasoto komt en vertelt wat de groep gaat doen.new.01-01.A1	00:19:06:16	00:19:08:16	00:00:02:00
+1	76	REALITY YAMASOTO komen binnen.new.01-01.A1	00:19:08:16	00:19:09:14	00:00:00:23
+1	77	Yamasoto komt en vertelt wat de groep gaat doen.new.02-01.A1	00:19:09:14	00:19:10:14	00:00:01:00
+1	78	Yamasoto komt en vertelt wat de groep gaat doen.new.03-01.A1	00:19:12:10	00:19:21:08	00:00:08:23
+1	79	YAMASOTO komt binnen en spreekt.new.01-01.A1	00:19:21:08	00:19:24:04	00:00:02:21
+1	80	Yamasoto komt en vertelt wat de groep gaat doen.new.04-01.A1	00:19:24:04	00:19:34:02	00:00:09:23
+1	81	Yamasoto komt en vertelt wat de groep gaat doen.new.05-01.A1	00:19:34:02	00:19:40:17	00:00:06:15
+1	82	opnieuw de tekst van Yamasoto. op Yamasoto.new.01-02.A1	00:19:40:17	00:19:41:20	00:00:01:03
+1	83	opnieuw de tekst van Yamasoto. op Yamasoto.new.01-03.A1	00:19:41:20	00:19:51:14	00:00:09:19
+1	84	opnieuw de tekst van Yamasoto. op Yamasoto.new.01-01.A1	00:19:51:19	00:19:53:09	00:00:01:14
+1	85	opnieuw de tekst van Yamasoto. op Yamasoto.new.01-04.A1	00:19:53:09	00:20:06:04	00:00:12:20
+1	86	opnieuw de tekst van Yamasoto. op Yamasoto.new.02-03.A1	00:20:06:04	00:20:14:03	00:00:07:24
+1	87	DUEL_ Find a friend afsluiting DEEL 1.new.01-01.A1	00:20:14:10	00:20:23:18	00:00:09:07
+1	88	DUEL_ Find a friend afsluiting DEEL 3.new.03-01	00:20:31:10	00:20:36:21	00:00:05:11
+1	89	DUEL_ Find a friend afsluiting DEEL 4.new.01-01.A1	00:20:38:21	00:21:24:05	00:00:45:08
+1	90	DUEL_ Find a friend afsluiting DEEL 4.new.07-02.A1	00:21:24:05	00:21:41:06	00:00:17:01
+1	91	DUEL_ Corne komt aan in hotel na winnen duel.new.01-01.A1	00:21:48:08	00:21:52:17	00:00:04:09
+1	92	DUEL_ Corne komt aan in hotel na winnen duel.new.02-01.A1	00:21:52:17	00:21:54:17	00:00:02:00
+1	93	DUEL_ Corne komt aan in hotel na winnen duel.new.03-01.A1	00:21:54:17	00:21:56:16	00:00:01:24
+1	94	SFEER mode fashion.new.03-01.A1	00:21:57:09	00:21:59:04	00:00:01:20
+1	95	SFEER mode fashion.new.04-01.A1	00:21:59:04	00:22:00:11	00:00:01:07
+1	96	SFEER mode fashion.new.01-01.A1	00:22:00:11	00:22:01:06	00:00:00:20
+1	97	SFEER mode fashion.new.02-01.A1	00:22:01:06	00:22:02:00	00:00:00:19
+1	98	PRES renate voor prada  gebouw mode fashion.new.01-01.A1	00:22:02:06	00:22:08:16	00:00:06:10
+1	99	PRES renate voor prada  gebouw mode fashion.new.02-01.A1	00:22:08:16	00:22:18:19	00:00:10:03
+1	100	31 - 2 - 2 - XD.new.04-01.A1	00:22:22:13	00:22:40:21	00:00:18:08
+1	101	31 - 2 - 2 - XD.new.01-01.A1	00:22:40:21	00:22:43:17	00:00:02:21
+1	102	31 - 2 - 2 - XD.new.01-02.A1	00:22:43:17	00:22:48:20	00:00:05:03
+1	103	31 - 2 - 2 - XD.new.09-02.A1	00:22:55:16	00:22:57:03	00:00:01:12
+1	104	31 - 2 - 2 - XD.new.09-01.A1	00:22:57:03	00:22:58:07	00:00:01:04
+1	105	31 - 2 - 2 - XD.new.10-01.A1	00:22:58:07	00:23:00:01	00:00:01:19
+1	106	QUOTE over tokyo fashion.new.01-04.A1	00:23:00:12	00:23:04:07	00:00:03:19
+1	107	QUOTE over tokyo fashion.new.01-03.A1	00:23:04:07	00:23:20:09	00:00:16:02
+1	108	ESTABLISHING veel modieuze dames op straat, en bellen.new.01-04.A3	00:23:22:24	00:23:35:16	00:00:12:16
+1	109	ESTABLISHING dames met mode kaarten, en fotos maken van elkaar.new.01-01.A3	00:23:35:16	00:23:40:09	00:00:04:18
+1	110	WERK, JAP.new.02-02.A1	00:23:53:02	00:24:31:08	00:00:38:06
+1	111	11 - 1 - 2v6 - X.new.01-01.A1	00:24:31:08	00:24:43:04	00:00:11:21
+1	112	WERK, QUOTE.new.01-01.A1	00:24:54:19	00:24:59:12	00:00:04:18
+1	113	WERK.new.02-01.A1	00:25:00:06	00:25:21:14	00:00:21:08
+1	114	voor huis, groepen gaan werken. fashionable people voor huis.new.01-01.A1	00:25:37:13	00:25:55:22	00:00:18:09
+1	115	WERK groep komt aanlopen.new.01-01.A1	00:25:57:21	00:26:06:17	00:00:08:21
+1	116	WERK INT naar boven lopen en bovenetage. rondleiding.new.01-01.A1	00:26:10:12	00:26:37:23	00:00:27:11
+1	117	WERK Groep staat in de winkel!.new.01-02.A3	00:26:45:21	00:27:16:19	00:00:30:23
+1	118	WERK Winkelbediende komt winkel binnen lopen, kandidaten begroeten haar.new.02-02.A1	00:27:20:16	00:27:29:20	00:00:09:04
+1	119	WERK Winkelbediende komt winkel binnen lopen, kandidaten begroeten haar.new.04-01.A1	00:27:34:08	00:27:50:22	00:00:16:14
+1	120	WERK Natasha ontvangt eerste klant.new.02-04.A1	00:27:58:15	00:28:15:11	00:00:16:21
+1	121	WERK JAP_ in de Blue blood winkel wordt medewerker geinterviewd.new.01-01.A1	00:28:27:17	00:29:03:10	00:00:35:17
+1	122	WERK Natasha ontvangt eerste klant.new.08-06.A1	00:29:08:07	00:29:11:19	00:00:03:11
+1	123	WERK Natasha ontvangt eerste klant.new.08-07.A1	00:29:18:21	00:29:22:21	00:00:03:24
+1	124	WERK Natasha ontvangt eerste klant.new.08-02.A1	00:29:31:00	00:29:34:01	00:00:03:01
+1	125	WERK Natasha ontvangt eerste klant.new.10-03.A1	00:29:34:13	00:29:49:16	00:00:15:03
+1	126	WERK Natasha ontvangt eerste klant.new.12-03.A1	00:29:57:08	00:30:02:08	00:00:05:00
+1	127	WERK Natasha ontvangt eerste klant.new.14-02.A1	00:30:13:02	00:30:51:10	00:00:38:07
+1	128	WERK Natasha ontvangt eerste klant.new.18-02.A1	00:30:52:24	00:30:58:21	00:00:05:22
+1	129	REALITY HUIS NA WERK_ Over wie er gewonnen zou kunne hebben.new.01-02.A1	00:31:06:21	00:31:29:09	00:00:22:12
+1	130	LOOPSHOTS YAMASOTO.new.06-03.A1	00:31:29:09	00:31:30:22	00:00:01:12
+1	131	LOOPSHOTS YAMASOTO.new.05-01.A1	00:31:32:00	00:31:33:09	00:00:01:09
+1	132	WERK UITSLAG VAN YAM.new.01-05.A1	00:31:33:09	00:31:35:16	00:00:02:07
+1	133	LOOPSHOTS YAMASOTO.new.02-01.A1	00:31:35:16	00:31:36:00	00:00:00:09
+1	134	LOOPSHOTS YAMASOTO.new.03-01.A1	00:31:36:00	00:31:36:18	00:00:00:18
+1	135	LOOPSHOTS YAMASOTO.new.04-01.A1	00:31:36:18	00:31:38:12	00:00:01:19
+1	136	WERK UITSLAG VAN YAM.new.02-01.A1	00:31:38:12	00:31:42:01	00:00:03:14
+1	137	WERK UITSLAG VAN YAM.new.03-01.A1	00:31:42:01	00:31:44:02	00:00:02:01
+1	138	WERK UITSLAG VAN YAM.new.03-02.A1	00:31:44:02	00:31:47:15	00:00:03:13
+1	139	YAMASOTO komt binnen en spreekt.new.01-02.A1	00:31:47:15	00:31:51:03	00:00:03:13
+1	140	WERK UITSLAG VAN YAM.new.04-01.A1	00:31:51:03	00:32:08:16	00:00:17:13
+1	141	WERK UITSLAG VAN YAM.new.05-01.A1	00:32:08:16	00:32:33:00	00:00:24:09
+1	142	WERK UITSLAG VAN YAM.new.07-01.A1	00:32:33:00	00:32:49:06	00:00:16:06
+1	143	CONFESSIE_ Natasja. Afl 3, 4.new.02-01.A1	00:32:49:06	00:32:49:17	00:00:00:10
+1	144	CONFESSIE_ Natasja. Afl 3, 4.new.02-02.A1	00:32:49:17	00:32:50:11	00:00:00:19
+1	145	CONFESSIE_ Natasja. Afl 3, 4.new.02-04.A1	00:32:50:11	00:32:57:17	00:00:07:06
+1	146	DUEL Willemijn komt terug van opdracht en deelt ervaring met groep.new.01-03.A1	00:32:57:17	00:33:46:03	00:00:48:11
+1	147	AANLOOP EXAMEN;  Bob gaat opzoek naar kandidaten.new.01-02.A1	00:34:17:14	00:34:43:11	00:00:25:22
+1	148	AANLOOP EXAMEN; Willemijn gaat opzoek naar haar kandidaten.new.02-03.A1	00:34:49:14	00:35:44:22	00:00:55:08
+1	149	AANLOOP EXAMEN; Orfeus opzoek naar modellen.new.06-01.A1	00:35:45:05	00:35:52:05	00:00:07:00
+1	150	AANLOOP EXAMEN_ Orfeus gaat op zoek naar modellen.new.01-01.A1	00:35:56:15	00:36:24:01	00:00:27:11
+1	151	AANLOOP EXAMEN; Bob is opzoek naar modellen.new.02-04.A1	00:36:30:22	00:37:05:07	00:00:34:09
+1	152	AANLOOP EXAMEN; Willemijn is op zoek naar modellen.new.01-01.A1	00:37:09:15	00:38:14:05	00:01:04:14
+1	153	AANLOOP EXAMEN _ EXAMEN.new.01-04	00:38:15:19	00:38:57:22	00:00:42:03
+1	154	EXAMEN Modeshow.new.01-02.A1	00:40:05:06	00:40:27:04	00:00:21:23
+1	155	AANLOOP EXAMEN; Natasja gaat gejaagd opzoek.new.01-01.A1	00:40:32:22	00:40:35:05	00:00:02:07
+1	156	AANLOOP EXAMEN; Natasja gaat gejaagd opzoek.new.01-02.A1	00:40:35:05	00:40:46:12	00:00:11:07
+1	157	AANLOOP EXAMEN; Natasja gaat gejaagd opzoek.new.02-01.A1	00:40:46:12	00:40:50:23	00:00:04:11
+1	158	AANLOOP EXAMEN; Natasja gaat gejaagd opzoek.new.03-01.A1	00:40:50:23	00:40:52:22	00:00:01:24
+1	159	AANLOOP EXAMEN; Natasja gaat gejaagd opzoek.new.09-02.A1	00:40:58:21	00:41:00:16	00:00:01:20
+1	160	AANLOOP EXAMEN; Natasja gaat gejaagd opzoek.new.05-03.A1	00:41:00:16	00:41:02:13	00:00:01:22
+1	161	AANLOOP EXAMEN; Natasja gaat gejaagd opzoek.new.04-02.A1	00:41:02:13	00:41:08:02	00:00:05:14
+1	162	AANLOOP EXAMEN; Natasja gaat gejaagd opzoek.new.05-01.A1	00:41:08:02	00:41:09:01	00:00:00:24
+1	163	AANLOOP EXAMEN; Natasja gaat gejaagd opzoek.new.07-01.A1	00:41:10:14	00:41:12:00	00:00:01:11
+1	164	AANLOOP EXAMEN; Natasja gaat gejaagd opzoek.new.09-01.A1	00:41:12:00	00:41:12:23	00:00:00:23
+1	165	AANLOOP EXAMEN; Natasja gaat gejaagd opzoek.new.06-01.A1	00:41:12:23	00:41:13:22	00:00:00:24
+1	166	AANLOOP EXAMEN; Natasja gaat gejaagd opzoek.new.08-01.A1	00:41:13:22	00:41:16:06	00:00:02:09
+1	167	AANLOOP EXAMEN; Natasja gaat gejaagd opzoek.new.09-03.A1	00:41:16:06	00:41:18:02	00:00:01:21
+1	168	AANLOOP EXAMEN; Natasja gaat gejaagd opzoek.new.10-01.A1	00:41:18:02	00:41:26:06	00:00:08:04
+1	169	EXAMEN_ Reality, de kandidaten zijn zich aan het voorbereiden.new.01-01.A1	00:41:31:17	00:41:41:05	00:00:09:13
+1	170	EXAMEN_ Reality kandi 's oefenen.new.01-01.A1	00:41:46:21	00:41:55:17	00:00:08:21
+1	171	EXAMEN; Reality oefenen.new.01-02.A1	00:41:58:22	00:42:07:03	00:00:08:05
+1	172	EXAMEN_ Ze moeten opkomen.... Achter de schermen.new.02-01.A1	00:42:12:01	00:42:15:16	00:00:03:15
+1	173	AANLOOP EXAMEN _ EXAMEN.new.04-01	00:42:16:04	00:42:23:08	00:00:07:04
+1	174	EXAMEN_ INTERVIEW JAP.new.01-01.A1	00:42:25:19	00:42:36:05	00:00:10:11
+1	175	AANLOOP EXAMEN _ EXAMEN.new.06-01.A1	00:42:38:11	00:42:47:00	00:00:08:14
+1	176	MC vraag publiek cijfer te geven, 100 jap noteren cijfer, Renate haalt ze op.new.01-01.A3	00:42:53:13	00:43:00:18	00:00:07:05
+1	177	EXAMEN_ Ze moeten opkomen.... Achter de schermen.new.04-02.A1	00:43:02:19	00:43:06:08	00:00:03:14
+1	178	AANLOOP EXAMEN _ EXAMEN.new.07-01.A1	00:43:09:02	00:43:14:22	00:00:05:20
+1	179	EXAMEN_ Ze moeten opkomen.... Achter de schermen.new.05-01.A1	00:43:17:01	00:43:24:12	00:00:07:11
+1	180	MC vraag publiek cijfer te geven, 100 jap noteren cijfer, Renate haalt ze op.new.04-01.A1	00:43:24:12	00:43:26:07	00:00:01:20
+1	181	MC vraag publiek cijfer te geven, 100 jap noteren cijfer, Renate haalt ze op.new.03-01.A1	00:43:26:07	00:43:28:02	00:00:01:20
+1	182	MC vraag publiek cijfer te geven, 100 jap noteren cijfer, Renate haalt ze op.new.02-01.A1	00:43:28:02	00:43:29:01	00:00:00:24
+1	183	EXAMEN.new.01-03.A1	00:43:39:02	00:43:41:10	00:00:02:08
+1	184	EXAMEN.new.01-04.A1	00:43:41:10	00:43:46:11	00:00:05:01
+1	185	EXAMEN.new.02-01.A1	00:43:48:13	00:43:53:09	00:00:04:21
+1	186	EXAMEN.new.03-01.A1	00:43:53:09	00:44:14:17	00:00:21:08
+1	187	EXAMEN.new.04-01.A1	00:44:21:08	00:44:24:07	00:00:02:24
+1	188	EXAMEN.new.05-01.A1	00:44:24:07	00:44:28:11	00:00:04:04
+1	189	EXAMEN.new.06-01.A1	00:44:28:11	00:44:33:12	00:00:05:01
+1	190	EXAMEN.new.06-02.A1	00:44:33:12	00:44:39:16	00:00:06:04
+1	191	EXAMEN.new.07-01.A1	00:44:39:16	00:44:44:24	00:00:05:08
+1	192	EXAMEN.new.08-01.A1	00:44:44:24	00:45:19:08	00:00:34:09
+1	193	REALITY AFSCHEID; Natasja gaat weg...new.01-01.A1	00:45:20:09	00:45:32:23	00:00:12:14
+1	194	REALITY AFSCHEID; Natsasje die haar tas aan het inpakken is..new.02-01.A1	00:45:39:22	00:45:45:09	00:00:05:12
+1	195	REALITY AFSCHEID; Natsasje die haar tas aan het inpakken is..new.03-01.A1	00:45:45:09	00:45:48:11	00:00:03:02
+1	196	CONFESSIE_ Natasja, haar laatste confessie.new.01-03.A1	00:45:53:07	00:45:59:08	00:00:06:00
+1	197	CONFESSIE_ Natasja, haar laatste confessie.new.05-01.A1	00:46:04:03	00:46:16:13	00:00:12:10
+1	198	AANLOOP DUEL_ Bob op zoek naar de Yakuza.new.01-01.A1	00:46:20:08	00:46:21:09	00:00:01:01
+1	199	AANLOOP DUEL; opzoek naar Yakuza.new.02-01.A1	00:46:28:04	00:46:28:13	00:00:00:08
+
+
+TRACK NAME:	D2
+USER DELAY:	0 Samples
+CHANNEL	EVENT	REGION NAME	START TIME	END TIME	DURATION
+1	1	Vismarkt 02.new.01-01.A2	00:02:11:04	00:02:11:23	00:00:00:19
+1	2	Vismarkt 02.new.02-02.A2	00:02:11:23	00:02:13:22	00:00:01:23
+1	3	AANLOOP DUEL_ LEON _ 1x shibuja,  is horkerig en gaat curry eten..new.01-01.A2	00:02:13:22	00:02:17:05	00:00:03:08
+1	4	Jap over Eva_ goed idee, water en schoonmaken, heel slim __.new.01-01.A2	00:02:26:19	00:02:27:17	00:00:00:23
+1	5	EXAMEN GADGETS_ Ronald met groep japanners.new.01-01.A2	00:02:28:13	00:02:29:12	00:00:00:24
+1	6	EXAMEN GADGETS_  Japanners brengen stem uit + div beeld japanse meisjes.new.01-01.A2	00:02:29:12	00:02:30:10	00:00:00:23
+1	7	UITSLAG EXAMEN GADGETS_ Shot kandi's (zie ook band 9-2-2v3) Ronald en Joost.new.01-02.A2	00:02:33:24	00:02:37:17	00:00:03:18
+1	8	SFEER BEELDEN VAN JAPAN STRAAT.new.03-01.A2	00:02:38:22	00:02:39:24	00:00:01:02
+1	9	SFEER BEELDEN VAN JAPAN!.new.01-01.A2	00:02:40:17	00:02:41:05	00:00:00:13
+1	10	SFEER BEELDEN VAN JAPAN STRAAT.new.01-01.A2	00:02:41:05	00:02:41:21	00:00:00:16
+1	11	SFEER BEELDEN VAN JAPAN!.new.02-01.A2	00:02:41:21	00:02:42:07	00:00:00:11
+1	12	SFEER BEELDEN VAN JAPAN STRAAT.new.02-01.A2	00:02:42:07	00:02:42:12	00:00:00:05
+1	13	STAND UPPER aflevering 4.new.01-01.A2	00:02:42:12	00:03:00:15	00:00:18:02
+1	14	REALITY DUEL_ Terugkomst Mira, komt aanlopen in straat.new.01-01.A2	00:03:13:01	00:03:21:21	00:00:08:20
+1	15	CONFESSIE_ Natasja. Afl 3, 4.new.01-03.A2	00:03:36:00	00:03:44:00	00:00:08:00
+1	16	REALITY DUEL_EXAMEN Thuiskomst Mira, komt uit lift en naar rest (prima leality).new.02-01.A2	00:03:44:00	00:03:50:24	00:00:06:23
+1	17	CONFESSIE_ Eva. Afl 3, 2 en 4 deel 1.new.01-05.A2	00:03:50:24	00:03:53:18	00:00:02:19
+1	18	REALITY DUEL_EXAMEN Thuiskomst Mira, komt uit lift en naar rest (prima leality).new.03-03.A2	00:03:53:18	00:04:04:02	00:00:10:08
+1	19	REALITY DUEL_EXAMEN Thuiskomst Mira, komt uit lift en naar rest (prima leality).new.03-01.A2	00:04:04:02	00:04:12:09	00:00:08:07
+1	20	REALITY DUEL_EXAMEN Thuiskomst Mira, komt uit lift en naar rest (prima leality).new.03-02.A2	00:04:12:09	00:04:21:17	00:00:09:08
+1	21	BOB NEW 1.new.01-01.A2	00:04:43:02	00:04:47:07	00:00:04:04
+1	22	BOB NEW 1.new.02-01.A2	00:04:47:07	00:04:50:19	00:00:03:12
+1	23	CONFESSIE_ Orfeus. Afl. 2, 4, 5.new.01-01.A2	00:04:50:19	00:04:56:13	00:00:05:19
+1	24	Confessie Corné.new.01-01.A2	00:04:56:13	00:05:05:02	00:00:08:14
+1	25	CONFESSIE_ Orfeus. Afl. 2, 4, 5.new.02-01.A2	00:05:05:02	00:05:14:23	00:00:09:21
+1	26	CONFESSIE Willemijn (in meidenkamer tegen muur, door maarten).new.01-02.A2	00:05:14:23	00:05:17:21	00:00:02:23
+1	27	VOTING, INT, Renate en haar algemene tekst, toepratend naar thema find a friend.new.02-02.A2	00:05:17:21	00:05:35:11	00:00:17:15
+1	28	VOTING, INT, iedereen brengt stem uit..new.01-09.A2	00:05:38:19	00:05:40:16	00:00:01:22
+1	29	VOTING, INT, iedereen brengt stem uit..new.01-05.A2	00:05:40:16	00:05:42:10	00:00:01:18
+1	30	VOTING, INT, iedereen brengt stem uit..new.01-10.A2	00:05:42:10	00:05:43:17	00:00:01:06
+1	31	VOTING, INT, iedereen brengt stem uit..new.01-04.A2	00:05:43:17	00:05:45:08	00:00:01:15
+1	32	VOTING, INT, iedereen brengt stem uit..new.01-02.A2	00:05:45:08	00:05:46:14	00:00:01:06
+1	33	VOTING, INT, iedereen brengt stem uit..new.02-01.A2	00:05:46:14	00:05:49:06	00:00:02:17
+1	34	VOTING, INT, iedereen brengt stem uit..new.02-07.A2	00:05:49:06	00:05:52:00	00:00:02:19
+1	35	VOTING, INT, iedereen brengt stem uit..new.02-03.A2	00:05:52:00	00:05:53:08	00:00:01:08
+1	36	VOTING, INT, iedereen brengt stem uit..new.02-04.A2	00:05:53:08	00:05:54:17	00:00:01:09
+1	37	VOTING, INT, iedereen brengt stem uit..new.02-02.A2	00:05:54:17	00:05:55:21	00:00:01:04
+1	38	VOTING, INT, iedereen brengt stem uit..new.02-05.A2	00:05:55:21	00:05:57:08	00:00:01:12
+1	39	VOTING, Renate opnieuw conclusie en groep loopt weg..new.01-01.A2	00:05:57:08	00:06:15:19	00:00:18:11
+1	40	VOTING, INT, Renate legt uit wat ze moeten doen voor duel.new.01-01.A2	00:06:15:19	00:06:30:02	00:00:14:08
+1	41	VOTING Groep noemt twee namen p.p..new.01-01.A2	00:06:30:02	00:06:30:24	00:00:00:21
+1	42	VOTING Groep noemt twee namen p.p..new.01-02.A2	00:06:31:08	00:06:38:16	00:00:07:08
+1	43	VOTING QUOTE over zijn tegenstander willemijn.new.02-01.A2	00:06:38:16	00:06:48:11	00:00:09:20
+1	44	VOTING QUOTE of ze gaat winnen.new.01-01.A2	00:06:52:16	00:07:02:07	00:00:09:16
+1	45	DV 10 - 04 - 02 deel 1.new.01-01.A2	00:07:02:07	00:07:08:22	00:00:06:15
+1	46	DV 10 - 04 - 02 deel 1.new.02-01.A2	00:07:08:22	00:07:14:22	00:00:05:24
+1	47	VOTING QUOTE over zijn tegenstander willemijn.new.01-02.A2	00:07:14:22	00:07:20:18	00:00:05:21
+1	48	AANLOOP DUEL_ Willemijn en Corne; Find a friend.new.02-01.A2	00:07:30:15	00:07:41:05	00:00:10:14
+1	49	DV 40 2 5v5 .new.01-02.A2	00:07:41:05	00:07:50:00	00:00:08:19
+1	50	REALITY VOTING, bij tempel.new.01-01.A4	00:07:50:00	00:07:52:15	00:00:02:15
+1	51	REALITY VOTING, bij tempel.new.02-01.A4	00:07:52:15	00:07:56:03	00:00:03:13
+1	52	REALITY VOTING, bij tempel.new.04-01.A4	00:07:56:03	00:08:00:10	00:00:04:07
+1	53	CONFESSIE_ Orfeus.02.new.02-01.A2	00:08:02:23	00:08:15:10	00:00:12:12
+1	54	Confessie Natasja (op meisjeskam) Ik heb ze niet hoog zitten die Jappen.new.02-01.A2	00:08:24:22	00:08:26:17	00:00:01:20
+1	55	Confessie Natasja (op meisjeskam) Ik heb ze niet hoog zitten die Jappen.new.02-02.A2	00:08:26:17	00:08:43:09	00:00:16:17
+1	56	CONFESSIE_ Orfeus.02.new.01-02.A2	00:08:47:06	00:08:51:15	00:00:04:09
+1	57	REALITY VOTING, Japanners.new.01-01.A4	00:08:58:05	00:09:10:01	00:00:11:21
+1	58	Confessie Natasja (op meisjeskam) Ik heb ze niet hoog zitten die Jappen.new.01-01.A2	00:09:10:12	00:09:28:21	00:00:18:09
+1	59	AANLOOP DUEL_ Willemijn en Corne; Find a friend.new.06-01.A2	00:09:32:06	00:09:54:14	00:00:22:08
+1	60	28-1-3v3-X.new.03-01.A2	00:09:55:17	00:10:06:16	00:00:10:24
+1	61	28-1-3v3-X.new.01-01.A2	00:10:10:17	00:10:20:09	00:00:09:17
+1	62	28-1-3v3-X.new.04-01.A2	00:10:20:09	00:10:25:23	00:00:05:14
+1	63	28-1-3v3-X.new.05-01.A2	00:10:25:23	00:10:35:13	00:00:09:15
+1	64	28-1-3v3-X.new.02-01.A2	00:10:35:13	00:10:48:00	00:00:12:12
+1	65	DV 10 - 04 - 02 deel 1.new.03-01.A2	00:10:49:10	00:11:15:18	00:00:26:08
+1	66	Confessie Corné.new.04-01.A2	00:11:15:18	00:11:22:01	00:00:06:08
+1	67	DUEL_ Find a friend_ CORNE op slippers deel 3.new.01-01.A2	00:11:22:01	00:11:39:23	00:00:17:21
+1	68	DUEL_ Corne finding a friend DEEL 1.new.01-15.A2	00:11:58:00	00:12:34:09	00:00:36:08
+1	69	AANLOOP EXAMEN; Willemijn is op zoek naar modellen.new.02-04.A2	00:12:38:08	00:12:43:02	00:00:04:18
+1	70	AANLOOP EXAMEN;  Bob gaat opzoek naar kandidaten.new.04-01.A2	00:12:45:07	00:12:48:02	00:00:02:20
+1	71	DUEL_ Willemijn zoekt een vriend.new.06-01.A2	00:14:08:08	00:14:36:00	00:00:27:16
+1	72	DUEL_ Corne finding a friend DEEL 4.new.01-02.A2	00:15:02:20	00:15:14:11	00:00:11:16
+1	73	DUEL_ Willemijn op zoek naar een vriend deel 2.new.02-01.A2	00:15:21:18	00:15:39:19	00:00:18:00
+1	74	DUEL_ Willemijn op zoek naar een vriend deel 2.new.06-02.A2	00:15:43:05	00:15:48:08	00:00:05:03
+1	75	SHIBUYA TIMELAPS LAAG.new.01-01.A2	00:15:48:08	00:15:48:12	00:00:00:03
+1	76	20 1 4V4 X straten 's avonds van boven.new.01-01.A2	00:15:48:12	00:15:48:18	00:00:00:06
+1	77	NEON SHIBUYA + MENSEN.new.02-01.A2	00:15:48:18	00:15:48:23	00:00:00:05
+1	78	NEON SHIBUYA + MENSEN.new.01-01.A2	00:15:48:23	00:15:49:09	00:00:00:11
+1	79	DUEL_ Willemijn op zoek naar een vriend deel 3.new.01-01.A2	00:15:49:09	00:16:07:09	00:00:18:00
+1	80	DV 40 2 5v5 .new.02-02.A2	00:16:07:19	00:16:16:01	00:00:08:06
+1	81	DUEL_ Willemijn op zoek naar een vriend deel 3.new.05-01.A2	00:16:16:10	00:16:43:01	00:00:26:16
+1	82	DUEL_ Corne maakt vrienden DEEL 1.new.01-01.A2	00:16:46:19	00:17:15:18	00:00:28:24
+1	83	REALITY KLEIN INT in karaokebar.new.01-01.A2	00:17:15:18	00:17:23:10	00:00:07:17
+1	84	REALITY KLEIN INT in karaokebar.new.02-01.A2	00:17:23:10	00:17:30:16	00:00:07:06
+1	85	REALITY KLEIN INT in karaokebar.new.03-01.A2	00:17:30:16	00:17:37:04	00:00:06:13
+1	86	REALITY KLEIN INT in karaokebar.new.04-02.A2	00:17:37:04	00:17:42:07	00:00:05:03
+1	87	REALITY KLEIN INT in karaokebar.new.04-01.A2	00:17:45:05	00:18:45:18	00:01:00:13
+1	88	Yamasoto komt en vertelt wat de groep gaat doen.new.01-01.A2	00:19:06:16	00:19:08:16	00:00:02:00
+1	89	REALITY YAMASOTO komen binnen.new.01-01.A2	00:19:08:16	00:19:09:14	00:00:00:23
+1	90	Yamasoto komt en vertelt wat de groep gaat doen.new.02-01.A2	00:19:09:14	00:19:10:14	00:00:01:00
+1	91	Yamasoto komt en vertelt wat de groep gaat doen.new.03-01.A2	00:19:12:10	00:19:21:08	00:00:08:23
+1	92	YAMASOTO komt binnen en spreekt.new.01-01.A2	00:19:21:08	00:19:24:04	00:00:02:21
+1	93	Yamasoto komt en vertelt wat de groep gaat doen.new.04-01.A2	00:19:24:04	00:19:34:02	00:00:09:23
+1	94	Yamasoto komt en vertelt wat de groep gaat doen.new.05-01.A2	00:19:34:02	00:19:40:17	00:00:06:15
+1	95	opnieuw de tekst van Yamasoto. op Yamasoto.new.01-02.A2	00:19:40:17	00:19:41:20	00:00:01:03
+1	96	opnieuw de tekst van Yamasoto. op Yamasoto.new.01-03.A2	00:19:41:20	00:19:51:14	00:00:09:19
+1	97	opnieuw de tekst van Yamasoto. op Yamasoto.new.01-01.A2	00:19:51:19	00:19:53:09	00:00:01:14
+1	98	opnieuw de tekst van Yamasoto. op Yamasoto.new.01-04.A2	00:19:53:09	00:20:06:04	00:00:12:20
+1	99	opnieuw de tekst van Yamasoto. op Yamasoto.new.02-03.A2	00:20:06:04	00:20:14:03	00:00:07:24
+1	100	DUEL_ Find a friend afsluiting DEEL 1.new.01-01.A2	00:20:14:10	00:20:32:19	00:00:18:08
+1	101	DUEL_ Find a friend afsluiting DEEL 4.new.01-01.A2	00:20:38:21	00:21:24:05	00:00:45:08
+1	102	DUEL_ Find a friend afsluiting DEEL 4.new.07-02.A2	00:21:24:05	00:21:41:06	00:00:17:01
+1	103	DUEL_ Corne komt aan in hotel na winnen duel.new.01-01.A2	00:21:47:12	00:21:56:21	00:00:09:09
+1	104	SFEER mode fashion.new.03-01.A2	00:21:57:09	00:21:59:04	00:00:01:20
+1	105	SFEER mode fashion.new.04-01.A2	00:21:59:04	00:22:00:11	00:00:01:07
+1	106	SFEER mode fashion.new.01-01.A2	00:22:00:11	00:22:01:06	00:00:00:20
+1	107	SFEER mode fashion.new.02-01.A2	00:22:01:06	00:22:01:22	00:00:00:16
+1	108	PRES renate voor prada  gebouw mode fashion.new.01-01.A2	00:22:01:22	00:22:18:19	00:00:16:21
+1	109	31 - 2 - 2 - XD.new.04-01.A2	00:22:22:13	00:22:40:21	00:00:18:08
+1	110	31 - 2 - 2 - XD.new.01-01.A2	00:22:40:21	00:22:43:17	00:00:02:21
+1	111	31 - 2 - 2 - XD.new.01-02.A2	00:22:43:17	00:22:48:20	00:00:05:03
+1	112	31 - 2 - 2 - XD.new.09-02.A2	00:22:55:16	00:22:57:03	00:00:01:12
+1	113	31 - 2 - 2 - XD.new.09-01.A2	00:22:57:03	00:22:58:07	00:00:01:04
+1	114	31 - 2 - 2 - XD.new.10-01.A2	00:22:58:07	00:23:00:01	00:00:01:19
+1	115	QUOTE over tokyo fashion.new.01-04.A2	00:23:00:12	00:23:04:07	00:00:03:19
+1	116	QUOTE over tokyo fashion.new.01-03.A2	00:23:04:07	00:23:20:09	00:00:16:02
+1	117	ESTABLISHING veel modieuze dames op straat, en bellen.new.01-04.A4	00:23:22:24	00:23:35:16	00:00:12:16
+1	118	ESTABLISHING dames met mode kaarten, en fotos maken van elkaar.new.01-01.A4	00:23:35:16	00:23:40:09	00:00:04:18
+1	119	WERK, JAP.new.02-02.A2	00:23:53:02	00:24:31:08	00:00:38:06
+1	120	11 - 1 - 2v6 - X.new.01-01.A2	00:24:31:08	00:24:43:04	00:00:11:21
+1	121	WERK, QUOTE.new.01-01.A2	00:24:54:19	00:24:59:12	00:00:04:18
+1	122	WERK.new.02-01.A2	00:25:00:06	00:25:21:14	00:00:21:08
+1	123	voor huis, groepen gaan werken. fashionable people voor huis.new.01-01.A2	00:25:37:13	00:25:55:22	00:00:18:09
+1	124	WERK groep komt aanlopen.new.01-01.A2	00:25:57:21	00:26:06:17	00:00:08:21
+1	125	WERK INT naar boven lopen en bovenetage. rondleiding.new.01-01.A2	00:26:10:12	00:26:25:14	00:00:15:02
+1	126	WERK Natasha zoekt outfitje voor haar zelf uit, Orfeus en Bob helpen haar.new.01-01.A2	00:26:25:17	00:26:37:23	00:00:12:06
+1	127	WERK Groep staat in de winkel!.new.01-02.A4	00:26:45:21	00:27:05:16	00:00:19:20
+1	128	WERK Winkelbediende komt winkel binnen lopen, kandidaten begroeten haar.new.01-01.A2	00:27:05:16	00:27:16:06	00:00:10:15
+1	129	WERK Winkelbediende komt winkel binnen lopen, kandidaten begroeten haar.new.02-02.A2	00:27:21:08	00:27:28:17	00:00:07:09
+1	130	WERK Winkelbediende komt winkel binnen lopen, kandidaten begroeten haar.new.02-01.A2	00:27:28:17	00:27:29:11	00:00:00:19
+1	131	WERK Winkelbediende komt winkel binnen lopen, kandidaten begroeten haar.new.04-01.A2	00:27:34:08	00:27:50:11	00:00:16:03
+1	132	WERK Natasha ontvangt eerste klant.new.02-01.A2	00:27:58:22	00:28:10:13	00:00:11:16
+1	133	WERK Natasha ontvangt eerste klant.new.03-01.A2	00:28:10:13	00:28:11:22	00:00:01:09
+1	134	WERK Natasha ontvangt eerste klant.new.04-01.A2	00:28:11:22	00:28:15:01	00:00:03:04
+1	135	WERK JAP_ in de Blue blood winkel wordt medewerker geinterviewd.new.01-01.A2	00:28:27:20	00:28:30:09	00:00:02:14
+1	136	WERK JAP_ in de Blue blood winkel wordt medewerker geinterviewd.new.01-02.A2	00:28:30:09	00:28:34:20	00:00:04:11
+1	137	WERK Natasha ontvangt eerste klant.new.05-01.A2	00:28:34:20	00:28:44:00	00:00:09:05
+1	138	WERK Natasha ontvangt eerste klant.new.06-01.A2	00:28:44:00	00:28:53:07	00:00:09:07
+1	139	WERK Natasha ontvangt eerste klant.new.07-01.A2	00:28:53:07	00:28:57:12	00:00:04:05
+1	140	WERK Natasha ontvangt eerste klant.new.08-05.A2	00:28:57:12	00:29:03:10	00:00:05:23
+1	141	WERK Natasha ontvangt eerste klant.new.08-04.A2	00:29:08:09	00:29:11:19	00:00:03:10
+1	142	WERK Natasha ontvangt eerste klant.new.08-03.A2	00:29:19:03	00:29:22:12	00:00:03:09
+1	143	WERK Natasha ontvangt eerste klant.new.08-02.A2	00:29:31:00	00:29:33:05	00:00:02:05
+1	144	WERK Natasha ontvangt eerste klant.new.09-01.A2	00:29:33:05	00:29:34:01	00:00:00:21
+1	145	WERK Natasha ontvangt eerste klant.new.10-01.A2	00:29:35:00	00:29:42:08	00:00:07:08
+1	146	WERK Natasha ontvangt eerste klant.new.11-02.A2	00:29:42:08	00:29:46:11	00:00:04:03
+1	147	WERK Natasha ontvangt eerste klant.new.11-01.A2	00:29:46:11	00:29:49:16	00:00:03:05
+1	148	WERK Natasha ontvangt eerste klant.new.12-01.A2	00:29:57:12	00:30:02:07	00:00:04:20
+1	149	WERK Natasha ontvangt eerste klant.new.14-01.A2	00:30:13:18	00:30:23:20	00:00:10:02
+1	150	WERK Natasha ontvangt eerste klant.new.15-01.A2	00:30:23:20	00:30:26:01	00:00:02:06
+1	151	WERK Natasha ontvangt eerste klant.new.16-01.A2	00:30:26:01	00:30:27:04	00:00:01:03
+1	152	WERK Natasha ontvangt eerste klant.new.17-02.A2	00:30:27:04	00:30:51:10	00:00:24:06
+1	153	WERK Natasha ontvangt eerste klant.new.18-01.A2	00:30:52:24	00:30:58:19	00:00:05:20
+1	154	REALITY HUIS NA WERK_ Over wie er gewonnen zou kunne hebben.new.01-01.A2	00:31:06:22	00:31:12:15	00:00:05:18
+1	155	REALITY HUIS NA WERK_ Over wie er gewonnen zou kunne hebben.new.02-01.A2	00:31:12:15	00:31:17:16	00:00:05:01
+1	156	REALITY HUIS NA WERK_ Over wie er gewonnen zou kunne hebben.new.03-02.A2	00:31:17:16	00:31:25:05	00:00:07:14
+1	157	REALITY HUIS NA WERK_ Over wie er gewonnen zou kunne hebben.new.03-01.A2	00:31:25:05	00:31:29:08	00:00:04:03
+1	158	LOOPSHOTS YAMASOTO.new.06-01.A2	00:31:29:08	00:31:30:22	00:00:01:14
+1	159	LOOPSHOTS YAMASOTO.new.05-01.A2	00:31:32:00	00:31:33:09	00:00:01:09
+1	160	WERK UITSLAG VAN YAM.new.01-05.A2	00:31:33:09	00:31:34:04	00:00:00:20
+1	161	WERK UITSLAG VAN YAM.new.01-02.A2	00:31:34:04	00:31:34:10	00:00:00:06
+1	162	WERK UITSLAG VAN YAM.new.01-03.A2	00:31:34:10	00:31:34:19	00:00:00:09
+1	163	WERK UITSLAG VAN YAM.new.01-01.A2	00:31:34:19	00:31:34:23	00:00:00:04
+1	164	WERK UITSLAG VAN YAM.new.01-04.A2	00:31:34:23	00:31:35:16	00:00:00:18
+1	165	LOOPSHOTS YAMASOTO.new.02-01.A2	00:31:35:16	00:31:36:00	00:00:00:09
+1	166	LOOPSHOTS YAMASOTO.new.03-01.A2	00:31:36:00	00:31:36:18	00:00:00:18
+1	167	LOOPSHOTS YAMASOTO.new.04-01.A2	00:31:36:18	00:31:38:12	00:00:01:19
+1	168	WERK UITSLAG VAN YAM.new.02-01.A2	00:31:38:12	00:31:42:01	00:00:03:14
+1	169	WERK UITSLAG VAN YAM.new.03-01.A2	00:31:42:01	00:32:49:06	00:01:07:05
+1	170	CONFESSIE_ Natasja. Afl 3, 4.new.02-01.A2	00:32:49:06	00:32:49:17	00:00:00:10
+1	171	CONFESSIE_ Natasja. Afl 3, 4.new.02-02.A2	00:32:49:17	00:32:50:11	00:00:00:19
+1	172	CONFESSIE_ Natasja. Afl 3, 4.new.02-04.A2	00:32:50:11	00:32:58:17	00:00:08:06
+1	173	DUEL Willemijn komt terug van opdracht en deelt ervaring met groep.new.01-01.A2	00:32:58:17	00:33:44:19	00:00:46:01
+1	174	AANLOOP EXAMEN;  Bob gaat opzoek naar kandidaten.new.01-02.A2	00:34:17:14	00:34:43:11	00:00:25:22
+1	175	AANLOOP EXAMEN; Willemijn gaat opzoek naar haar kandidaten.new.02-03.A2	00:34:49:14	00:35:44:22	00:00:55:08
+1	176	AANLOOP EXAMEN; Orfeus opzoek naar modellen.new.06-01.A2	00:35:45:05	00:35:52:05	00:00:07:00
+1	177	AANLOOP EXAMEN_ Orfeus gaat op zoek naar modellen.new.01-01.A2	00:35:56:15	00:36:24:01	00:00:27:11
+1	178	AANLOOP EXAMEN; Bob is opzoek naar modellen.new.02-04.A2	00:36:30:22	00:37:05:07	00:00:34:09
+1	179	AANLOOP EXAMEN; Willemijn is op zoek naar modellen.new.01-01.A2	00:37:09:15	00:38:14:05	00:01:04:14
+1	180	EXAMEN Modeshow.new.01-01.A2	00:38:27:07	00:38:57:22	00:00:30:15
+1	181	EXAMEN Modeshow.new.01-02.A2	00:40:05:06	00:40:27:04	00:00:21:23
+1	182	AANLOOP EXAMEN; Natasja gaat gejaagd opzoek.new.01-01.A2	00:40:32:22	00:40:53:11	00:00:20:14
+1	183	AANLOOP EXAMEN; Natasja gaat gejaagd opzoek.new.09-02.A2	00:40:58:21	00:41:09:01	00:00:10:05
+1	184	AANLOOP EXAMEN; Natasja gaat gejaagd opzoek.new.07-01.A2	00:41:10:02	00:41:26:06	00:00:16:03
+1	185	EXAMEN_ Reality, de kandidaten zijn zich aan het voorbereiden.new.01-03.A2	00:41:31:11	00:41:55:17	00:00:24:05
+1	186	EXAMEN; Reality oefenen.new.01-02.A2	00:41:58:22	00:42:07:03	00:00:08:05
+1	187	EXAMEN_ Ze moeten opkomen.... Achter de schermen.new.02-01.A2	00:42:12:01	00:42:15:16	00:00:03:15
+1	188	EXAMEN_ INTERVIEW JAP.new.01-01.A2	00:42:25:19	00:42:32:16	00:00:06:22
+1	189	EXAMEN_ Ze moeten opkomen.... Achter de schermen.new.01-04.A2	00:42:32:16	00:42:36:18	00:00:04:02
+1	190	AANLOOP EXAMEN _ EXAMEN.new.06-01.A2	00:42:38:11	00:42:40:19	00:00:02:08
+1	191	AANLOOP EXAMEN _ EXAMEN.new.06-02.A2	00:42:40:19	00:42:43:19	00:00:03:00
+1	192	EXAMEN_ Ze moeten opkomen.... Achter de schermen.new.03-01.A2	00:42:43:22	00:42:47:00	00:00:03:03
+1	193	MC vraag publiek cijfer te geven, 100 jap noteren cijfer, Renate haalt ze op.new.01-01.A4	00:42:53:13	00:43:00:18	00:00:07:05
+1	194	EXAMEN_ Ze moeten opkomen.... Achter de schermen.new.04-02.A2	00:43:02:19	00:43:05:17	00:00:02:23
+1	195	AANLOOP EXAMEN _ EXAMEN.new.07-01.A2	00:43:09:02	00:43:14:22	00:00:05:20
+1	196	EXAMEN_ Ze moeten opkomen.... Achter de schermen.new.05-01.A2	00:43:17:01	00:43:24:12	00:00:07:11
+1	197	MC vraag publiek cijfer te geven, 100 jap noteren cijfer, Renate haalt ze op.new.04-01.A2	00:43:24:12	00:43:26:07	00:00:01:20
+1	198	MC vraag publiek cijfer te geven, 100 jap noteren cijfer, Renate haalt ze op.new.03-01.A2	00:43:26:07	00:43:28:02	00:00:01:20
+1	199	MC vraag publiek cijfer te geven, 100 jap noteren cijfer, Renate haalt ze op.new.02-01.A2	00:43:28:02	00:43:29:01	00:00:00:24
+1	200	EXAMEN.new.01-03.A2	00:43:39:02	00:43:41:10	00:00:02:08
+1	201	EXAMEN.new.01-04.A2	00:43:41:10	00:43:46:11	00:00:05:01
+1	202	EXAMEN.new.02-01.A2	00:43:48:13	00:43:53:09	00:00:04:21
+1	203	EXAMEN.new.03-01.A2	00:43:53:09	00:44:14:17	00:00:21:08
+1	204	EXAMEN.new.04-01.A2	00:44:21:08	00:44:24:07	00:00:02:24
+1	205	EXAMEN.new.05-01.A2	00:44:24:07	00:44:28:11	00:00:04:04
+1	206	EXAMEN.new.06-01.A2	00:44:28:11	00:44:33:12	00:00:05:01
+1	207	EXAMEN.new.06-02.A2	00:44:33:12	00:44:39:16	00:00:06:04
+1	208	EXAMEN.new.07-01.A2	00:44:39:16	00:44:44:24	00:00:05:08
+1	209	EXAMEN.new.08-01.A2	00:44:44:24	00:45:05:04	00:00:20:05
+1	210	CONFESSIE_ Natasja, haar laatste confessie.new.02-01.A2	00:45:05:04	00:45:19:08	00:00:14:03
+1	211	REALITY AFSCHEID; Natasja gaat weg...new.01-01.A2	00:45:20:09	00:45:32:23	00:00:12:14
+1	212	REALITY AFSCHEID; Natsasje die haar tas aan het inpakken is..new.02-01.A2	00:45:39:22	00:45:45:09	00:00:05:12
+1	213	REALITY AFSCHEID; Natsasje die haar tas aan het inpakken is..new.03-01.A2	00:45:45:09	00:45:48:00	00:00:02:16
+1	214	CONFESSIE_ Natasja, haar laatste confessie.new.01-01.A2	00:45:54:11	00:45:59:08	00:00:04:22
+1	215	CONFESSIE_ Natasja, haar laatste confessie.new.05-01.A2	00:46:04:03	00:46:13:04	00:00:09:01
+1	216	EXAMEN; Corné.new.01-01.A2	00:46:13:04	00:46:16:13	00:00:03:09
+1	217	AANLOOP DUEL_ Bob op zoek naar de Yakuza.new.01-01.A2	00:46:20:08	00:46:21:09	00:00:01:01
+1	218	AANLOOP DUEL; opzoek naar Yakuza.new.02-01.A2	00:46:28:04	00:46:28:13	00:00:00:08
+
+
+TRACK NAME:	D3
+USER DELAY:	0 Samples
+CHANNEL	EVENT	REGION NAME	START TIME	END TIME	DURATION
+1	1	08 04 05 extreme food deel 2.new.01-01.A1	00:02:16:04	00:02:19:08	00:00:03:03
+1	2	EXAMEN GADGETS_  Joost geeft demo gadget.new.01-02.A1	00:02:24:10	00:02:29:23	00:00:05:12
+1	3	UITSLAG EXAMEN GADGETS_ Klappende Japanners.new.01-04	00:02:30:18	00:02:34:22	00:00:04:04
+1	4	DUEL EXTREEM FOOD_ totaal + div restaurant DEEL 2.new.01-02.A1	00:03:21:21	00:03:25:13	00:00:03:17
+1	5	REALITY DUEL_EXAMEN Thuiskomst Mira, komt uit lift en naar rest (prima leality).new.01-08.A1	00:03:25:13	00:03:36:15	00:00:11:02
+1	6	CONFESSIE_ Eva. Afl 3, 2 en 4 deel 1.new.01-01.A1	00:03:50:24	00:03:53:16	00:00:02:17
+1	7	EXT straatbeeld nacht.new.01-04.A3	00:04:20:22	00:04:43:15	00:00:22:17
+1	8	AANLOOP DUEL_ Willemijn en Corne; Find a friend.new.03-03.A2	00:07:18:22	00:07:32:00	00:00:13:03
+1	9	REALITY VOTING, bij tempel.new.04-02.A3	00:08:00:05	00:08:08:04	00:00:07:24
+1	10	REALITY VOTING, lompe nederlander in contact met japanner.new.01-01.A3	00:08:14:20	00:08:28:10	00:00:13:15
+1	11	REALITY VOTING, lompe nederlander in contact met japanner.new.01-05.A3	00:08:32:08	00:08:49:02	00:00:16:19
+1	12	REALITY VOTING, leon over eva.new.01-02.A3	00:08:50:19	00:09:01:10	00:00:10:15
+1	13	EXAMEN.new.01-01.A1	00:09:25:20	00:09:28:04	00:00:02:08
+1	14	EXAMEN.new.01-02.A1	00:09:28:04	00:09:30:10	00:00:02:06
+1	15	CONFESSIE_ Corne na het winnen van het duel.new.01-01.A1	00:11:48:20	00:11:52:12	00:00:03:17
+1	16	CONFESSIE_ Corne na het winnen van het duel.new.01-02.A1	00:11:52:12	00:11:58:03	00:00:05:16
+1	17	AANLOOP EXAMEN; Natasja gaat opzoek naar modellen.new.02-03.A1	00:12:42:12	00:12:45:10	00:00:02:23
+1	18	AANLOOP EXAMEN; Orfeus opzoek naar modellen.new.01-01.A1	00:12:47:20	00:12:49:23	00:00:02:03
+1	19	Bumper 01 OUT FINAL,Audio Mixdown,28.new.01-01.A1	00:14:00:00	00:14:04:24	00:00:04:24
+1	20	DUEL_ Willemijn zoekt een vriend.new.05-02.A1	00:14:04:24	00:14:08:16	00:00:03:16
+1	21	DUEL_ Corne finding a friend DEEL 4.new.01-01.A1	00:14:59:03	00:15:04:00	00:00:04:22
+1	22	DUEL_ Willemijn op zoek naar een vriend.new.02-02.A1	00:15:18:09	00:15:22:19	00:00:04:10
+1	23	DUEL_ Willemijn op zoek naar een vriend deel 2.new.05-01.A1	00:15:39:10	00:15:45:01	00:00:05:16
+1	24	Karaoke.new.01-01.A1	00:17:19:17	00:17:23:10	00:00:03:18
+1	25	CONFESSIE_ Eva.new.01-04.A1	00:17:39:16	00:17:42:10	00:00:02:19
+1	26	CONFESSIE_ Eva.new.01-03.A1	00:17:42:10	00:17:45:03	00:00:02:18
+1	27	CONFESSIE_ Eva.new.01-01.A1	00:17:45:03	00:17:46:05	00:00:01:02
+1	28	CONFESSIE_ Eva.new.01-02.A1	00:17:46:05	00:17:47:08	00:00:01:03
+1	29	SFEER SNIJSHOTS; snijshots van de regen.new.01-01.A1	00:18:44:17	00:19:10:16	00:00:25:23
+1	30	Yamasoto komt en vertelt wat de groep gaat doen.new.03-01.A3	00:19:12:10	00:19:21:08	00:00:08:23
+1	31	YAMASOTO komt binnen en spreekt.new.01-01.A3	00:19:21:08	00:19:24:04	00:00:02:21
+1	32	Yamasoto komt en vertelt wat de groep gaat doen.new.04-01.A3	00:19:24:04	00:19:34:02	00:00:09:23
+1	33	Yamasoto komt en vertelt wat de groep gaat doen.new.05-01.A3	00:19:34:02	00:19:40:17	00:00:06:15
+1	34	opnieuw de tekst van Yamasoto. op Yamasoto.new.01-02.A3	00:19:40:17	00:19:41:20	00:00:01:03
+1	35	opnieuw de tekst van Yamasoto. op Yamasoto.new.01-05.A3	00:19:41:20	00:19:51:14	00:00:09:19
+1	36	opnieuw de tekst van Yamasoto. op Yamasoto.new.01-06.A3	00:19:51:20	00:19:53:09	00:00:01:13
+1	37	opnieuw de tekst van Yamasoto. op Yamasoto.new.01-04.A3	00:19:53:09	00:20:06:04	00:00:12:20
+1	38	opnieuw de tekst van Yamasoto. op Yamasoto.new.02-02.A3	00:20:06:04	00:20:14:22	00:00:08:18
+1	39	DUEL_ Finding friends, ontknoping.new.02-02	00:20:33:10	00:20:39:21	00:00:06:10
+1	40	DUEL_ Finding friends, ontknoping.new.03-01.A1	00:20:39:21	00:20:42:13	00:00:02:16
+1	41	DUEL_ Finding friends, ontknoping.new.04-01.A1	00:20:42:13	00:20:45:00	00:00:02:12
+1	42	DUEL_ Finding friends, ontknoping.new.04-02.A1	00:20:45:00	00:20:48:19	00:00:03:19
+1	43	DUEL_ Finding friends, ontknoping.new.05-01.A1	00:20:48:19	00:20:50:09	00:00:01:15
+1	44	DUEL_ Finding friends, ontknoping.new.05-02.A1	00:20:50:09	00:20:56:01	00:00:05:17
+1	45	DUEL_ Finding friends, ontknoping.new.06-01.A1	00:20:56:01	00:20:58:16	00:00:02:15
+1	46	DUEL_ Finding friends, ontknoping.new.06-02.A1	00:20:58:16	00:21:02:09	00:00:03:18
+1	47	DUEL_ Finding friends, ontknoping.new.07-01.A1	00:21:02:09	00:21:03:19	00:00:01:10
+1	48	DUEL_ Finding friends, ontknoping.new.07-03.A1	00:21:03:19	00:21:09:00	00:00:05:06
+1	49	DUEL_ Finding friends, ontknoping.new.07-02.A1	00:21:09:00	00:21:11:12	00:00:02:12
+1	50	DUEL_ Finding friends, ontknoping.new.08-01.A1	00:21:11:12	00:21:22:10	00:00:10:23
+1	51	DUEL_ Finding friends, ontknoping.new.09-01.A1	00:21:22:10	00:21:24:05	00:00:01:20
+1	52	DUEL_ Finding friends, ontknoping.new.09-02.A1	00:21:24:05	00:21:26:13	00:00:02:08
+1	53	DUEL_ Finding friends, ontknoping.new.09-03.A1	00:21:26:13	00:21:36:17	00:00:10:04
+1	54	DUEL_ Finding friends, ontknoping.new.10-01.A1	00:21:36:17	00:21:38:13	00:00:01:21
+1	55	DUEL_ Finding friends, ontknoping.new.10-02.A1	00:21:38:13	00:21:40:20	00:00:02:07
+1	56	DUEL_ Find a friend afsluiting DEEL 5.new.01-01.A1	00:21:40:20	00:21:56:16	00:00:15:20
+1	57	31 - 2 - 2 - XD.new.06-01.A1	00:22:17:16	00:22:23:06	00:00:05:14
+1	58	WERK, JAP.new.01-06.A1	00:22:52:05	00:22:57:20	00:00:05:15
+1	59	ESTABLISHING fotografen benaderen mensen met enquette en opmaken.new.01-01.A1	00:23:00:01	00:23:01:23	00:00:01:22
+1	60	WERK fotograaf, aardige shots fotograaf.new.01-01.A3	00:23:03:21	00:23:09:02	00:00:05:06
+1	61	QUOTE over mode.new.01-02	00:23:12:06	00:23:24:05	00:00:11:23
+1	62	CONFESSIE_ Eva. Afl 3, 2 en 4 deel 2.new.01-02	00:23:25:00	00:23:30:07	00:00:05:06
+1	63	WERK, JAP.new.01-07.A1	00:23:39:07	00:23:53:16	00:00:14:08
+1	64	WERK, JAP.new.04-02.A1	00:24:13:19	00:24:19:19	00:00:06:00
+1	65	WERK.new.03-02.A1	00:24:42:19	00:24:55:18	00:00:12:24
+1	66	WERK.new.01-01.A1	00:24:58:20	00:25:00:18	00:00:01:23
+1	67	QUOTE interview assistent.new.01-01.A1	00:25:17:03	00:25:32:06	00:00:15:03
+1	68	WERK QUOTE Orfeus over Japanse mode.new.02-04.A1	00:25:40:15	00:25:49:01	00:00:08:11
+1	69	WERK QUOTE  Natasha over Japanse mode.new.04-01.A1	00:25:49:23	00:25:54:17	00:00:04:19
+1	70	WERK QUOTE  Natasha over Japanse mode.new.04-02.A1	00:25:54:17	00:26:01:17	00:00:07:00
+1	71	WERK, INT groep komt aan. ontmoeten medewerker die uitlegt wie ze zijn.new.01-02.A1	00:26:05:22	00:26:12:02	00:00:06:05
+1	72	WERK Natasha zoekt outfitje voor haar zelf uit, Orfeus en Bob helpen haar.new.02-01.A1	00:26:30:08	00:26:46:13	00:00:16:05
+1	73	WERK QUOTE  Natasha over Japanse mode.new.03-01.A1	00:27:12:02	00:27:21:08	00:00:09:06
+1	74	WERK Winkelbediende komt winkel binnen lopen, kandidaten begroeten haar.new.03-02.A1	00:27:28:17	00:27:35:17	00:00:07:00
+1	75	WERK QUOTE  Natasha over Japanse mode.new.01-06.A1	00:27:50:08	00:27:59:10	00:00:09:01
+1	76	WERK JAP.new.01-07.A1	00:28:14:20	00:28:32:03	00:00:17:08
+1	77	WERK JAP_ in de Blue blood winkel wordt medewerker geinterviewd.new.02-02.A1	00:29:02:19	00:29:08:22	00:00:06:03
+1	78	WERK QUOTE  Natasha over Japanse mode.new.01-08.A1	00:29:11:15	00:29:19:05	00:00:07:15
+1	79	WERK QUOTE  Natasha over Japanse mode.new.01-03.A1	00:29:22:08	00:29:31:13	00:00:09:04
+1	80	WERK Natasha ontvangt eerste klant.new.13-05.A1	00:29:33:21	00:29:35:02	00:00:01:06
+1	81	WERK Verkoopster praat over hoe het ging in de winkel met de kandidaten..new.01-03.A1	00:29:48:03	00:29:57:22	00:00:09:19
+1	82	WERK QUOTE _ Bob over Japanse mode.new.01-01.A1	00:30:01:17	00:30:04:08	00:00:02:16
+1	83	WERK QUOTE _ Bob over Japanse mode.new.01-02.A1	00:30:04:08	00:30:13:20	00:00:09:12
+1	84	WERK QUOTE  Natasha over Japanse mode.new.02-02.A1	00:30:43:17	00:30:53:09	00:00:09:16
+1	85	10 1 3v4 X.new.01-01.A3	00:31:00:01	00:31:07:22	00:00:07:21
+1	86	WERK UITSLAG VAN YAM.new.01-05.A3	00:31:33:04	00:32:49:07	00:01:16:02
+1	87	AANLOOP EXAMEN;  presentatie voor het examen DEEL 2.new.03-01.A1	00:33:56:15	00:34:08:08	00:00:11:18
+1	88	AANLOOP EXAMEN;  presentatie voor het examen DEEL 2.new.01-01.A1	00:34:08:08	00:34:13:11	00:00:05:03
+1	89	AANLOOP EXAMEN;  presentatie voor het examen DEEL 2.new.02-01.A1	00:34:13:11	00:34:18:24	00:00:05:13
+1	90	AANLOOP EXAMEN; Willemijn gaat opzoek naar haar kandidaten.new.01-02.A1	00:34:42:12	00:34:50:16	00:00:08:03
+1	91	CONFESSIE_ Orfeus. Afl. 2, 4, 5.new.03-02.A1	00:35:43:22	00:35:57:05	00:00:13:07
+1	92	CONFESSIE; Bob.new.02-02.A1	00:36:23:08	00:36:31:04	00:00:07:21
+1	93	DV 40 2 5v5 .new.03-04.A1	00:37:04:21	00:37:10:06	00:00:05:09
+1	94	CONFESSIE; Bob.new.01-01.A1	00:38:10:13	00:38:16:19	00:00:06:06
+1	95	AANLOOP EXAMEN; Natasja gaat gejaagd opzoek.new.05-04.A1	00:38:57:03	00:39:02:15	00:00:05:11
+1	96	AANLOOP EXAMEN; Natasja en willemijn hebben nog geen modellen.new.01-03.A1	00:40:25:23	00:40:33:14	00:00:07:16
+1	97	DV 40 2 5v5 .new.04-01.A1	00:40:53:11	00:40:59:06	00:00:05:19
+1	98	AANLOOP EXAMEN; Natasja gaat gejaagd opzoek.new.04-01.A1	00:41:08:18	00:41:10:07	00:00:01:13
+1	99	CONFESSIE_ Natasja. Afl 3, 4.new.01-02.A1	00:41:25:06	00:41:32:02	00:00:06:21
+1	100	EXAMEN; REality oefenen.new.01-01.A1	00:41:55:07	00:41:59:08	00:00:04:01
+1	101	EXAMEN MODESHOW, Modellen Orfeus komen op.new.01-04.A3	00:42:14:18	00:42:19:03	00:00:04:10
+1	102	EXAMEN MODESHOW, Modellen Orfeus komen op.new.02-03	00:42:21:19	00:42:27:21	00:00:06:01
+1	103	EXAMEN MODESHOW, Modellen van Willemijn komen op.new.01-02	00:42:37:00	00:42:47:15	00:00:10:14
+1	104	AANLOOP EXAMEN _ EXAMEN.new.05-01.A1	00:42:50:16	00:42:59:13	00:00:08:22
+1	105	EXAMEN_ Ze moeten opkomen.... Achter de schermen.new.06-02.A1	00:42:59:15	00:43:03:04	00:00:03:14
+1	106	AANLOOP EXAMEN _ EXAMEN.new.02-02	00:43:13:06	00:43:17:23	00:00:04:17
+1	107	EXAMEN_ PRES; Renate die de uitslag geeft.new.01-01.A1	00:43:39:02	00:43:41:10	00:00:02:08
+1	108	EXAMEN_ PRES; Renate die de uitslag geeft.new.01-02.A1	00:43:41:10	00:43:46:11	00:00:05:01
+1	109	EXAMEN_ PRES; Renate die de uitslag geeft.new.02-01.A1	00:43:48:13	00:43:53:09	00:00:04:21
+1	110	EXAMEN_ PRES; Renate die de uitslag geeft.new.03-04.A1	00:43:53:09	00:44:02:24	00:00:09:15
+1	111	EXAMEN.new.10-03.A1	00:44:02:24	00:44:14:09	00:00:11:10
+1	112	EXAMEN_ PRES; Renate die de uitslag geeft.new.03-03.A1	00:44:15:06	00:44:21:08	00:00:06:02
+1	113	EXAMEN_ PRES; Renate die de uitslag geeft.new.03-02.A1	00:44:21:08	00:44:23:12	00:00:02:04
+1	114	EXAMEN_ PRES; Renate die de uitslag geeft.new.04-01.A1	00:44:23:12	00:44:28:11	00:00:04:24
+1	115	EXAMEN_ PRES; Renate die de uitslag geeft.new.05-01.A1	00:44:28:11	00:44:33:12	00:00:05:01
+1	116	EXAMEN_ PRES; Renate die de uitslag geeft.new.05-02.A1	00:44:33:12	00:44:39:16	00:00:06:04
+1	117	EXAMEN_ PRES; Renate die de uitslag geeft.new.06-01.A1	00:44:39:16	00:44:44:24	00:00:05:08
+1	118	EXAMEN_ PRES; Renate die de uitslag geeft.new.07-01.A1	00:44:44:24	00:44:49:16	00:00:04:17
+1	119	EXAMEN_ Reactie van de kandidaten na de uitslag.new.01-01.A3	00:44:49:16	00:45:02:23	00:00:13:07
+1	120	EXAMEN_ Reactie van de kandidaten na de uitslag.new.02-01.A3	00:45:02:23	00:45:07:08	00:00:04:10
+1	121	REALITY AFSCHEID; Natsasje die haar tas aan het inpakken is..new.01-01.A1	00:45:20:09	00:45:41:07	00:00:20:23
+1	122	REALITY AFSCHEID; Natsasje die haar tas aan het inpakken is..new.04-01.A1	00:45:47:21	00:45:53:04	00:00:05:07
+1	123	REALITY HUIS; Nog steeds na het examen, gesprek over het avondeten begint.new.01-03.A1	00:45:53:04	00:45:54:13	00:00:01:09
+1	124	CONFESSIE_ Natasja, haar laatste confessie.new.04-01.A1	00:45:55:22	00:46:07:05	00:00:11:08
+1	125	CONFESSIE_ Natasja, haar laatste confessie.new.03-04.A1	00:46:07:05	00:46:11:06	00:00:04:01
+1	126	EXAMEN_ Joost Orfeus en Corne doen bruiloft..new.01-01.A1	00:46:15:05	00:46:18:10	00:00:03:05
+1	127	AANLOOP DUEL; opzoek naar Yakuza.new.01-01.A1	00:46:21:08	00:46:28:06	00:00:06:23
+
+
+TRACK NAME:	D4
+USER DELAY:	0 Samples
+CHANNEL	EVENT	REGION NAME	START TIME	END TIME	DURATION
+1	1	08 04 05 extreme food deel 2.new.01-01.A2	00:02:16:04	00:02:19:08	00:00:03:03
+1	2	EXAMEN GADGETS_  Joost geeft demo gadget.new.01-01.A2	00:02:24:22	00:02:28:17	00:00:03:20
+1	3	EXAMEN GADGETS_ 100 japanners kijken bij Willemijn.new.01-01.A2	00:02:28:17	00:02:29:12	00:00:00:20
+1	4	DUEL EXTREEM FOOD_ totaal + div restaurant DEEL 2.new.01-03.A2	00:03:21:21	00:03:26:16	00:00:04:20
+1	5	REALITY DUEL_EXAMEN Thuiskomst Mira, komt uit lift en naar rest (prima leality).new.01-02.A2	00:03:26:16	00:03:36:01	00:00:09:10
+1	6	EXT straatbeeld nacht.new.01-02.A4	00:04:20:22	00:04:43:15	00:00:22:18
+1	7	REALITY VOTING, bij tempel.new.04-02.A4	00:08:00:05	00:08:08:04	00:00:07:24
+1	8	REALITY VOTING, lompe nederlander in contact met japanner.new.01-01.A4	00:08:14:20	00:08:28:10	00:00:13:15
+1	9	REALITY VOTING, lompe nederlander in contact met japanner.new.01-02.A4	00:08:32:08	00:08:49:20	00:00:17:12
+1	10	REALITY VOTING, leon over eva.new.01-01.A4	00:08:51:09	00:09:01:10	00:00:10:01
+1	11	EXAMEN.new.01-01.A2	00:09:25:20	00:09:28:04	00:00:02:08
+1	12	EXAMEN.new.01-02.A2	00:09:28:04	00:09:30:10	00:00:02:06
+1	13	CONFESSIE_ Corne na het winnen van het duel.new.01-05.A2	00:11:48:20	00:11:58:08	00:00:09:13
+1	14	AANLOOP EXAMEN; Natasja gaat opzoek naar modellen.new.02-01.A2	00:12:42:18	00:12:45:07	00:00:02:14
+1	15	AANLOOP EXAMEN; Orfeus opzoek naar modellen.new.01-03.A2	00:12:47:09	00:12:50:02	00:00:02:17
+1	16	Bumper 01 OUT FINAL,Audio Mixdown,28.new.01-01.A2	00:14:00:00	00:14:04:24	00:00:04:24
+1	17	DUEL_ Willemijn zoekt een vriend.new.05-02.A2	00:14:04:24	00:14:08:16	00:00:03:16
+1	18	DUEL_ Corne finding a friend DEEL 4.new.01-01.A2	00:14:59:03	00:15:04:00	00:00:04:22
+1	19	DUEL_ Willemijn op zoek naar een vriend.new.02-02.A2	00:15:18:09	00:15:22:19	00:00:04:10
+1	20	DUEL_ Willemijn op zoek naar een vriend deel 2.new.05-01.A2	00:15:39:10	00:15:45:01	00:00:05:16
+1	21	Karaoke.new.01-01.A2	00:17:19:17	00:17:23:10	00:00:03:18
+1	22	CONFESSIE_ Eva.new.01-04.A2	00:17:39:16	00:17:42:10	00:00:02:19
+1	23	CONFESSIE_ Eva.new.01-03.A2	00:17:42:10	00:17:45:03	00:00:02:18
+1	24	CONFESSIE_ Eva.new.01-01.A2	00:17:45:03	00:17:46:05	00:00:01:02
+1	25	CONFESSIE_ Eva.new.01-02.A2	00:17:46:05	00:17:47:08	00:00:01:03
+1	26	SFEER SNIJSHOTS; snijshots van de regen.new.01-01.A2	00:18:44:17	00:19:10:16	00:00:25:23
+1	27	Yamasoto komt en vertelt wat de groep gaat doen.new.03-01.A4	00:19:12:10	00:19:21:08	00:00:08:23
+1	28	YAMASOTO komt binnen en spreekt.new.01-01.A4	00:19:21:08	00:19:24:04	00:00:02:21
+1	29	Yamasoto komt en vertelt wat de groep gaat doen.new.04-01.A4	00:19:24:04	00:19:34:02	00:00:09:23
+1	30	Yamasoto komt en vertelt wat de groep gaat doen.new.05-01.A4	00:19:34:02	00:19:40:17	00:00:06:15
+1	31	opnieuw de tekst van Yamasoto. op Yamasoto.new.01-02.A4	00:19:40:17	00:19:41:20	00:00:01:03
+1	32	opnieuw de tekst van Yamasoto. op Yamasoto.new.01-05.A4	00:19:41:20	00:19:51:14	00:00:09:19
+1	33	opnieuw de tekst van Yamasoto. op Yamasoto.new.01-06.A4	00:19:51:20	00:19:53:09	00:00:01:13
+1	34	opnieuw de tekst van Yamasoto. op Yamasoto.new.01-04.A4	00:19:53:09	00:20:06:04	00:00:12:20
+1	35	opnieuw de tekst van Yamasoto. op Yamasoto.new.02-02.A4	00:20:06:04	00:20:14:22	00:00:08:18
+1	36	DUEL_ Finding friends, ontknoping.new.03-01.A2	00:20:39:20	00:20:42:13	00:00:02:18
+1	37	DUEL_ Finding friends, ontknoping.new.04-01.A2	00:20:42:13	00:20:45:00	00:00:02:12
+1	38	DUEL_ Finding friends, ontknoping.new.04-02.A2	00:20:45:00	00:20:48:19	00:00:03:19
+1	39	DUEL_ Finding friends, ontknoping.new.05-01.A2	00:20:48:19	00:20:50:09	00:00:01:15
+1	40	DUEL_ Finding friends, ontknoping.new.05-02.A2	00:20:50:09	00:20:56:01	00:00:05:17
+1	41	DUEL_ Finding friends, ontknoping.new.06-01.A2	00:20:56:01	00:20:58:16	00:00:02:15
+1	42	DUEL_ Finding friends, ontknoping.new.06-02.A2	00:20:58:16	00:21:02:09	00:00:03:18
+1	43	DUEL_ Finding friends, ontknoping.new.07-01.A2	00:21:02:09	00:21:03:19	00:00:01:10
+1	44	DUEL_ Finding friends, ontknoping.new.07-03.A2	00:21:03:19	00:21:09:00	00:00:05:06
+1	45	DUEL_ Finding friends, ontknoping.new.07-02.A2	00:21:09:00	00:21:11:12	00:00:02:12
+1	46	DUEL_ Finding friends, ontknoping.new.08-01.A2	00:21:11:12	00:21:22:10	00:00:10:23
+1	47	DUEL_ Finding friends, ontknoping.new.09-01.A2	00:21:22:10	00:21:24:05	00:00:01:20
+1	48	DUEL_ Finding friends, ontknoping.new.09-02.A2	00:21:24:05	00:21:26:13	00:00:02:08
+1	49	DUEL_ Finding friends, ontknoping.new.09-03.A2	00:21:26:13	00:21:36:17	00:00:10:04
+1	50	DUEL_ Finding friends, ontknoping.new.10-01.A2	00:21:36:17	00:21:38:13	00:00:01:21
+1	51	DUEL_ Finding friends, ontknoping.new.10-02.A2	00:21:38:13	00:21:40:20	00:00:02:07
+1	52	DUEL_ Find a friend afsluiting DEEL 5.new.01-01.A2	00:21:40:20	00:21:56:16	00:00:15:20
+1	53	31 - 2 - 2 - XD.new.06-01.A2	00:22:17:16	00:22:23:06	00:00:05:14
+1	54	WERK, JAP.new.01-06.A2	00:22:52:05	00:22:57:20	00:00:05:15
+1	55	ESTABLISHING fotografen benaderen mensen met enquette en opmaken.new.01-01.A2	00:23:00:01	00:23:01:23	00:00:01:22
+1	56	WERK fotograaf, aardige shots fotograaf.new.01-01.A4	00:23:03:21	00:23:09:02	00:00:05:06
+1	57	CONFESSIE_ Eva. Afl 3, 2 en 4 deel 2.new.02-01	00:23:30:07	00:23:37:18	00:00:07:11
+1	58	WERK, JAP.new.01-07.A2	00:23:39:07	00:23:53:16	00:00:14:08
+1	59	WERK, JAP.new.04-02.A2	00:24:13:19	00:24:19:19	00:00:06:00
+1	60	WERK.new.03-02.A2	00:24:42:19	00:24:55:18	00:00:12:24
+1	61	WERK.new.01-01.A2	00:24:58:20	00:25:00:18	00:00:01:23
+1	62	QUOTE interview assistent.new.01-01.A2	00:25:17:03	00:25:32:06	00:00:15:03
+1	63	WERK QUOTE Orfeus over Japanse mode.new.02-04.A2	00:25:40:15	00:25:49:01	00:00:08:11
+1	64	WERK QUOTE  Natasha over Japanse mode.new.04-01.A2	00:25:49:23	00:25:54:17	00:00:04:19
+1	65	WERK QUOTE  Natasha over Japanse mode.new.04-02.A2	00:25:54:17	00:26:01:17	00:00:07:00
+1	66	WERK, INT groep komt aan. ontmoeten medewerker die uitlegt wie ze zijn.new.01-01.A2	00:26:05:22	00:26:11:04	00:00:05:07
+1	67	WERK Natasha zoekt outfitje voor haar zelf uit, Orfeus en Bob helpen haar.new.02-01.A2	00:26:30:08	00:26:46:13	00:00:16:05
+1	68	WERK QUOTE  Natasha over Japanse mode.new.03-01.A2	00:27:12:02	00:27:21:08	00:00:09:06
+1	69	WERK Winkelbediende komt winkel binnen lopen, kandidaten begroeten haar.new.03-01.A2	00:27:28:17	00:27:34:18	00:00:06:01
+1	70	WERK QUOTE  Natasha over Japanse mode.new.01-02.A2	00:27:50:09	00:27:58:24	00:00:08:15
+1	71	WERK JAP.new.01-02.A2	00:28:15:01	00:28:27:20	00:00:12:19
+1	72	WERK orfeus krijgt niet klusje.new.01-02.A2	00:28:27:20	00:28:30:07	00:00:02:12
+1	73	WERK orfeus krijgt niet klusje.new.01-01.A2	00:28:30:07	00:28:32:03	00:00:01:21
+1	74	WERK JAP_ in de Blue blood winkel wordt medewerker geinterviewd.new.02-01.A2	00:29:02:19	00:29:08:09	00:00:05:15
+1	75	WERK QUOTE  Natasha over Japanse mode.new.01-01.A2	00:29:11:15	00:29:19:03	00:00:07:13
+1	76	WERK QUOTE  Natasha over Japanse mode.new.01-03.A2	00:29:22:10	00:29:31:13	00:00:09:03
+1	77	WERK Natasha ontvangt eerste klant.new.13-01.A2	00:29:33:21	00:29:35:06	00:00:01:10
+1	78	WERK Verkoopster praat over hoe het ging in de winkel met de kandidaten..new.01-01.A2	00:29:48:03	00:29:57:12	00:00:09:09
+1	79	WERK QUOTE _ Bob over Japanse mode.new.01-01.A2	00:30:01:17	00:30:04:08	00:00:02:16
+1	80	WERK QUOTE _ Bob over Japanse mode.new.01-02.A2	00:30:04:08	00:30:13:20	00:00:09:12
+1	81	WERK QUOTE  Natasha over Japanse mode.new.02-01.A2	00:30:43:16	00:30:53:04	00:00:09:13
+1	82	10 1 3v4 X.new.01-01.A4	00:31:00:01	00:31:07:22	00:00:07:21
+1	83	WERK UITSLAG VAN YAM.new.01-05.A4	00:31:33:04	00:32:49:07	00:01:16:02
+1	84	AANLOOP EXAMEN;  presentatie voor het examen DEEL 2.new.03-01.A2	00:33:56:00	00:34:18:24	00:00:22:23
+1	85	AANLOOP EXAMEN; Willemijn gaat opzoek naar haar kandidaten.new.01-02.A2	00:34:42:12	00:34:50:16	00:00:08:03
+1	86	CONFESSIE_ Orfeus. Afl. 2, 4, 5.new.03-01.A2	00:35:43:22	00:35:57:04	00:00:13:06
+1	87	CONFESSIE; Bob.new.02-02.A2	00:36:23:08	00:36:31:04	00:00:07:21
+1	88	DV 40 2 5v5 .new.03-04.A2	00:37:04:21	00:37:10:06	00:00:05:09
+1	89	CONFESSIE; Bob.new.01-01.A2	00:38:10:13	00:38:16:19	00:00:06:06
+1	90	AANLOOP EXAMEN; Natasja gaat gejaagd opzoek.new.05-04.A2	00:38:57:03	00:39:02:15	00:00:05:11
+1	91	AANLOOP EXAMEN; Natasja en willemijn hebben nog geen modellen.new.01-03.A2	00:40:25:23	00:40:33:14	00:00:07:16
+1	92	DV 40 2 5v5 .new.04-01.A2	00:40:53:13	00:40:59:06	00:00:05:18
+1	93	AANLOOP EXAMEN; Natasja gaat gejaagd opzoek.new.04-04.A2	00:41:08:17	00:41:10:17	00:00:01:24
+1	94	CONFESSIE_ Natasja. Afl 3, 4.new.01-02.A2	00:41:25:06	00:41:32:02	00:00:06:21
+1	95	EXAMEN; REality oefenen.new.01-01.A2	00:41:55:07	00:41:59:08	00:00:04:01
+1	96	EXAMEN MODESHOW, Modellen Orfeus komen op.new.01-04.A4	00:42:14:18	00:42:19:03	00:00:04:10
+1	97	AANLOOP EXAMEN _ EXAMEN.new.05-01.A2	00:42:50:16	00:42:59:13	00:00:08:22
+1	98	EXAMEN_ Ze moeten opkomen.... Achter de schermen.new.06-01.A2	00:42:59:16	00:43:03:17	00:00:04:01
+1	99	AANLOOP EXAMEN _ EXAMEN.new.03-01	00:43:15:17	00:43:15:23	00:00:00:06
+1	100	EXAMEN Modeshow, Modellen van Natasha komen op.new.01-02	00:43:15:23	00:43:17:21	00:00:01:23
+1	101	EXAMEN_ PRES; Renate die de uitslag geeft.new.01-01.A2	00:43:39:02	00:43:41:10	00:00:02:08
+1	102	EXAMEN_ PRES; Renate die de uitslag geeft.new.01-02.A2	00:43:41:10	00:43:46:11	00:00:05:01
+1	103	EXAMEN_ PRES; Renate die de uitslag geeft.new.02-01.A2	00:43:48:13	00:43:53:09	00:00:04:21
+1	104	EXAMEN_ PRES; Renate die de uitslag geeft.new.03-04.A2	00:43:53:09	00:44:12:08	00:00:18:24
+1	105	EXAMEN_ PRES; Renate die de uitslag geeft.new.03-01.A2	00:44:12:08	00:44:14:03	00:00:01:20
+1	106	EXAMEN_ PRES; Renate die de uitslag geeft.new.03-03.A2	00:44:15:06	00:44:21:08	00:00:06:01
+1	107	EXAMEN_ PRES; Renate die de uitslag geeft.new.03-02.A2	00:44:21:08	00:44:23:12	00:00:02:04
+1	108	EXAMEN_ PRES; Renate die de uitslag geeft.new.04-01.A2	00:44:23:12	00:44:28:11	00:00:04:24
+1	109	EXAMEN_ PRES; Renate die de uitslag geeft.new.05-01.A2	00:44:28:11	00:44:33:12	00:00:05:01
+1	110	EXAMEN_ PRES; Renate die de uitslag geeft.new.05-02.A2	00:44:33:12	00:44:39:16	00:00:06:04
+1	111	EXAMEN_ PRES; Renate die de uitslag geeft.new.06-01.A2	00:44:39:16	00:44:44:24	00:00:05:08
+1	112	EXAMEN_ PRES; Renate die de uitslag geeft.new.07-01.A2	00:44:44:24	00:44:49:16	00:00:04:17
+1	113	EXAMEN_ Reactie van de kandidaten na de uitslag.new.01-01.A4	00:44:49:16	00:45:07:08	00:00:17:17
+1	114	REALITY AFSCHEID; Natsasje die haar tas aan het inpakken is..new.01-01.A2	00:45:20:09	00:45:41:07	00:00:20:23
+1	115	REALITY AFSCHEID; Natsasje die haar tas aan het inpakken is..new.04-01.A2	00:45:48:00	00:45:53:04	00:00:05:04
+1	116	REALITY HUIS; Nog steeds na het examen, gesprek over het avondeten begint.new.01-01.A2	00:45:53:04	00:45:54:13	00:00:01:09
+1	117	CONFESSIE_ Natasja, haar laatste confessie.new.04-01.A2	00:45:55:22	00:46:07:05	00:00:11:08
+1	118	CONFESSIE_ Natasja, haar laatste confessie.new.03-01.A2	00:46:07:05	00:46:10:23	00:00:03:18
+1	119	EXAMEN_ Joost Orfeus en Corne doen bruiloft..new.01-01.A2	00:46:15:05	00:46:18:10	00:00:03:05
+1	120	AANLOOP DUEL; opzoek naar Yakuza.new.01-01.A2	00:46:21:08	00:46:28:06	00:00:06:23
+
+
+TRACK NAME:	D5
+USER DELAY:	0 Samples
+CHANNEL	EVENT	REGION NAME	START TIME	END TIME	DURATION
+
+
+TRACK NAME:	D6
+USER DELAY:	0 Samples
+CHANNEL	EVENT	REGION NAME	START TIME	END TIME	DURATION
+1	1	EXAMEN.new.10-01.A2	00:44:06:02	00:44:12:22	00:00:06:20
+
+
+TRACK NAME:	M1 (Stereo)
+USER DELAY:	0 Samples
+CHANNEL	EVENT	REGION NAME	START TIME	END TIME	DURATION
+1	1	Map FINAL,Audio Mixdown,33.new.01-02.A1	00:02:00:00	00:02:07:02	00:00:07:02
+1	2	04 Starkweather.mp3.new.01-02.A1	00:02:14:13	00:02:19:14	00:00:05:01
+1	3	04 Starkweather.mp3.new.01-01.A1	00:02:19:14	00:02:24:02	00:00:04:13
+1	4	13 - Hyper - We Control.mp3.new.02-05.A1	00:02:36:12	00:02:38:02	00:00:01:15
+1	5	519 In-House Presentation Type A.wav.new.02-01.A1	00:02:57:13	00:03:08:07	00:00:10:19
+1	6	Leader FINAL,Audio Mixdown,1.new.01-01.A1	00:03:08:07	00:03:20:10	00:00:12:03
+1	7	12 Ocelot Youth.mp3.new.01-06.A1	00:03:52:03	00:04:10:22	00:00:18:19
+1	8	432 The End.wav.new.01-01.A1	00:04:17:21	00:04:26:03	00:00:08:07
+1	9	02 Where Do These Tubes Go_.mp3.new.01-02.A1	00:04:32:10	00:04:36:10	00:00:04:00
+1	10	02 Where Do These Tubes Go_.mp3.new.01-01.A1	00:05:17:08	00:05:18:02	00:00:00:19
+1	11	17 Underground Tunnel.mp3.new.01-01.A1	00:05:56:09	00:06:47:12	00:00:51:03
+1	12	11 Eva's Unveiling.mp3.new.01-02.A1	00:06:52:21	00:07:44:12	00:00:51:16
+1	13	23 Battle In The Base.mp3.new.01-02.A1	00:08:25:07	00:09:30:15	00:01:05:08
+1	14	Here We Go AC.mp3.new.01-04.A1	00:10:06:16	00:10:49:03	00:00:42:12
+1	15	35 Don't Be Afraid.mp3.new.01-01.A1	00:11:21:21	00:11:39:18	00:00:17:22
+1	16	12 Ocelot Youth.mp3.new.01-03.A1	00:11:57:08	00:12:17:14	00:00:20:06
+1	17	12 Ocelot Youth.mp3.new.01-07.A1	00:12:23:23	00:12:33:17	00:00:09:19
+1	18	Bumper 01 IN FINAL,Audio Mixdown,26.new.01-01.A1	00:12:49:23	00:12:55:23	00:00:06:00
+1	19	All Answers RevealedReflect Devotion.mp3.new.01-01.A1	00:14:05:06	00:14:31:23	00:00:26:17
+1	20	16 Fortress Sneaking.mp3.new.01-01.A1	00:15:18:24	00:16:07:02	00:00:48:03
+1	21	35 Don't Be Afraid.mp3.new.01-02.A1	00:16:46:19	00:17:13:24	00:00:27:05
+1	22	13 The Cobras In The Jungle.mp3.new.01-02.A1	00:18:44:08	00:19:06:20	00:00:22:11
+1	23	Whooshes _87_1.wav.new.01-02.A1	00:20:13:17	00:20:16:06	00:00:02:14
+1	24	06 You Have A Special Purpose In Lif.mp3.new.01-01.A1	00:20:38:20	00:21:56:18	00:01:17:23
+1	25	Bumper 03 OUT FINAL,Audio Mixdown,21.new.01-01.A1	00:22:48:20	00:22:55:16	00:00:06:21
+1	26	Bumper 03 IN NACHT FINAL,Audio Mixdown,31.new.01-01.A1	00:25:32:04	00:25:39:13	00:00:07:09
+1	27	04 The Games Afoot.mp3.new.01-02.A1	00:26:45:24	00:27:16:06	00:00:30:07
+1	28	04 The Games Afoot.mp3.new.01-01.A1	00:27:16:06	00:27:45:08	00:00:29:02
+1	29	06 Planning the Heist.mp3.new.01-01.A1	00:29:30:01	00:29:48:19	00:00:18:18
+1	30	06 Planning the Heist.mp3.new.01-02.A1	00:29:48:19	00:30:26:14	00:00:37:20
+1	31	06 Planning the Heist.mp3.new.02-01.A1	00:30:26:14	00:30:59:15	00:00:33:01
+1	32	WERK UITSLAG VAN YAM.new.03-05.A2-RVRS_02.L	00:31:33:16	00:32:47:23	00:01:14:07
+1	33	08 Operation Snake Eater.mp3.new.01-03.A1	00:33:42:08	00:34:20:09	00:00:38:01
+1	34	07 Traveling with Possums.mp3.new.01-02.A1	00:36:23:00	00:38:15:05	00:01:52:05
+1	35	07 Traveling with Possums.mp3.new.01-01.A1	00:38:15:05	00:38:19:03	00:00:03:23
+1	36	LEADER fatboy slim-better.mp3.new.01-01.A1	00:38:57:13	00:39:01:02	00:00:03:14
+1	37	LEADER fatboy slim-better.mp3.new.01-02.A1	00:39:01:02	00:39:04:17	00:00:03:15
+1	38	LEADER fatboy slim-better.mp3.new.02-01.A1	00:39:04:17	00:39:06:00	00:00:01:08
+1	39	LEADER fatboy slim-better.mp3.new.03-01.A1	00:39:06:00	00:39:08:08	00:00:02:08
+1	40	B Bump 1 OUT.L	00:39:59:24	00:40:07:09	00:00:07:09
+1	41	04 - Try To Escape.mp3.new.02-01.A1	00:40:46:12	00:41:00:16	00:00:14:04
+1	42	04 - Try To Escape.mp3.new.01-05.A1	00:41:00:16	00:41:18:02	00:00:17:11
+1	43	04 - Try To Escape.mp3.new.01-02.A1	00:41:18:02	00:41:20:16	00:00:02:14
+1	44	Post Arctic Industries.mp3.new.01-01.A1	00:42:03:19	00:42:06:24	00:00:03:05
+1	45	Post Arctic Industries.mp3.new.02-01.A1	00:42:06:24	00:42:18:22	00:00:11:23
+1	46	Post Arctic Industries.mp3.new.03-01.A1	00:42:18:22	00:42:43:22	00:00:25:00
+1	47	Post Arctic Industries.mp3.new.04-01.A1	00:42:43:22	00:42:47:14	00:00:03:17
+1	48	08 The Relical And Keeper.mp3.new.01-01.A1	00:43:24:00	00:43:41:16	00:00:17:16
+1	49	EXAMEN.new.11-01.A1	00:44:12:22	00:44:14:03	00:00:01:06
+1	50	07 The Kiss.mp3.new.01-01.A1	00:44:48:21	00:45:22:23	00:00:34:02
+1	51	LEADER fatboy slim-better.mp3.new.01-03.A1	00:46:10:02	00:46:28:13	00:00:18:11
+
+
+2	1	Map FINAL,Audio Mixdown,33.new.01-02.A2	00:02:00:00	00:02:07:02	00:00:07:02
+2	2	04 Starkweather.mp3.new.01-02.A2	00:02:14:13	00:02:19:14	00:00:05:01
+2	3	04 Starkweather.mp3.new.01-01.A2	00:02:19:14	00:02:24:02	00:00:04:13
+2	4	13 - Hyper - We Control.mp3.new.02-05.A2	00:02:36:12	00:02:38:02	00:00:01:15
+2	5	519 In-House Presentation Type A.wav.new.02-01.A2	00:02:57:13	00:03:08:07	00:00:10:19
+2	6	Leader FINAL,Audio Mixdown,1.new.01-01.A2	00:03:08:07	00:03:20:10	00:00:12:03
+2	7	12 Ocelot Youth.mp3.new.01-06.A2	00:03:52:03	00:04:10:22	00:00:18:19
+2	8	432 The End.wav.new.01-01.A2	00:04:17:21	00:04:26:03	00:00:08:07
+2	9	02 Where Do These Tubes Go_.mp3.new.01-02.A2	00:04:32:10	00:04:36:10	00:00:04:00
+2	10	02 Where Do These Tubes Go_.mp3.new.01-01.A2	00:05:17:08	00:05:18:02	00:00:00:19
+2	11	17 Underground Tunnel.mp3.new.01-01.A2	00:05:56:09	00:06:47:12	00:00:51:03
+2	12	11 Eva's Unveiling.mp3.new.01-02.A2	00:06:52:21	00:07:44:12	00:00:51:16
+2	13	23 Battle In The Base.mp3.new.01-02.A2	00:08:25:07	00:09:30:15	00:01:05:08
+2	14	Here We Go AC.mp3.new.01-04.A2	00:10:06:16	00:10:49:03	00:00:42:12
+2	15	35 Don't Be Afraid.mp3.new.01-01.A2	00:11:21:21	00:11:39:18	00:00:17:22
+2	16	12 Ocelot Youth.mp3.new.01-03.A2	00:11:57:08	00:12:17:14	00:00:20:06
+2	17	12 Ocelot Youth.mp3.new.01-07.A2	00:12:23:23	00:12:33:17	00:00:09:19
+2	18	Bumper 01 IN FINAL,Audio Mixdown,26.new.01-01.A2	00:12:49:23	00:12:55:23	00:00:06:00
+2	19	All Answers RevealedReflect Devotion.mp3.new.01-01.A2	00:14:05:06	00:14:31:23	00:00:26:17
+2	20	16 Fortress Sneaking.mp3.new.01-01.A2	00:15:18:24	00:16:07:02	00:00:48:03
+2	21	35 Don't Be Afraid.mp3.new.01-02.A2	00:16:46:19	00:17:13:24	00:00:27:05
+2	22	13 The Cobras In The Jungle.mp3.new.01-02.A2	00:18:44:08	00:19:06:20	00:00:22:11
+2	23	Whooshes _87_1.wav.new.01-02.A2	00:20:13:17	00:20:16:06	00:00:02:14
+2	24	06 You Have A Special Purpose In Lif.mp3.new.01-01.A2	00:20:38:20	00:21:56:18	00:01:17:23
+2	25	Bumper 03 OUT FINAL,Audio Mixdown,21.new.01-01.A2	00:22:48:20	00:22:55:16	00:00:06:21
+2	26	Bumper 03 IN NACHT FINAL,Audio Mixdown,31.new.01-01.A2	00:25:32:04	00:25:39:13	00:00:07:09
+2	27	04 The Games Afoot.mp3.new.01-02.A2	00:26:45:24	00:27:16:06	00:00:30:07
+2	28	04 The Games Afoot.mp3.new.01-01.A2	00:27:16:06	00:27:45:08	00:00:29:02
+2	29	06 Planning the Heist.mp3.new.01-01.A2	00:29:30:01	00:29:48:19	00:00:18:18
+2	30	06 Planning the Heist.mp3.new.01-02.A2	00:29:48:19	00:30:26:14	00:00:37:20
+2	31	06 Planning the Heist.mp3.new.02-01.A2	00:30:26:14	00:30:59:15	00:00:33:01
+2	32	WERK UITSLAG VAN YAM.new.03-05.A2-RVRS_02.R	00:31:33:16	00:32:47:23	00:01:14:07
+2	33	08 Operation Snake Eater.mp3.new.01-03.A2	00:33:42:08	00:34:20:09	00:00:38:01
+2	34	07 Traveling with Possums.mp3.new.01-02.A2	00:36:23:00	00:38:15:05	00:01:52:05
+2	35	07 Traveling with Possums.mp3.new.01-01.A2	00:38:15:05	00:38:19:03	00:00:03:23
+2	36	LEADER fatboy slim-better.mp3.new.01-01.A2	00:38:57:13	00:39:01:02	00:00:03:14
+2	37	LEADER fatboy slim-better.mp3.new.01-02.A2	00:39:01:02	00:39:04:17	00:00:03:15
+2	38	LEADER fatboy slim-better.mp3.new.02-01.A2	00:39:04:17	00:39:06:00	00:00:01:08
+2	39	LEADER fatboy slim-better.mp3.new.03-01.A2	00:39:06:00	00:39:08:08	00:00:02:08
+2	40	B Bump 1 OUT.R	00:39:59:24	00:40:07:09	00:00:07:09
+2	41	04 - Try To Escape.mp3.new.02-01.A2	00:40:46:12	00:41:00:16	00:00:14:04
+2	42	04 - Try To Escape.mp3.new.01-05.A2	00:41:00:16	00:41:18:02	00:00:17:11
+2	43	04 - Try To Escape.mp3.new.01-02.A2	00:41:18:02	00:41:20:16	00:00:02:14
+2	44	Post Arctic Industries.mp3.new.01-01.A2	00:42:03:19	00:42:06:24	00:00:03:05
+2	45	Post Arctic Industries.mp3.new.02-01.A2	00:42:06:24	00:42:18:22	00:00:11:23
+2	46	Post Arctic Industries.mp3.new.03-01.A2	00:42:18:22	00:42:43:22	00:00:25:00
+2	47	Post Arctic Industries.mp3.new.04-01.A2	00:42:43:22	00:42:47:14	00:00:03:17
+2	48	08 The Relical And Keeper.mp3.new.01-01.A2	00:43:24:00	00:43:41:16	00:00:17:16
+2	49	EXAMEN.new.11-01.A2	00:44:12:22	00:44:14:03	00:00:01:06
+2	50	07 The Kiss.mp3.new.01-01.A2	00:44:48:21	00:45:22:23	00:00:34:02
+2	51	LEADER fatboy slim-better.mp3.new.01-03.A2	00:46:10:02	00:46:28:13	00:00:18:11
+
+
+TRACK NAME:	M2 (Stereo)
+USER DELAY:	0 Samples
+CHANNEL	EVENT	REGION NAME	START TIME	END TIME	DURATION
+1	1	03 Sector 6.mp3.new.01-01.A1	00:02:04:00	00:02:13:15	00:00:09:15
+1	2	03 Sector 6.mp3.new.02-01.A1	00:02:13:15	00:02:18:21	00:00:05:06
+1	3	13 - Hyper - We Control.mp3.new.01-03.A1	00:02:21:07	00:02:25:07	00:00:04:00
+1	4	13 - Hyper - We Control.mp3.new.01-01.A1	00:02:25:07	00:02:27:16	00:00:02:09
+1	5	13 - Hyper - We Control.mp3.new.01-02.A1	00:02:27:16	00:02:31:06	00:00:03:15
+1	6	13 - Hyper - We Control.mp3.new.01-04.A1	00:02:31:06	00:02:36:16	00:00:05:10
+1	7	519 In-House Presentation Type A.wav.new.01-04.A1	00:02:38:18	00:02:59:02	00:00:20:09
+1	8	12 Ocelot Youth.mp3.new.01-05.A1	00:03:17:09	00:03:53:05	00:00:35:21
+1	9	12 Ocelot Youth.mp3.new.02-02.A1	00:04:10:13	00:04:19:01	00:00:08:12
+1	10	304 Kushinada's Determination.wav.new.01-01.A1	00:04:24:20	00:05:12:23	00:00:48:03
+1	11	Underground.mp3.new.01-01.A1	00:05:12:23	00:05:57:24	00:00:45:01
+1	12	02 Metal Gear Solid Main Theme.mp3.new.01-01.A1	00:06:45:22	00:06:47:09	00:00:01:12
+1	13	02 Metal Gear Solid Main Theme.mp3.new.01-02.A1	00:06:47:09	00:06:53:06	00:00:05:22
+1	14	24 Buried Alive_.mp3.new.01-02.A1	00:07:49:12	00:08:28:12	00:00:39:00
+1	15	30 Escape Through The Woods.mp3.new.01-01.A1	00:09:31:23	00:09:54:11	00:00:22:13
+1	16	11 Eva's Unveiling.mp3.new.01-01.A1	00:10:48:01	00:11:22:10	00:00:34:09
+1	17	06 KGBVSGRU.mp3.new.01-01.A1	00:11:39:18	00:11:58:04	00:00:18:11
+1	18	LEADER fatboy slim-better.mp3.new.01-05.A1	00:12:32:23	00:12:48:03	00:00:15:04
+1	19	LEADER fatboy slim-better.mp3.new.02-01.A1	00:12:48:03	00:12:49:11	00:00:01:08
+1	20	LEADER fatboy slim-better.mp3.new.03-01.A1	00:12:49:11	00:12:51:19	00:00:02:08
+1	21	B Bump 1 OUT.L	00:14:00:00	00:14:07:09	00:00:07:09
+1	22	01 - Paul Oakenfold - Ready Steady Go (ft[1].asher d).mp3.new.01-01.A1	00:14:31:12	00:15:05:17	00:00:34:05
+1	23	Bumper 03 IN NACHT FINAL,Audio Mixdown,31.new.01-02.A1	00:15:14:00	00:15:21:20	00:00:07:20
+1	24	6040-54-1.wav.new.01-01.A1	00:15:48:02	00:15:49:24	00:00:01:22
+1	25	07 - The Perfect King.mp3.new.01-01.A1	00:16:05:22	00:16:42:18	00:00:36:21
+1	26	Bumper 03 IN NACHT FINAL,Audio Mixdown,31.new.01-03.A1	00:16:42:18	00:16:52:13	00:00:09:20
+1	27	Bumper 03 OUT NACHT FINAL,Audio Mixdown,32.new.01-01.A1	00:17:13:11	00:17:23:10	00:00:09:24
+1	28	Roxanne.mp3.new.01-01.A1	00:17:24:09	00:17:32:04	00:00:07:20
+1	29	07 Shagohod.mp3.new.01-02.A1	00:17:45:03	00:18:30:15	00:00:45:12
+1	30	04 - Try To Escape.mp3.new.01-03.A1	00:19:06:00	00:19:12:10	00:00:06:10
+1	31	04 - Try To Escape.mp3.new.01-04.A1	00:19:12:10	00:19:50:03	00:00:37:18
+1	32	04 - Try To Escape.mp3.new.01-01.A1	00:19:50:03	00:19:51:17	00:00:01:14
+1	33	04 - Try To Escape.mp3.new.01-06.A1	00:19:51:17	00:20:39:20	00:00:48:03
+1	34	digitalism.new.01-05.A1	00:21:56:14	00:22:50:02	00:00:53:12
+1	35	09 Is This Love_ - Undercover Agency#AFC3.wav.new.01-01.A1	00:22:53:14	00:22:55:13	00:00:01:24
+1	36	09 Is This Love_ - Undercover Agency#AFC3.wav.new.01-02.A1	00:22:55:13	00:23:00:01	00:00:04:13
+1	37	09 Is This Love_ - Undercover Agency#AFC3.wav.new.01-03.A1	00:23:00:01	00:23:47:18	00:00:47:17
+1	38	11 Habeas Corpus.mp3.new.01-03.A1	00:23:53:02	00:24:07:24	00:00:14:22
+1	39	11 Habeas Corpus.mp3.new.01-01.A1	00:24:07:24	00:24:16:18	00:00:08:19
+1	40	11 Habeas Corpus.mp3.new.01-02.A1	00:24:16:18	00:24:54:19	00:00:38:01
+1	41	11 Habeas Corpus.mp3.new.02-01.A1	00:24:54:19	00:25:35:16	00:00:40:22
+1	42	Soul Bossa Nova.mp3.new.01-01.A1	00:25:56:06	00:26:46:18	00:00:50:12
+1	43	13 Spilt Whiskey.mp3.new.01-01.A1	00:27:40:24	00:29:42:12	00:02:01:13
+1	44	Bumper 03 OUT FINAL,Audio Mixdown,21.new.01-02.A1	00:30:56:15	00:31:07:00	00:00:10:10
+1	45	2 B Charlie Loses His Head.mp3.new.01-02.A1	00:31:28:03	00:32:58:02	00:01:29:24
+1	46	Whooshes _87_1.wav.new.01-01.A1	00:33:46:01	00:33:48:02	00:00:02:01
+1	47	Whooshes _87_1.wav.new.01-04.A1	00:33:48:17	00:33:49:24	00:00:01:07
+1	48	07 Traveling with Possums.mp3.new.01-03.A1	00:34:16:11	00:36:16:14	00:02:00:03
+1	49	06 Shark Tactics.mp3.new.01-01.A1	00:38:16:08	00:38:59:23	00:00:43:15
+1	50	Bumper 01 IN FINAL,Audio Mixdown,26.new.01-01.A1	00:39:06:12	00:39:12:12	00:00:06:00
+1	51	04 - Try To Escape.mp3.new.01-07.A1	00:40:03:21	00:40:48:15	00:00:44:19
+1	52	11 Bitter Suite.mp3.new.01-01.A1	00:41:21:18	00:42:06:24	00:00:45:06
+1	53	Post Arctic Industries.mp3.new.05-01.A1	00:42:45:14	00:43:24:11	00:00:38:22
+1	54	Post Arctic Industries.mp3.new.08-01.A1	00:43:24:11	00:43:26:08	00:00:01:22
+1	55	07 Shagohod.mp3.new.01-03.A1	00:43:39:02	00:44:36:06	00:00:57:04
+1	56	07 Shagohod.mp3.new.02-01.A1	00:44:36:06	00:44:49:19	00:00:13:13
+1	57	07 Shagohod.mp3.new.03-01.A1	00:44:49:19	00:45:00:21	00:00:11:02
+1	58	05_Agnate_Ukuleles.mp3.new.01-01.A1	00:45:15:23	00:45:59:05	00:00:43:07
+1	59	05_Agnate_Ukuleles.mp3.new.02-01.A1	00:45:59:05	00:46:12:15	00:00:13:10
+
+
+2	1	03 Sector 6.mp3.new.01-01.A2	00:02:04:00	00:02:13:15	00:00:09:15
+2	2	03 Sector 6.mp3.new.02-01.A2	00:02:13:15	00:02:18:21	00:00:05:06
+2	3	13 - Hyper - We Control.mp3.new.01-03.A2	00:02:21:07	00:02:25:07	00:00:04:00
+2	4	13 - Hyper - We Control.mp3.new.01-01.A2	00:02:25:07	00:02:27:16	00:00:02:09
+2	5	13 - Hyper - We Control.mp3.new.01-02.A2	00:02:27:16	00:02:31:06	00:00:03:15
+2	6	13 - Hyper - We Control.mp3.new.01-04.A2	00:02:31:06	00:02:36:16	00:00:05:10
+2	7	519 In-House Presentation Type A.wav.new.01-04.A2	00:02:38:18	00:02:59:02	00:00:20:09
+2	8	12 Ocelot Youth.mp3.new.01-05.A2	00:03:17:09	00:03:53:05	00:00:35:21
+2	9	12 Ocelot Youth.mp3.new.02-02.A2	00:04:10:13	00:04:19:01	00:00:08:12
+2	10	304 Kushinada's Determination.wav.new.01-01.A2	00:04:24:20	00:05:12:23	00:00:48:03
+2	11	Underground.mp3.new.01-01.A2	00:05:12:23	00:05:57:24	00:00:45:01
+2	12	02 Metal Gear Solid Main Theme.mp3.new.01-01.A2	00:06:45:22	00:06:47:09	00:00:01:12
+2	13	02 Metal Gear Solid Main Theme.mp3.new.01-02.A2	00:06:47:09	00:06:53:06	00:00:05:22
+2	14	24 Buried Alive_.mp3.new.01-02.A2	00:07:49:12	00:08:28:12	00:00:39:00
+2	15	30 Escape Through The Woods.mp3.new.01-01.A2	00:09:31:23	00:09:54:11	00:00:22:13
+2	16	11 Eva's Unveiling.mp3.new.01-01.A2	00:10:48:01	00:11:22:10	00:00:34:09
+2	17	06 KGBVSGRU.mp3.new.01-01.A2	00:11:39:18	00:11:58:04	00:00:18:11
+2	18	LEADER fatboy slim-better.mp3.new.01-05.A2	00:12:32:23	00:12:48:03	00:00:15:04
+2	19	LEADER fatboy slim-better.mp3.new.02-01.A2	00:12:48:03	00:12:49:11	00:00:01:08
+2	20	LEADER fatboy slim-better.mp3.new.03-01.A2	00:12:49:11	00:12:51:19	00:00:02:08
+2	21	B Bump 1 OUT.R	00:14:00:00	00:14:07:09	00:00:07:09
+2	22	01 - Paul Oakenfold - Ready Steady Go (ft[1].asher d).mp3.new.01-01.A2	00:14:31:12	00:15:05:17	00:00:34:05
+2	23	Bumper 03 IN NACHT FINAL,Audio Mixdown,31.new.01-02.A2	00:15:14:00	00:15:21:20	00:00:07:20
+2	24	6040-54-1.wav.new.01-01.A2	00:15:48:02	00:15:49:24	00:00:01:22
+2	25	07 - The Perfect King.mp3.new.01-01.A2	00:16:05:22	00:16:42:18	00:00:36:21
+2	26	Bumper 03 IN NACHT FINAL,Audio Mixdown,31.new.01-03.A2	00:16:42:18	00:16:52:13	00:00:09:20
+2	27	Bumper 03 OUT NACHT FINAL,Audio Mixdown,32.new.01-01.A2	00:17:13:11	00:17:23:10	00:00:09:24
+2	28	Roxanne.mp3.new.01-01.A2	00:17:24:09	00:17:32:04	00:00:07:20
+2	29	07 Shagohod.mp3.new.01-02.A2	00:17:45:03	00:18:30:15	00:00:45:12
+2	30	04 - Try To Escape.mp3.new.01-03.A2	00:19:06:00	00:19:12:10	00:00:06:10
+2	31	04 - Try To Escape.mp3.new.01-04.A2	00:19:12:10	00:19:50:03	00:00:37:18
+2	32	04 - Try To Escape.mp3.new.01-01.A2	00:19:50:03	00:19:51:17	00:00:01:14
+2	33	04 - Try To Escape.mp3.new.01-06.A2	00:19:51:17	00:20:39:20	00:00:48:03
+2	34	digitalism.new.01-05.A2	00:21:56:14	00:22:50:02	00:00:53:12
+2	35	09 Is This Love_ - Undercover Agency#AFC3.wav.new.01-01.A2	00:22:53:14	00:22:55:13	00:00:01:24
+2	36	09 Is This Love_ - Undercover Agency#AFC3.wav.new.01-02.A2	00:22:55:13	00:23:00:01	00:00:04:13
+2	37	09 Is This Love_ - Undercover Agency#AFC3.wav.new.01-03.A2	00:23:00:01	00:23:47:18	00:00:47:17
+2	38	11 Habeas Corpus.mp3.new.01-03.A2	00:23:53:02	00:24:07:24	00:00:14:22
+2	39	11 Habeas Corpus.mp3.new.01-01.A2	00:24:07:24	00:24:16:18	00:00:08:19
+2	40	11 Habeas Corpus.mp3.new.01-02.A2	00:24:16:18	00:24:54:19	00:00:38:01
+2	41	11 Habeas Corpus.mp3.new.02-01.A2	00:24:54:19	00:25:35:16	00:00:40:22
+2	42	Soul Bossa Nova.mp3.new.01-01.A2	00:25:56:06	00:26:46:18	00:00:50:12
+2	43	13 Spilt Whiskey.mp3.new.01-01.A2	00:27:40:24	00:29:42:12	00:02:01:13
+2	44	Bumper 03 OUT FINAL,Audio Mixdown,21.new.01-02.A2	00:30:56:15	00:31:07:00	00:00:10:10
+2	45	2 B Charlie Loses His Head.mp3.new.01-02.A2	00:31:28:03	00:32:58:02	00:01:29:24
+2	46	Whooshes _87_1.wav.new.01-01.A2	00:33:46:01	00:33:48:02	00:00:02:01
+2	47	Whooshes _87_1.wav.new.01-04.A2	00:33:48:17	00:33:49:24	00:00:01:07
+2	48	07 Traveling with Possums.mp3.new.01-03.A2	00:34:16:11	00:36:16:14	00:02:00:03
+2	49	06 Shark Tactics.mp3.new.01-01.A2	00:38:16:08	00:38:59:23	00:00:43:15
+2	50	Bumper 01 IN FINAL,Audio Mixdown,26.new.01-01.A2	00:39:06:12	00:39:12:12	00:00:06:00
+2	51	04 - Try To Escape.mp3.new.01-07.A2	00:40:03:21	00:40:48:15	00:00:44:19
+2	52	11 Bitter Suite.mp3.new.01-01.A2	00:41:21:18	00:42:06:24	00:00:45:06
+2	53	Post Arctic Industries.mp3.new.05-01.A2	00:42:45:14	00:43:24:11	00:00:38:22
+2	54	Post Arctic Industries.mp3.new.08-01.A2	00:43:24:11	00:43:26:08	00:00:01:22
+2	55	07 Shagohod.mp3.new.01-03.A2	00:43:39:02	00:44:36:06	00:00:57:04
+2	56	07 Shagohod.mp3.new.02-01.A2	00:44:36:06	00:44:49:19	00:00:13:13
+2	57	07 Shagohod.mp3.new.03-01.A2	00:44:49:19	00:45:00:21	00:00:11:02
+2	58	05_Agnate_Ukuleles.mp3.new.01-01.A2	00:45:15:23	00:45:59:05	00:00:43:07
+2	59	05_Agnate_Ukuleles.mp3.new.02-01.A2	00:45:59:05	00:46:12:15	00:00:13:10
+
+
+TRACK NAME:	M3 (Stereo)
+USER DELAY:	0 Samples
+CHANNEL	EVENT	REGION NAME	START TIME	END TIME	DURATION
+1	1	21 Martial Arts.mp3.new.01-03.A1	00:02:37:18	00:02:39:16	00:00:01:23
+1	2	21 Martial Arts.mp3.new.01-01.A1	00:02:39:16	00:02:39:23	00:00:00:06
+1	3	B Leader.L	00:03:00:04	00:03:20:20	00:00:20:15
+1	4	Whooshes _87_1.wav.new.01-03.A1	00:04:21:07	00:04:23:13	00:00:02:06
+1	5	Map FINAL,Audio Mixdown,33.new.01-01.A1	00:09:29:01	00:09:35:01	00:00:05:24
+1	6	30 Escape Through The Woods.mp3.new.02-01.A1	00:09:54:11	00:10:07:10	00:00:12:24
+1	7	B Bump 1 In.L	00:12:49:23	00:12:56:01	00:00:06:03
+1	8	Whooshes _87_1.wav.new.01-01.A1	00:15:47:15	00:15:49:16	00:00:02:01
+1	9	Yamasoto komt en vertelt wat de groep gaat doen.new.03-01.A3-RVRS_02.L	00:19:02:21	00:20:17:19	00:01:14:23
+1	10	Whooshes _87_1.wav.new.01-01.A1-RVRS_01.L	00:33:46:09	00:33:48:10	00:00:02:01
+1	11	Whooshes _87_1.wav.new.01-01.A1-RVRS_01-02.L	00:33:49:13	00:33:50:22	00:00:01:09
+1	12	B Bump 1 In.L	00:39:06:12	00:39:12:15	00:00:06:03
+1	13	Bumper 01 OUT FINAL,Audio Mixdown,28.new.01-01.A1	00:40:00:00	00:40:07:12	00:00:07:12
+
+
+2	1	21 Martial Arts.mp3.new.01-03.A2	00:02:37:18	00:02:39:16	00:00:01:23
+2	2	21 Martial Arts.mp3.new.01-01.A2	00:02:39:16	00:02:39:23	00:00:00:06
+2	3	B Leader.R	00:03:00:04	00:03:20:20	00:00:20:15
+2	4	Whooshes _87_1.wav.new.01-03.A2	00:04:21:07	00:04:23:13	00:00:02:06
+2	5	Map FINAL,Audio Mixdown,33.new.01-01.A2	00:09:29:01	00:09:35:01	00:00:05:24
+2	6	30 Escape Through The Woods.mp3.new.02-01.A2	00:09:54:11	00:10:07:10	00:00:12:24
+2	7	B Bump 1 In.R	00:12:49:23	00:12:56:01	00:00:06:03
+2	8	Whooshes _87_1.wav.new.01-01.A2	00:15:47:15	00:15:49:16	00:00:02:01
+2	9	Yamasoto komt en vertelt wat de groep gaat doen.new.03-01.A4-RVRS_02.R	00:19:02:21	00:20:17:19	00:01:14:23
+2	10	Whooshes _87_1.wav.new.01-01.A2-RVRS_01.R	00:33:46:09	00:33:48:10	00:00:02:01
+2	11	Whooshes _87_1.wav.new.01-01.A2-RVRS_01-02.R	00:33:49:13	00:33:50:22	00:00:01:09
+2	12	B Bump 1 In.R	00:39:06:12	00:39:12:15	00:00:06:03
+2	13	Bumper 01 OUT FINAL,Audio Mixdown,28.new.01-01.A2	00:40:00:00	00:40:07:12	00:00:07:12
+
+
+TRACK NAME:	Titel (Stereo)
+USER DELAY:	0 Samples
+CHANNEL	EVENT	REGION NAME	START TIME	END TIME	DURATION
+1	1	Naamtitel FINAL,Audio Mixdown,2.new.01-44.A1	00:02:44:10	00:02:51:20	00:00:07:10
+1	2	Naamtitel FINAL,Audio Mixdown,2.new.01-23.A1	00:03:21:21	00:03:28:20	00:00:06:24
+1	3	Naamtitel FINAL,Audio Mixdown,2.new.01-41.A1	00:03:38:20	00:03:43:13	00:00:04:18
+1	4	Naamtitel FINAL,Audio Mixdown,2.new.01-08.A1	00:03:51:03	00:03:53:08	00:00:02:05
+1	5	Naamtitel FINAL,Audio Mixdown,2.new.01-03.A1	00:04:45:01	00:04:46:15	00:00:01:14
+1	6	Naamtitel FINAL,Audio Mixdown,2.new.01-06.A1	00:04:48:18	00:04:50:19	00:00:02:01
+1	7	Naamtitel FINAL,Audio Mixdown,2.new.01-13.A1	00:04:53:04	00:04:55:17	00:00:02:13
+1	8	Naamtitel FINAL,Audio Mixdown,2.new.01-44.A1	00:04:57:16	00:05:05:01	00:00:07:10
+1	9	Naamtitel FINAL,Audio Mixdown,2.new.01-44.A1	00:05:06:22	00:05:14:07	00:00:07:10
+1	10	Naamtitel FINAL,Audio Mixdown,2.new.01-44.A1	00:06:38:16	00:06:46:01	00:00:07:10
+1	11	Naamtitel FINAL,Audio Mixdown,2.new.01-44.A1	00:06:53:03	00:07:00:13	00:00:07:10
+1	12	Naamtitel FINAL,Audio Mixdown,2.new.01-07.A1	00:07:14:23	00:07:21:17	00:00:06:19
+1	13	Naamtitel FINAL,Audio Mixdown,2.new.01-44.A1	00:07:40:12	00:07:47:22	00:00:07:10
+1	14	Naamtitel FINAL,Audio Mixdown,2.new.01-44.A1	00:08:06:06	00:08:13:16	00:00:07:10
+1	15	Naamtitel FINAL,Audio Mixdown,2.new.01-10.A1	00:08:27:04	00:08:33:18	00:00:06:14
+1	16	Naamtitel FINAL,Audio Mixdown,2.new.01-31.A1	00:08:47:05	00:08:51:04	00:00:03:24
+1	17	Naamtitel FINAL,Audio Mixdown,2.new.01-44.A1	00:09:12:13	00:09:19:23	00:00:07:10
+1	18	Naamtitel FINAL,Audio Mixdown,2.new.01-22.A1	00:11:16:15	00:11:23:04	00:00:06:14
+1	19	Naamtitel FINAL,Audio Mixdown,2.new.01-23.A1	00:11:55:04	00:11:58:03	00:00:02:24
+1	20	Naamtitel FINAL,Audio Mixdown,2.new.01-25.A1	00:12:33:17	00:12:36:18	00:00:03:01
+1	21	Naamtitel FINAL,Audio Mixdown,2.new.01-15.A1	00:12:36:18	00:12:45:00	00:00:08:07
+1	22	Naamtitel FINAL,Audio Mixdown,2.new.01-15.A1	00:12:45:00	00:12:49:04	00:00:04:04
+1	23	Naamtitel FINAL,Audio Mixdown,2.new.01-01.A1	00:12:49:23	00:12:51:05	00:00:01:07
+1	24	Naamtitel FINAL,Audio Mixdown,2.new.01-23.A1	00:14:06:01	00:14:13:00	00:00:06:24
+1	25	Naamtitel FINAL,Audio Mixdown,2.new.01-05.A1	00:14:13:14	00:14:20:08	00:00:06:19
+1	26	Naamtitel FINAL,Audio Mixdown,2.new.01-16.A1	00:14:54:01	00:15:00:15	00:00:06:14
+1	27	Naamtitel FINAL,Audio Mixdown,2.new.01-26.A1	00:16:08:08	00:16:11:19	00:00:03:11
+1	28	Naamtitel FINAL,Audio Mixdown,2.new.01-17.A1	00:17:42:14	00:17:45:05	00:00:02:16
+1	29	Naamtitel FINAL,Audio Mixdown,2.new.01-23.A1	00:21:42:10	00:21:49:09	00:00:06:24
+1	30	Naamtitel FINAL,Audio Mixdown,2.new.01-22.A1	00:23:07:21	00:23:10:19	00:00:02:23
+1	31	Naamtitel FINAL,Audio Mixdown,2.new.01-44.A1	00:23:18:03	00:23:25:13	00:00:07:10
+1	32	Naamtitel FINAL,Audio Mixdown,2.new.01-44.A1	00:23:29:23	00:23:37:08	00:00:07:10
+1	33	Naamtitel FINAL,Audio Mixdown,2.new.01-12.A1	00:24:18:16	00:24:25:15	00:00:06:24
+1	34	Naamtitel FINAL,Audio Mixdown,2.new.01-37.A1	00:24:38:08	00:24:42:19	00:00:04:11
+1	35	Naamtitel FINAL,Audio Mixdown,2.new.01-44.A1	00:25:21:14	00:25:28:24	00:00:07:10
+1	36	Naamtitel FINAL,Audio Mixdown,2.new.01-19.A1	00:25:46:10	00:25:49:02	00:00:02:17
+1	37	Naamtitel FINAL,Audio Mixdown,2.new.01-14.A1	00:25:55:22	00:25:58:11	00:00:02:14
+1	38	Naamtitel FINAL,Audio Mixdown,2.new.01-44.A1	00:26:38:08	00:26:45:18	00:00:07:10
+1	39	Naamtitel FINAL,Audio Mixdown,2.new.01-09.A1	00:27:16:06	00:27:22:15	00:00:06:09
+1	40	Naamtitel FINAL,Audio Mixdown,2.new.01-44.A1	00:27:50:09	00:27:57:19	00:00:07:10
+1	41	Naamtitel FINAL,Audio Mixdown,2.new.01-44.A1	00:29:11:17	00:29:19:02	00:00:07:10
+1	42	Naamtitel FINAL,Audio Mixdown,2.new.01-44.A1	00:30:06:01	00:30:13:11	00:00:07:10
+1	43	Naamtitel FINAL,Audio Mixdown,2.new.01-21.A1	00:32:52:05	00:32:59:04	00:00:06:24
+1	44	Naamtitel FINAL,Audio Mixdown,2.new.01-41.A1	00:35:52:05	00:35:56:23	00:00:04:18
+1	45	Naamtitel FINAL,Audio Mixdown,2.new.01-43.A1	00:36:25:03	00:36:30:00	00:00:04:22
+1	46	Naamtitel FINAL,Audio Mixdown,2.new.01-27.A1	00:38:13:07	00:38:16:19	00:00:03:12
+1	47	Naamtitel FINAL,Audio Mixdown,2.new.01-25.A1	00:38:57:13	00:39:00:14	00:00:03:01
+1	48	Naamtitel FINAL,Audio Mixdown,2.new.01-20.A1	00:39:00:14	00:39:03:10	00:00:02:21
+1	49	Naamtitel FINAL,Audio Mixdown,2.new.01-02.A1	00:39:03:10	00:39:04:17	00:00:01:07
+1	50	Naamtitel FINAL,Audio Mixdown,2.new.01-11.A1	00:39:04:17	00:39:07:01	00:00:02:09
+1	51	Naamtitel FINAL,Audio Mixdown,2.new.01-23.A1	00:40:06:12	00:40:13:11	00:00:06:24
+1	52	Naamtitel FINAL,Audio Mixdown,2.new.01-28.A1	00:40:55:07	00:40:58:22	00:00:03:15
+1	53	Naamtitel FINAL,Audio Mixdown,2.new.01-39.A1	00:41:27:11	00:41:32:02	00:00:04:16
+1	54	Naamtitel FINAL,Audio Mixdown,2.new.01-21.A1	00:45:34:15	00:45:41:04	00:00:06:14
+
+
+2	1	Naamtitel FINAL,Audio Mixdown,2.new.01-44.A2	00:02:44:10	00:02:51:20	00:00:07:10
+2	2	Naamtitel FINAL,Audio Mixdown,2.new.01-23.A2	00:03:21:21	00:03:28:20	00:00:06:24
+2	3	Naamtitel FINAL,Audio Mixdown,2.new.01-41.A2	00:03:38:20	00:03:43:13	00:00:04:18
+2	4	Naamtitel FINAL,Audio Mixdown,2.new.01-08.A2	00:03:51:03	00:03:53:08	00:00:02:05
+2	5	Naamtitel FINAL,Audio Mixdown,2.new.01-03.A2	00:04:45:01	00:04:46:15	00:00:01:14
+2	6	Naamtitel FINAL,Audio Mixdown,2.new.01-06.A2	00:04:48:18	00:04:50:19	00:00:02:01
+2	7	Naamtitel FINAL,Audio Mixdown,2.new.01-13.A2	00:04:53:04	00:04:55:17	00:00:02:13
+2	8	Naamtitel FINAL,Audio Mixdown,2.new.01-44.A2	00:04:57:16	00:05:05:01	00:00:07:10
+2	9	Naamtitel FINAL,Audio Mixdown,2.new.01-44.A2	00:05:06:22	00:05:14:07	00:00:07:10
+2	10	Naamtitel FINAL,Audio Mixdown,2.new.01-44.A2	00:06:38:16	00:06:46:01	00:00:07:10
+2	11	Naamtitel FINAL,Audio Mixdown,2.new.01-44.A2	00:06:53:03	00:07:00:13	00:00:07:10
+2	12	Naamtitel FINAL,Audio Mixdown,2.new.01-07.A2	00:07:14:23	00:07:21:17	00:00:06:19
+2	13	Naamtitel FINAL,Audio Mixdown,2.new.01-44.A2	00:07:40:12	00:07:47:22	00:00:07:10
+2	14	Naamtitel FINAL,Audio Mixdown,2.new.01-44.A2	00:08:06:06	00:08:13:16	00:00:07:10
+2	15	Naamtitel FINAL,Audio Mixdown,2.new.01-10.A2	00:08:27:04	00:08:33:18	00:00:06:14
+2	16	Naamtitel FINAL,Audio Mixdown,2.new.01-31.A2	00:08:47:05	00:08:51:04	00:00:03:24
+2	17	Naamtitel FINAL,Audio Mixdown,2.new.01-44.A2	00:09:12:13	00:09:19:23	00:00:07:10
+2	18	Naamtitel FINAL,Audio Mixdown,2.new.01-22.A2	00:11:16:15	00:11:23:04	00:00:06:14
+2	19	Naamtitel FINAL,Audio Mixdown,2.new.01-23.A2	00:11:55:04	00:11:58:03	00:00:02:24
+2	20	Naamtitel FINAL,Audio Mixdown,2.new.01-25.A2	00:12:33:17	00:12:36:18	00:00:03:01
+2	21	Naamtitel FINAL,Audio Mixdown,2.new.01-15.A2	00:12:36:18	00:12:45:00	00:00:08:07
+2	22	Naamtitel FINAL,Audio Mixdown,2.new.01-15.A2	00:12:45:00	00:12:49:04	00:00:04:04
+2	23	Naamtitel FINAL,Audio Mixdown,2.new.01-01.A2	00:12:49:23	00:12:51:05	00:00:01:07
+2	24	Naamtitel FINAL,Audio Mixdown,2.new.01-23.A2	00:14:06:01	00:14:13:00	00:00:06:24
+2	25	Naamtitel FINAL,Audio Mixdown,2.new.01-05.A2	00:14:13:14	00:14:20:08	00:00:06:19
+2	26	Naamtitel FINAL,Audio Mixdown,2.new.01-16.A2	00:14:54:01	00:15:00:15	00:00:06:14
+2	27	Naamtitel FINAL,Audio Mixdown,2.new.01-26.A2	00:16:08:08	00:16:11:19	00:00:03:11
+2	28	Naamtitel FINAL,Audio Mixdown,2.new.01-17.A2	00:17:42:14	00:17:45:05	00:00:02:16
+2	29	Naamtitel FINAL,Audio Mixdown,2.new.01-23.A2	00:21:42:10	00:21:49:09	00:00:06:24
+2	30	Naamtitel FINAL,Audio Mixdown,2.new.01-22.A2	00:23:07:21	00:23:10:19	00:00:02:23
+2	31	Naamtitel FINAL,Audio Mixdown,2.new.01-44.A2	00:23:18:03	00:23:25:13	00:00:07:10
+2	32	Naamtitel FINAL,Audio Mixdown,2.new.01-44.A2	00:23:29:23	00:23:37:08	00:00:07:10
+2	33	Naamtitel FINAL,Audio Mixdown,2.new.01-12.A2	00:24:18:16	00:24:25:15	00:00:06:24
+2	34	Naamtitel FINAL,Audio Mixdown,2.new.01-37.A2	00:24:38:08	00:24:42:19	00:00:04:11
+2	35	Naamtitel FINAL,Audio Mixdown,2.new.01-44.A2	00:25:21:14	00:25:28:24	00:00:07:10
+2	36	Naamtitel FINAL,Audio Mixdown,2.new.01-19.A2	00:25:46:10	00:25:49:02	00:00:02:17
+2	37	Naamtitel FINAL,Audio Mixdown,2.new.01-14.A2	00:25:55:22	00:25:58:11	00:00:02:14
+2	38	Naamtitel FINAL,Audio Mixdown,2.new.01-44.A2	00:26:38:08	00:26:45:18	00:00:07:10
+2	39	Naamtitel FINAL,Audio Mixdown,2.new.01-09.A2	00:27:16:06	00:27:22:15	00:00:06:09
+2	40	Naamtitel FINAL,Audio Mixdown,2.new.01-44.A2	00:27:50:09	00:27:57:19	00:00:07:10
+2	41	Naamtitel FINAL,Audio Mixdown,2.new.01-44.A2	00:29:11:17	00:29:19:02	00:00:07:10
+2	42	Naamtitel FINAL,Audio Mixdown,2.new.01-44.A2	00:30:06:01	00:30:13:11	00:00:07:10
+2	43	Naamtitel FINAL,Audio Mixdown,2.new.01-21.A2	00:32:52:05	00:32:59:04	00:00:06:24
+2	44	Naamtitel FINAL,Audio Mixdown,2.new.01-41.A2	00:35:52:05	00:35:56:23	00:00:04:18
+2	45	Naamtitel FINAL,Audio Mixdown,2.new.01-43.A2	00:36:25:03	00:36:30:00	00:00:04:22
+2	46	Naamtitel FINAL,Audio Mixdown,2.new.01-27.A2	00:38:13:07	00:38:16:19	00:00:03:12
+2	47	Naamtitel FINAL,Audio Mixdown,2.new.01-25.A2	00:38:57:13	00:39:00:14	00:00:03:01
+2	48	Naamtitel FINAL,Audio Mixdown,2.new.01-20.A2	00:39:00:14	00:39:03:10	00:00:02:21
+2	49	Naamtitel FINAL,Audio Mixdown,2.new.01-02.A2	00:39:03:10	00:39:04:17	00:00:01:07
+2	50	Naamtitel FINAL,Audio Mixdown,2.new.01-11.A2	00:39:04:17	00:39:07:01	00:00:02:09
+2	51	Naamtitel FINAL,Audio Mixdown,2.new.01-23.A2	00:40:06:12	00:40:13:11	00:00:06:24
+2	52	Naamtitel FINAL,Audio Mixdown,2.new.01-28.A2	00:40:55:07	00:40:58:22	00:00:03:15
+2	53	Naamtitel FINAL,Audio Mixdown,2.new.01-39.A2	00:41:27:11	00:41:32:02	00:00:04:16
+2	54	Naamtitel FINAL,Audio Mixdown,2.new.01-21.A2	00:45:34:15	00:45:41:04	00:00:06:14
+
+
+TRACK NAME:	FX1 (Stereo)
+USER DELAY:	0 Samples
+CHANNEL	EVENT	REGION NAME	START TIME	END TIME	DURATION
+1	1	/Sound FX Library 1/Sound Ideas/Sci-Fi Series 8000/8004/8004-55-02.L	00:02:02:16	00:02:03:23	00:00:01:07
+
+
+2	1	/Sound FX Library 1/Sound Ideas/Sci-Fi Series 8000/8004/8004-55-02.R	00:02:02:16	00:02:03:23	00:00:01:07
+
+
+TRACK NAME:	FX2 (Stereo)
+USER DELAY:	0 Samples
+CHANNEL	EVENT	REGION NAME	START TIME	END TIME	DURATION
+1	1	6058-20-1.L	00:02:00:00	00:02:00:16	00:00:00:16
+1	2	6058-20-1.L	00:02:02:02	00:02:02:18	00:00:00:16
+
+
+2	1	6058-20-1.R	00:02:00:00	00:02:00:16	00:00:00:16
+2	2	6058-20-1.R	00:02:02:02	00:02:02:18	00:00:00:16
+
+
+TRACK NAME:	FX1.1.1 (Stereo)
+USER DELAY:	0 Samples
+CHANNEL	EVENT	REGION NAME	START TIME	END TIME	DURATION
+1	1	Map FINAL,Audio Mixdown,33.new.01-03.A1	00:02:00:00	00:02:07:02	00:00:07:02
+1	2	SDT-02-63.01-01.L	00:02:17:14	00:02:18:16	00:00:01:02
+1	3	SDT-02-63.01-01.L	00:02:27:19	00:02:28:21	00:00:01:02
+1	4	Naamtitel FINAL,Audio Mixdown,2.new.01-45.A1	00:02:38:00	00:02:40:15	00:00:02:15
+1	5	Naamtitel FINAL,Audio Mixdown,2.new.01-45.A1	00:02:44:21	00:02:52:06	00:00:07:10
+1	6	Naamtitel FINAL,Audio Mixdown,2.new.01-45.A1	00:02:58:21	00:03:01:16	00:00:02:20
+1	7	6034-10-02.L	00:03:23:16	00:03:24:20	00:00:01:03
+1	8	SynthVarious _08_4-01.L	00:03:27:17	00:03:33:02	00:00:05:10
+1	9	SDT-02-15.01-TiSh_01.L	00:03:49:19	00:03:50:14	00:00:00:19
+1	10	6018-81-02.L	00:03:51:13	00:03:51:19	00:00:00:05
+1	11	6018-81-04.L	00:03:51:19	00:03:52:01	00:00:00:07
+1	12	6018-81-05.L	00:03:52:01	00:03:52:14	00:00:00:13
+1	13	SDT-02-15.01-TiSh_01.L	00:03:56:05	00:03:57:00	00:00:00:19
+1	14	SDT-02-15.01-TiSh_01.L	00:04:02:02	00:04:02:22	00:00:00:19
+1	15	SDT-02-15.01-TiSh_01.L	00:04:12:07	00:04:13:02	00:00:00:19
+1	16	SDT-02-15.01-TiSh_01.L	00:04:25:07	00:04:26:02	00:00:00:19
+1	17	6021-59-1.L	00:04:26:20	00:04:28:19	00:00:01:23
+1	18	SDT-02-15.01-TiSh_01.L	00:04:30:21	00:04:31:16	00:00:00:19
+1	19	6002-44-04.L	00:04:32:18	00:04:37:03	00:00:04:10
+1	20	SDT-01-12.01-01.L	00:04:41:11	00:04:43:21	00:00:02:10
+1	21	SDT-01-08.01-02.L	00:04:54:23	00:04:59:04	00:00:04:05
+1	22	14 The Pain.mp3.new.05-01.A1	00:04:59:04	00:04:59:22	00:00:00:18
+1	23	SDT-01-08.01-03.L	00:04:59:22	00:05:02:22	00:00:03:00
+1	24	Naamtitel FINAL,Audio Mixdown,2.new.01-45.A1	00:05:32:08	00:05:39:18	00:00:07:10
+1	25	6040-48-04.L	00:05:54:01	00:05:55:15	00:00:01:13
+1	26	Naamtitel FINAL,Audio Mixdown,2.new.01-45.A1	00:06:15:04	00:06:22:14	00:00:07:10
+1	27	Naamtitel FINAL,Audio Mixdown,2.new.01-45.A1	00:06:42:17	00:06:50:02	00:00:07:10
+1	28	Naamtitel FINAL,Audio Mixdown,2.new.01-45.A1	00:06:53:24	00:06:58:19	00:00:04:20
+1	29	Naamtitel FINAL,Audio Mixdown,2.new.01-45.A1	00:07:27:04	00:07:34:14	00:00:07:10
+1	30	/Sound FX Library 1/Hollywood Edge/Sound Designer Tool Kit/SDT-01/SDT-01-51.01-01.L	00:07:55:00	00:07:56:12	00:00:01:11
+1	31	/Sound FX Library 1/Hollywood Edge/Sound Designer Tool Kit/SDT-01/SDT-01-51.01-01.L	00:07:56:22	00:07:58:09	00:00:01:11
+1	32	Naamtitel FINAL,Audio Mixdown,2.new.01-45.A1	00:08:03:15	00:08:08:01	00:00:04:11
+1	33	Naamtitel FINAL,Audio Mixdown,2.new.01-45.A1	00:08:22:04	00:08:26:20	00:00:04:16
+1	34	Naamtitel FINAL,Audio Mixdown,2.new.01-45.A1	00:08:39:04	00:08:46:14	00:00:07:10
+1	35	Whooshes _87_2-01.L	00:09:17:08	00:09:19:04	00:00:01:21
+1	36	Naamtitel FINAL,Audio Mixdown,2.new.01-45.A1	00:09:27:07	00:09:31:23	00:00:04:16
+1	37	Naamtitel FINAL,Audio Mixdown,2.new.01-45.A1	00:09:46:00	00:09:53:10	00:00:07:10
+1	38	SDT-03-05.01-01.L	00:10:07:04	00:10:09:07	00:00:02:02
+1	39	Naamtitel FINAL,Audio Mixdown,2.new.01-45.A1	00:10:20:23	00:10:24:15	00:00:03:17
+1	40	Naamtitel FINAL,Audio Mixdown,2.new.01-45.A1	00:10:29:18	00:10:33:17	00:00:03:24
+1	41	SDT-01-18.01.L	00:10:50:02	00:10:59:23	00:00:09:21
+1	42	Naamtitel FINAL,Audio Mixdown,2.new.01-45.A1	00:11:08:11	00:11:11:23	00:00:03:12
+1	43	Naamtitel FINAL,Audio Mixdown,2.new.01-45.A1	00:11:15:13	00:11:19:11	00:00:03:23
+1	44	6040-48-04.L	00:11:37:18	00:11:40:00	00:00:02:07
+1	45	6040-48-04.L	00:11:55:01	00:11:57:08	00:00:02:07
+1	46	Naamtitel FINAL,Audio Mixdown,2.new.01-45.A1	00:13:00:03	00:13:07:13	00:00:07:10
+1	47	Naamtitel FINAL,Audio Mixdown,2.new.01-45.A1	00:13:08:18	00:13:13:16	00:00:04:23
+1	48	Naamtitel FINAL,Audio Mixdown,2.new.01-45.A1	00:13:14:17	00:13:22:02	00:00:07:10
+1	49	Bumper 01 OUT FINAL,Audio Mixdown,28.new.01-03.A1	00:15:00:00	00:15:06:16	00:00:06:16
+1	50	/Sound FX Library 1/Hollywood Edge/Sound Designer Tool Kit/SDT-01/SDT-01-51.01-01.L	00:15:07:04	00:15:08:16	00:00:01:11
+1	51	/Sound FX Library 1/Hollywood Edge/Sound Designer Tool Kit/SDT-01/SDT-01-51.01-01.L	00:15:09:07	00:15:10:19	00:00:01:11
+1	52	Naamtitel FINAL,Audio Mixdown,2.new.01-45.A1	00:15:28:02	00:15:31:01	00:00:02:24
+1	53	Naamtitel FINAL,Audio Mixdown,2.new.01-45.A1	00:15:33:03	00:15:36:07	00:00:03:04
+1	54	SDT-02-15.01-TiSh_01.L	00:15:47:03	00:15:47:23	00:00:00:19
+1	55	Naamtitel FINAL,Audio Mixdown,2.new.01-45.A1	00:15:50:15	00:15:54:14	00:00:03:24
+1	56	Naamtitel FINAL,Audio Mixdown,2.new.01-45.A1	00:16:31:01	00:16:34:19	00:00:03:18
+1	57	6034-10-18.L	00:17:18:21	00:17:27:16	00:00:08:20
+1	58	Naamtitel FINAL,Audio Mixdown,2.new.01-45.A1	00:18:56:04	00:19:00:12	00:00:04:08
+1	59	6034-10-25.L	00:20:53:07	00:20:54:05	00:00:00:23
+1	60	SDT-02-15.01-TiSh_01.L	00:23:29:04	00:23:29:24	00:00:00:19
+1	61	SDT-02-15.01-TiSh_01.L	00:23:36:03	00:23:36:23	00:00:00:19
+1	62	YAM na werk in shop.new.01-03.A2-RVRS_02.L	00:26:36:15	00:26:39:13	00:00:02:22
+1	63	Naamtitel FINAL,Audio Mixdown,2.new.01-45.A1	00:26:47:22	00:26:51:10	00:00:03:13
+1	64	Naamtitel FINAL,Audio Mixdown,2.new.01-45.A1	00:27:51:08	00:27:55:11	00:00:04:03
+1	65	Naamtitel FINAL,Audio Mixdown,2.new.01-45.A1	00:27:55:11	00:28:01:12	00:00:06:01
+1	66	Naamtitel FINAL,Audio Mixdown,2.new.01-45.A1	00:28:15:14	00:28:19:23	00:00:04:09
+1	67	Naamtitel FINAL,Audio Mixdown,2.new.01-45.A1	00:28:59:08	00:29:06:18	00:00:07:10
+1	68	Naamtitel FINAL,Audio Mixdown,2.new.01-45.A1	00:30:45:10	00:30:47:10	00:00:02:00
+1	69	Naamtitel FINAL,Audio Mixdown,2.new.01-45.A1	00:31:14:18	00:31:22:03	00:00:07:10
+1	70	Naamtitel FINAL,Audio Mixdown,2.new.01-45.A1	00:31:40:15	00:31:48:00	00:00:07:10
+1	71	Naamtitel FINAL,Audio Mixdown,2.new.01-45.A1	00:32:36:10	00:32:41:03	00:00:04:18
+1	72	/Sound FX Library 1/Sound Ideas/Sci-Fi Series 8000/8004/8004-55-02.L	00:33:07:18	00:33:09:00	00:00:01:07
+1	73	SDT-02-94.01.L	00:34:09:21	00:34:12:11	00:00:02:15
+1	74	Naamtitel FINAL,Audio Mixdown,2.new.01-45.A1	00:34:51:18	00:34:55:14	00:00:03:21
+1	75	Naamtitel FINAL,Audio Mixdown,2.new.01-45.A1	00:35:12:09	00:35:15:10	00:00:03:01
+1	76	Naamtitel FINAL,Audio Mixdown,2.new.01-45.A1	00:36:24:06	00:36:28:19	00:00:04:13
+1	77	Naamtitel FINAL,Audio Mixdown,2.new.01-45.A1	00:37:16:07	00:37:23:17	00:00:07:10
+1	78	Naamtitel FINAL,Audio Mixdown,2.new.01-45.A1	00:37:30:03	00:37:37:13	00:00:07:10
+1	79	Naamtitel FINAL,Audio Mixdown,2.new.01-45.A1	00:38:00:24	00:38:05:14	00:00:04:15
+1	80	Naamtitel FINAL,Audio Mixdown,2.new.01-45.A1	00:38:05:14	00:38:06:05	00:00:00:16
+1	81	8002-71-1.L	00:40:26:24	00:40:29:11	00:00:02:11
+1	82	6040-48-04.L	00:41:11:12	00:41:14:17	00:00:03:04
+1	83	6040-48-04.L	00:43:04:03	00:43:06:00	00:00:01:21
+1	84	Naamtitel FINAL,Audio Mixdown,2.new.01-45.A1	00:43:51:01	00:43:58:11	00:00:07:10
+1	85	Naamtitel FINAL,Audio Mixdown,2.new.01-45.A1	00:44:04:12	00:44:08:13	00:00:04:01
+1	86	Naamtitel FINAL,Audio Mixdown,2.new.01-45.A1	00:44:38:05	00:44:41:12	00:00:03:07
+1	87	Naamtitel FINAL,Audio Mixdown,2.new.01-45.A1	00:44:41:12	00:44:43:14	00:00:02:02
+1	88	Naamtitel FINAL,Audio Mixdown,2.new.01-45.A1	00:44:43:14	00:44:44:21	00:00:01:07
+1	89	Naamtitel FINAL,Audio Mixdown,2.new.01-45.A1	00:45:34:16	00:45:39:09	00:00:04:18
+1	90	Naamtitel FINAL,Audio Mixdown,2.new.01-45.A1	00:45:39:09	00:45:40:05	00:00:00:21
+
+
+2	1	Map FINAL,Audio Mixdown,33.new.01-03.A2	00:02:00:00	00:02:07:02	00:00:07:02
+2	2	SDT-02-63.01-01.R	00:02:17:14	00:02:18:16	00:00:01:02
+2	3	SDT-02-63.01-01.R	00:02:27:19	00:02:28:21	00:00:01:02
+2	4	Naamtitel FINAL,Audio Mixdown,2.new.01-45.A2	00:02:38:00	00:02:40:15	00:00:02:15
+2	5	Naamtitel FINAL,Audio Mixdown,2.new.01-45.A2	00:02:44:21	00:02:52:06	00:00:07:10
+2	6	Naamtitel FINAL,Audio Mixdown,2.new.01-45.A2	00:02:58:21	00:03:01:16	00:00:02:20
+2	7	6034-10-02.R	00:03:23:16	00:03:24:20	00:00:01:03
+2	8	SynthVarious _08_4-01.R	00:03:27:17	00:03:33:02	00:00:05:10
+2	9	SDT-02-15.01-TiSh_01.R	00:03:49:19	00:03:50:14	00:00:00:19
+2	10	6018-81-02.R	00:03:51:13	00:03:51:19	00:00:00:05
+2	11	6018-81-04.R	00:03:51:19	00:03:52:01	00:00:00:07
+2	12	6018-81-05.R	00:03:52:01	00:03:52:14	00:00:00:13
+2	13	SDT-02-15.01-TiSh_01.R	00:03:56:05	00:03:57:00	00:00:00:19
+2	14	SDT-02-15.01-TiSh_01.R	00:04:02:02	00:04:02:22	00:00:00:19
+2	15	SDT-02-15.01-TiSh_01.R	00:04:12:07	00:04:13:02	00:00:00:19
+2	16	SDT-02-15.01-TiSh_01.R	00:04:25:07	00:04:26:02	00:00:00:19
+2	17	6021-59-1.R	00:04:26:20	00:04:28:19	00:00:01:23
+2	18	SDT-02-15.01-TiSh_01.R	00:04:30:21	00:04:31:16	00:00:00:19
+2	19	6002-44-04.R	00:04:32:18	00:04:37:03	00:00:04:10
+2	20	SDT-01-12.01-01.R	00:04:41:11	00:04:43:21	00:00:02:10
+2	21	SDT-01-08.01-02.R	00:04:54:23	00:04:59:04	00:00:04:05
+2	22	14 The Pain.mp3.new.05-01.A2	00:04:59:04	00:04:59:22	00:00:00:18
+2	23	SDT-01-08.01-03.R	00:04:59:22	00:05:02:22	00:00:03:00
+2	24	Naamtitel FINAL,Audio Mixdown,2.new.01-45.A2	00:05:32:08	00:05:39:18	00:00:07:10
+2	25	6040-48-04.R	00:05:54:01	00:05:55:15	00:00:01:13
+2	26	Naamtitel FINAL,Audio Mixdown,2.new.01-45.A2	00:06:15:04	00:06:22:14	00:00:07:10
+2	27	Naamtitel FINAL,Audio Mixdown,2.new.01-45.A2	00:06:42:17	00:06:50:02	00:00:07:10
+2	28	Naamtitel FINAL,Audio Mixdown,2.new.01-45.A2	00:06:53:24	00:06:58:19	00:00:04:20
+2	29	Naamtitel FINAL,Audio Mixdown,2.new.01-45.A2	00:07:27:04	00:07:34:14	00:00:07:10
+2	30	/Sound FX Library 1/Hollywood Edge/Sound Designer Tool Kit/SDT-01/SDT-01-51.01-01.R	00:07:55:00	00:07:56:12	00:00:01:11
+2	31	/Sound FX Library 1/Hollywood Edge/Sound Designer Tool Kit/SDT-01/SDT-01-51.01-01.R	00:07:56:22	00:07:58:09	00:00:01:11
+2	32	Naamtitel FINAL,Audio Mixdown,2.new.01-45.A2	00:08:03:15	00:08:08:01	00:00:04:11
+2	33	Naamtitel FINAL,Audio Mixdown,2.new.01-45.A2	00:08:22:04	00:08:26:20	00:00:04:16
+2	34	Naamtitel FINAL,Audio Mixdown,2.new.01-45.A2	00:08:39:04	00:08:46:14	00:00:07:10
+2	35	Whooshes _87_2-01.R	00:09:17:08	00:09:19:04	00:00:01:21
+2	36	Naamtitel FINAL,Audio Mixdown,2.new.01-45.A2	00:09:27:07	00:09:31:23	00:00:04:16
+2	37	Naamtitel FINAL,Audio Mixdown,2.new.01-45.A2	00:09:46:00	00:09:53:10	00:00:07:10
+2	38	SDT-03-05.01-01.R	00:10:07:04	00:10:09:07	00:00:02:02
+2	39	Naamtitel FINAL,Audio Mixdown,2.new.01-45.A2	00:10:20:23	00:10:24:15	00:00:03:17
+2	40	Naamtitel FINAL,Audio Mixdown,2.new.01-45.A2	00:10:29:18	00:10:33:17	00:00:03:24
+2	41	SDT-01-18.01.R	00:10:50:02	00:10:59:23	00:00:09:21
+2	42	Naamtitel FINAL,Audio Mixdown,2.new.01-45.A2	00:11:08:11	00:11:11:23	00:00:03:12
+2	43	Naamtitel FINAL,Audio Mixdown,2.new.01-45.A2	00:11:15:13	00:11:19:11	00:00:03:23
+2	44	6040-48-04.R	00:11:37:18	00:11:40:00	00:00:02:07
+2	45	6040-48-04.R	00:11:55:01	00:11:57:08	00:00:02:07
+2	46	Naamtitel FINAL,Audio Mixdown,2.new.01-45.A2	00:13:00:03	00:13:07:13	00:00:07:10
+2	47	Naamtitel FINAL,Audio Mixdown,2.new.01-45.A2	00:13:08:18	00:13:13:16	00:00:04:23
+2	48	Naamtitel FINAL,Audio Mixdown,2.new.01-45.A2	00:13:14:17	00:13:22:02	00:00:07:10
+2	49	Bumper 01 OUT FINAL,Audio Mixdown,28.new.01-03.A2	00:15:00:00	00:15:06:16	00:00:06:16
+2	50	/Sound FX Library 1/Hollywood Edge/Sound Designer Tool Kit/SDT-01/SDT-01-51.01-01.R	00:15:07:04	00:15:08:16	00:00:01:11
+2	51	/Sound FX Library 1/Hollywood Edge/Sound Designer Tool Kit/SDT-01/SDT-01-51.01-01.R	00:15:09:07	00:15:10:19	00:00:01:11
+2	52	Naamtitel FINAL,Audio Mixdown,2.new.01-45.A2	00:15:28:02	00:15:31:01	00:00:02:24
+2	53	Naamtitel FINAL,Audio Mixdown,2.new.01-45.A2	00:15:33:03	00:15:36:07	00:00:03:04
+2	54	SDT-02-15.01-TiSh_01.R	00:15:47:03	00:15:47:23	00:00:00:19
+2	55	Naamtitel FINAL,Audio Mixdown,2.new.01-45.A2	00:15:50:15	00:15:54:14	00:00:03:24
+2	56	Naamtitel FINAL,Audio Mixdown,2.new.01-45.A2	00:16:31:01	00:16:34:19	00:00:03:18
+2	57	6034-10-18.R	00:17:18:21	00:17:27:16	00:00:08:20
+2	58	Naamtitel FINAL,Audio Mixdown,2.new.01-45.A2	00:18:56:04	00:19:00:12	00:00:04:08
+2	59	6034-10-25.R	00:20:53:07	00:20:54:05	00:00:00:23
+2	60	SDT-02-15.01-TiSh_01.R	00:23:29:04	00:23:29:24	00:00:00:19
+2	61	SDT-02-15.01-TiSh_01.R	00:23:36:03	00:23:36:23	00:00:00:19
+2	62	YAM na werk in shop.new.01-03.A2-RVRS_02.R	00:26:36:15	00:26:39:13	00:00:02:22
+2	63	Naamtitel FINAL,Audio Mixdown,2.new.01-45.A2	00:26:47:22	00:26:51:10	00:00:03:13
+2	64	Naamtitel FINAL,Audio Mixdown,2.new.01-45.A2	00:27:51:08	00:27:55:11	00:00:04:03
+2	65	Naamtitel FINAL,Audio Mixdown,2.new.01-45.A2	00:27:55:11	00:28:01:12	00:00:06:01
+2	66	Naamtitel FINAL,Audio Mixdown,2.new.01-45.A2	00:28:15:14	00:28:19:23	00:00:04:09
+2	67	Naamtitel FINAL,Audio Mixdown,2.new.01-45.A2	00:28:59:08	00:29:06:18	00:00:07:10
+2	68	Naamtitel FINAL,Audio Mixdown,2.new.01-45.A2	00:30:45:10	00:30:47:10	00:00:02:00
+2	69	Naamtitel FINAL,Audio Mixdown,2.new.01-45.A2	00:31:14:18	00:31:22:03	00:00:07:10
+2	70	Naamtitel FINAL,Audio Mixdown,2.new.01-45.A2	00:31:40:15	00:31:48:00	00:00:07:10
+2	71	Naamtitel FINAL,Audio Mixdown,2.new.01-45.A2	00:32:36:10	00:32:41:03	00:00:04:18
+2	72	/Sound FX Library 1/Sound Ideas/Sci-Fi Series 8000/8004/8004-55-02.R	00:33:07:18	00:33:09:00	00:00:01:07
+2	73	SDT-02-94.01.R	00:34:09:21	00:34:12:11	00:00:02:15
+2	74	Naamtitel FINAL,Audio Mixdown,2.new.01-45.A2	00:34:51:18	00:34:55:14	00:00:03:21
+2	75	Naamtitel FINAL,Audio Mixdown,2.new.01-45.A2	00:35:12:09	00:35:15:10	00:00:03:01
+2	76	Naamtitel FINAL,Audio Mixdown,2.new.01-45.A2	00:36:24:06	00:36:28:19	00:00:04:13
+2	77	Naamtitel FINAL,Audio Mixdown,2.new.01-45.A2	00:37:16:07	00:37:23:17	00:00:07:10
+2	78	Naamtitel FINAL,Audio Mixdown,2.new.01-45.A2	00:37:30:03	00:37:37:13	00:00:07:10
+2	79	Naamtitel FINAL,Audio Mixdown,2.new.01-45.A2	00:38:00:24	00:38:05:14	00:00:04:15
+2	80	Naamtitel FINAL,Audio Mixdown,2.new.01-45.A2	00:38:05:14	00:38:06:05	00:00:00:16
+2	81	8002-71-1.R	00:40:26:24	00:40:29:11	00:00:02:11
+2	82	6040-48-04.R	00:41:11:12	00:41:14:17	00:00:03:04
+2	83	6040-48-04.R	00:43:04:03	00:43:06:00	00:00:01:21
+2	84	Naamtitel FINAL,Audio Mixdown,2.new.01-45.A2	00:43:51:01	00:43:58:11	00:00:07:10
+2	85	Naamtitel FINAL,Audio Mixdown,2.new.01-45.A2	00:44:04:12	00:44:08:13	00:00:04:01
+2	86	Naamtitel FINAL,Audio Mixdown,2.new.01-45.A2	00:44:38:05	00:44:41:12	00:00:03:07
+2	87	Naamtitel FINAL,Audio Mixdown,2.new.01-45.A2	00:44:41:12	00:44:43:14	00:00:02:02
+2	88	Naamtitel FINAL,Audio Mixdown,2.new.01-45.A2	00:44:43:14	00:44:44:21	00:00:01:07
+2	89	Naamtitel FINAL,Audio Mixdown,2.new.01-45.A2	00:45:34:16	00:45:39:09	00:00:04:18
+2	90	Naamtitel FINAL,Audio Mixdown,2.new.01-45.A2	00:45:39:09	00:45:40:05	00:00:00:21
+
+
