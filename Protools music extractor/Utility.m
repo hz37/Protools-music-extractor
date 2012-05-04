@@ -33,7 +33,7 @@ NSString* const HZ_FileDropped = @"HZFileDropped";
     frames -= (m * 60 * frameRate);
     NSInteger s = frames / frameRate;
     frames %= frameRate;
-    
+        
     if (frames < 0) 
     {
         frames = 0;
@@ -57,6 +57,20 @@ NSString* const HZ_FileDropped = @"HZFileDropped";
         if (frames >= (frameRate / 2)) 
         {
             ++s;
+            
+            if(s == 60)
+            {
+                // Avoid 60 seconds or minutes.
+                
+                ++m;
+                s = 0;
+                
+                if(m == 60)
+                {
+                    ++h;
+                    m = 0;
+                }
+            }
         }
         
         return [NSString stringWithFormat:@"%.2ld:%.2ld:%.2ld", h, m, s];     
