@@ -29,6 +29,7 @@
 @synthesize tcSetStop;
 @synthesize outputTable;
 @synthesize outputTableScrollView;
+@synthesize combineMenuItem;
 @synthesize preferencesPanel;
 @synthesize ignoreExtensionCheckbox;
 @synthesize ignoreNewCheckBox;
@@ -179,13 +180,47 @@ NSString* const HZ_SortOnName = @"SortOnName";
 }
 
 
+// User knows several menu entries are actually one and the same file
+// and, after having selecte those entries, has rightclicked for a context menu.
+
+- (IBAction)combineManually:(id)sender 
+{
+    NSIndexSet* indices = [outputTable selectedRowIndexes];
+
+    if ([indices count] < 2) 
+    {
+        NSRunAlertPanel(@"Error", @"You must select at least two rows for that", @"I see", nil, nil);
+
+        return;
+    }
+    
+    [protoolsData combineManually:indices];
+    
+    // Deselect.
+    
+    [outputTable deselectAll:sender];
+    
+    // Display output table.
+    
+    [self generateAndDisplayOutput];
+    
+    // And we attempt to draw a somewhat accurate of the combined regions.
+    // I say "somewhat" because users can make really nonsensical choices,
+    // like combine regions from several tracks that are wide apart.
+    
+    [self updateMiniUniverse];
+}
+
+
 // User clicks checkbox in preferences to request to
 // combine similar regions or not.
 
 - (IBAction)combineSimilar:(id)sender 
 {
-    [protoolsData setCombineSimilar:[sender state]];
-
+    BOOL combineSimilar = [sender state];
+    [protoolsData setCombineSimilar:combineSimilar];
+    //[combineMenuItem setEnabled:!combineSimilar];
+    
     // Display output table.
     
     [self generateAndDisplayOutput];
@@ -210,6 +245,15 @@ NSString* const HZ_SortOnName = @"SortOnName";
     
     [protoolsData deleteRows:[outputTable selectedRowIndexes]];
 
+    // Deselect.
+    
+    [outputTable deselectAll:sender];
+    
+    // Display again.
+    
+    [self generateAndDisplayOutput];
+
+    /*
     // In this case, we can't regenerate the table because
     // it would re-enter everything we have just deleted.
     
@@ -224,6 +268,7 @@ NSString* const HZ_SortOnName = @"SortOnName";
     NSInteger count = [protoolsData regionUsageCount];
     
     [hudLabelRegionCount setStringValue:[[NSString alloc] initWithFormat:@"%ld file%@ selected", count, count == 1 ? @"" : @"s"]];
+     */
 }
 
 
@@ -424,6 +469,7 @@ NSString* const HZ_SortOnName = @"SortOnName";
     value = [userDefaults boolForKey:HZ_CombineSimilarKey];
     [protoolsData setCombineSimilar:value];
     [combineSimilarCheckBox setState:value];
+    //[combineMenuItem setEnabled:!value];
 
     value = [userDefaults boolForKey:HZ_IgnoreShorterKey];
     [protoolsData setIgnoreShorter:value];
@@ -854,13 +900,21 @@ From Apple forums it appears this is an OSX issue and not something
 
 - (void) tableView: (NSTableView*) tableView setObjectValue: (id) anObject forTableColumn: (NSTableColumn*) tableColumn row: (NSInteger) row
 {
-    if( [[tableColumn identifier] isEqualToString:@"checkBoxes"] ) 
+    if([[tableColumn identifier] isEqualToString:@"checkBoxes"]) 
     {
+        // User (un)checked a field in the tracks table upper right.
+        
         [protoolsData setTrackState:[anObject boolValue] AtIndex:row];
 
         // Display output table.
         
         [self generateAndDisplayOutput];
+    }
+    else if([[tableColumn identifier] isEqualToString:@"regionName"])
+    {
+        // User edited a name field in lower left table.
+        
+        [protoolsData edit:anObject At:row];
     }
 }
 

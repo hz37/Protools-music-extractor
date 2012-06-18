@@ -2,34 +2,35 @@
 <archive type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="8.00">
 	<data>
 		<int key="IBDocument.SystemTarget">1070</int>
-		<string key="IBDocument.SystemVersion">11D50b</string>
+		<string key="IBDocument.SystemVersion">11E53</string>
 		<string key="IBDocument.InterfaceBuilderVersion">1934</string>
-		<string key="IBDocument.AppKitVersion">1138.32</string>
-		<string key="IBDocument.HIToolboxVersion">568.00</string>
+		<string key="IBDocument.AppKitVersion">1138.47</string>
+		<string key="IBDocument.HIToolboxVersion">569.00</string>
 		<object class="NSMutableDictionary" key="IBDocument.PluginVersions">
 			<string key="NS.key.0">com.apple.InterfaceBuilder.CocoaPlugin</string>
 			<string key="NS.object.0">1934</string>
 		</object>
 		<array key="IBDocument.IntegratedClassDependencies">
-			<string>NSStepper</string>
-			<string>NSCustomView</string>
-			<string>NSScroller</string>
-			<string>NSTableHeaderView</string>
 			<string>NSMenuItem</string>
 			<string>NSMenu</string>
-			<string>NSScrollView</string>
-			<string>NSButtonCell</string>
-			<string>NSButton</string>
-			<string>NSTextFieldCell</string>
-			<string>NSTableView</string>
-			<string>NSSlider</string>
 			<string>NSSliderCell</string>
+			<string>NSButton</string>
 			<string>NSCustomObject</string>
-			<string>NSStepperCell</string>
-			<string>NSView</string>
-			<string>NSWindowTemplate</string>
-			<string>NSTableColumn</string>
+			<string>NSSlider</string>
+			<string>NSTableView</string>
+			<string>NSCustomView</string>
 			<string>NSTextField</string>
+			<string>NSWindowTemplate</string>
+			<string>NSTextFieldCell</string>
+			<string>NSStepperCell</string>
+			<string>NSButtonCell</string>
+			<string>NSTableColumn</string>
+			<string>NSView</string>
+			<string>NSScrollView</string>
+			<string>NSUserDefaultsController</string>
+			<string>NSScroller</string>
+			<string>NSStepper</string>
+			<string>NSTableHeaderView</string>
 		</array>
 		<array key="IBDocument.PluginDependencies">
 			<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
@@ -419,7 +420,7 @@
 											<string key="NSFrameSize">{238, 275}</string>
 											<reference key="NSSuperview" ref="238193432"/>
 											<reference key="NSWindow"/>
-											<reference key="NSNextKeyView" ref="702697598"/>
+											<reference key="NSNextKeyView" ref="316006491"/>
 											<string key="NSReuseIdentifierKey">_NS:1828</string>
 											<bool key="NSEnabled">YES</bool>
 											<object class="NSTableHeaderView" key="NSHeaderView" id="785190906">
@@ -623,7 +624,7 @@
 							<string key="NSFrame">{{496, 150}, {240, 293}}</string>
 							<reference key="NSSuperview" ref="439893737"/>
 							<reference key="NSWindow"/>
-							<reference key="NSNextKeyView" ref="238193432"/>
+							<reference key="NSNextKeyView" ref="702697598"/>
 							<string key="NSReuseIdentifierKey">_NS:1824</string>
 							<int key="NSsFlags">133682</int>
 							<reference key="NSVScroller" ref="316006491"/>
@@ -711,6 +712,7 @@
 							<string key="NSFrame">{{490, 12}, {252, 32}}</string>
 							<reference key="NSSuperview" ref="439893737"/>
 							<reference key="NSWindow"/>
+							<reference key="NSNextKeyView"/>
 							<string key="NSReuseIdentifierKey">_NS:687</string>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSButtonCell" key="NSCell" id="366891623">
@@ -912,7 +914,7 @@
 											<string key="NSFrameSize">{458, 211}</string>
 											<reference key="NSSuperview" ref="668934207"/>
 											<reference key="NSWindow"/>
-											<reference key="NSNextKeyView" ref="182081120"/>
+											<reference key="NSNextKeyView" ref="257218047"/>
 											<string key="NSReuseIdentifierKey">_NS:1828</string>
 											<bool key="NSEnabled">YES</bool>
 											<object class="NSTableHeaderView" key="NSHeaderView" id="490238874">
@@ -962,6 +964,7 @@
 													</object>
 													<int key="NSResizingMask">3</int>
 													<bool key="NSIsResizeable">YES</bool>
+													<bool key="NSIsEditable">YES</bool>
 													<reference key="NSTableView" ref="770906049"/>
 												</object>
 												<object class="NSTableColumn" id="261216443">
@@ -1036,7 +1039,6 @@
 									<reference key="NSWindow"/>
 									<reference key="NSNextKeyView" ref="873054077"/>
 									<string key="NSReuseIdentifierKey">_NS:1847</string>
-									<bool key="NSEnabled">YES</bool>
 									<int key="NSsFlags">1</int>
 									<reference key="NSTarget" ref="843143533"/>
 									<string key="NSAction">_doScroller:</string>
@@ -1062,9 +1064,9 @@
 							<string key="NSFrame">{{20, 20}, {460, 229}}</string>
 							<reference key="NSSuperview" ref="439893737"/>
 							<reference key="NSWindow"/>
-							<reference key="NSNextKeyView" ref="668934207"/>
+							<reference key="NSNextKeyView" ref="182081120"/>
 							<string key="NSReuseIdentifierKey">_NS:1824</string>
-							<int key="NSsFlags">133810</int>
+							<int key="NSsFlags">133682</int>
 							<reference key="NSVScroller" ref="257218047"/>
 							<reference key="NSHScroller" ref="812484997"/>
 							<reference key="NSContentView" ref="668934207"/>
@@ -1528,6 +1530,23 @@
 				<string key="NSScreenRect">{{0, 0}, {1920, 1178}}</string>
 				<string key="NSMaxSize">{10000000000000, 10000000000000}</string>
 				<bool key="NSWindowIsRestorable">YES</bool>
+			</object>
+			<object class="NSMenu" id="727095833">
+				<string key="NSTitle"/>
+				<array class="NSMutableArray" key="NSMenuItems">
+					<object class="NSMenuItem" id="694191316">
+						<reference key="NSMenu" ref="727095833"/>
+						<bool key="NSIsDisabled">YES</bool>
+						<string key="NSTitle">Combine</string>
+						<string key="NSKeyEquiv"/>
+						<int key="NSMnemonicLoc">2147483647</int>
+						<reference key="NSOnImage" ref="35465992"/>
+						<reference key="NSMixedImage" ref="502551668"/>
+					</object>
+				</array>
+			</object>
+			<object class="NSUserDefaultsController" id="42630120">
+				<bool key="NSSharedInstance">YES</bool>
 			</object>
 		</array>
 		<object class="IBObjectContainer" key="IBDocument.Objects">
@@ -2021,6 +2040,30 @@
 					<int key="connectionID">729</int>
 				</object>
 				<object class="IBConnectionRecord">
+					<object class="IBActionConnection" key="connection">
+						<string key="label">combineManually:</string>
+						<reference key="source" ref="976324537"/>
+						<reference key="destination" ref="694191316"/>
+					</object>
+					<int key="connectionID">735</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">combineMenuItem</string>
+						<reference key="source" ref="976324537"/>
+						<reference key="destination" ref="694191316"/>
+					</object>
+					<int key="connectionID">736</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBActionConnection" key="connection">
+						<string key="label">selectAllStereoTracks:</string>
+						<reference key="source" ref="976324537"/>
+						<reference key="destination" ref="358851887"/>
+					</object>
+					<int key="connectionID">739</int>
+				</object>
+				<object class="IBConnectionRecord">
 					<object class="IBOutletConnection" key="connection">
 						<string key="label">dataSource</string>
 						<reference key="source" ref="61906940"/>
@@ -2051,6 +2094,14 @@
 						<reference key="destination" ref="976324537"/>
 					</object>
 					<int key="connectionID">655</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">menu</string>
+						<reference key="source" ref="770906049"/>
+						<reference key="destination" ref="727095833"/>
+					</object>
+					<int key="connectionID">734</int>
 				</object>
 			</array>
 			<object class="IBMutableOrderedSet" key="objectRecords">
@@ -2889,6 +2940,24 @@
 						<reference key="object" ref="873070876"/>
 						<reference key="parent" ref="141420285"/>
 					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">730</int>
+						<reference key="object" ref="727095833"/>
+						<array class="NSMutableArray" key="children">
+							<reference ref="694191316"/>
+						</array>
+						<reference key="parent" ref="0"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">731</int>
+						<reference key="object" ref="694191316"/>
+						<reference key="parent" ref="727095833"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">737</int>
+						<reference key="object" ref="42630120"/>
+						<reference key="parent" ref="0"/>
+					</object>
 				</array>
 			</object>
 			<dictionary class="NSMutableDictionary" key="flattenedProperties">
@@ -3009,6 +3078,9 @@
 				<string key="702.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="708.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="72.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="730.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="731.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="737.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="74.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="75.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="77.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
@@ -3022,7 +3094,7 @@
 			<nil key="activeLocalization"/>
 			<dictionary class="NSMutableDictionary" key="localizations"/>
 			<nil key="sourceID"/>
-			<int key="maxID">729</int>
+			<int key="maxID">739</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<array class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -3033,6 +3105,7 @@
 						<string key="changeSelectionStart:">id</string>
 						<string key="changeSelectionStop:">id</string>
 						<string key="closePreferences:">id</string>
+						<string key="combineManually:">id</string>
 						<string key="combineSimilar:">id</string>
 						<string key="deleteEntries:">id</string>
 						<string key="deselectAllTracks:">id</string>
@@ -3066,6 +3139,10 @@
 						</object>
 						<object class="IBActionInfo" key="closePreferences:">
 							<string key="name">closePreferences:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="combineManually:">
+							<string key="name">combineManually:</string>
 							<string key="candidateClassName">id</string>
 						</object>
 						<object class="IBActionInfo" key="combineSimilar:">
@@ -3154,6 +3231,7 @@
 						</object>
 					</dictionary>
 					<dictionary class="NSMutableDictionary" key="outlets">
+						<string key="combineMenuItem">NSMenuItem</string>
 						<string key="combineSimilarCheckBox">NSButton</string>
 						<string key="hudLabelFilename">NSTextField</string>
 						<string key="hudLabelFrameRate">NSTextField</string>
@@ -3179,6 +3257,10 @@
 						<string key="window">NSWindow</string>
 					</dictionary>
 					<dictionary class="NSMutableDictionary" key="toOneOutletInfosByName">
+						<object class="IBToOneOutletInfo" key="combineMenuItem">
+							<string key="name">combineMenuItem</string>
+							<string key="candidateClassName">NSMenuItem</string>
+						</object>
 						<object class="IBToOneOutletInfo" key="combineSimilarCheckBox">
 							<string key="name">combineSimilarCheckBox</string>
 							<string key="candidateClassName">NSButton</string>

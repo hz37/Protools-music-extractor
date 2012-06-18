@@ -50,10 +50,12 @@
 @property (weak) IBOutlet NSTextField *tcSetStop;
 @property (weak) IBOutlet NSTableView *outputTable;
 @property (weak) IBOutlet NSScrollView *outputTableScrollView;
+@property (weak) IBOutlet NSMenuItem *combineMenuItem;
 
 - (IBAction) changeSelectionStart: (id) sender;
 - (IBAction) changeSelectionStop: (id) sender;
 - (IBAction) closePreferences: (id) sender;
+- (IBAction) combineManually:(id)sender;
 - (IBAction) combineSimilar: (id) sender;
 - (IBAction)deleteEntries:(id)sender;
 - (IBAction) deselectAllTracks: (id) sender;

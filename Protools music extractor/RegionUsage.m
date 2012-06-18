@@ -35,10 +35,12 @@
 
 // Construct with values passed. Calls super init and returns self.
 
-- (id) initWith: (NSString*) theName LengthInFrames: (NSInteger) theLength
+- (id) initWith: (NSString*) theName OriginalNames: (NSArray*) theOriginalNames LengthInFrames: (NSInteger) theLength
 {
-    if (self = [super init]) {
+    if (self = [super init]) 
+    {
         name = theName;
+        originalNames = [[NSMutableArray alloc] initWithArray:theOriginalNames];
         length = theLength;
     }
     
@@ -59,6 +61,24 @@
 - (NSString*) getName
 {
     return name;
+}
+
+
+// Return the original (untruncated, uncombined) name(s) of this region.
+// There can be one or more original names, hence the array.
+
+- (NSArray*) getOriginalNames
+{
+    return originalNames;
+}
+
+
+// User provides a new name for this region out of discomfort
+// about the generated name.
+
+- (void) setName: (NSString*) newName
+{
+    name = newName;
 }
 
 @end

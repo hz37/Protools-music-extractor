@@ -27,25 +27,126 @@ NSInteger const HZ37_defaultFrameRate = 0;
 double const HZ37_defaultSampleRate = 0.0;
 
 
-// Delete entries from the regionUsages array.
+// Give the user a way to manually select and combine regions of which she
+// is sure they all just refer to the same file (but somehow were mangled
+// by Protools).
+
+- (void) combineManually: (NSIndexSet*) indices
+{
+    // We'll try to find a new name common to all selected regions.
+    
+    NSString* __block newName = @"__init__";
+    
+    // But since these might have wildly different names, we'll
+    // default to the first in case there is no match.
+    
+    NSString* __block fallbackName ;
+    
+    // Tally all the times of these together.
+    
+    NSInteger __block newLength = 0;
+
+    // We'll take the first occurence as the new start time.
+    // This is sort'a random, but we'll have to draw it somewhere in
+    // the mini universe.
+    
+    NSInteger __block newStartFrame;
+    
+    // We'll also assume they are on the same track as the first occurence
+    // and have the same amount of channels.
+    
+    NSString* __block newTrackName;
+    BOOL __block newIsMono;
+    
+    [indices enumerateIndexesUsingBlock:^(NSUInteger idx, BOOL *stop) 
+     {
+         RegionUsage* ru = [regionUsages objectAtIndex:idx];
+         NSString* regionName = [ru getName];
+         NSArray* regionNames = [ru getOriginalNames];
+         
+         if ([newName isEqualToString:@"__init__"]) 
+         {
+             // First one, so let's initialize some fields.
+             
+             newName = regionName;
+             fallbackName = regionName;
+             
+             // These now require three different loop lookups,
+             // so if this function gets slow, combine those into one
+             // traverse through the regions container.
+             
+             newStartFrame = [self getEarliestStartFrame:regionNames];
+             newTrackName = [self getTrack:regionNames];
+             newIsMono = [self getIsMono:regionNames];
+         }
+         else
+         {
+             // See if we can find a common part between the region names.
+             
+             newName = [self greatestCommonStringFrom:newName And:regionName];
+             
+             // See if this region has an earlier start time.
+             
+             NSInteger regionStartFrame = [self getEarliestStartFrame:regionNames];
+             
+             if (regionStartFrame < newStartFrame) 
+             {
+                 newStartFrame = regionStartFrame;
+             }
+         }
+         
+         // Remove all regions that we have found in the regionNames container
+         // and add their lengths to our new length.
+         
+         for (NSString* name in regionNames) 
+         {
+             newLength += [self removeRegionWithName:name];
+         }
+     }];
+    
+    // If we don't have a bit of common region name, fall back on first name.
+    
+    if ([newName length] == 0) 
+    {
+        newName = fallbackName;
+    }
+    
+    // Now we can add this manually combined "region" back to the regions container.
+    
+    // Instantiate a new Region object with the above.
+    
+    Region* region = [[Region alloc] initWithName:newName TrackName:newTrackName StartFrame:newStartFrame StopFrame:(newStartFrame + newLength) Length:newLength IsMono:newIsMono];
+    
+    // Add it to container that holds all region data.
+    
+    [regions addObject:region];
+}
+
+
 // This is a way to clean up the list with superfluous shit (like sound effects)
 // before printing it or saving it. The output table supports multi select
 // and the indices of all the selected items are passed to this function.
 
 - (void) deleteRows: (NSIndexSet*) indices
 {
-    // Amount we have to subtract every time when an object's been removed.
-    
-    NSUInteger __block subtractor = 0;
-    
     [indices enumerateIndexesUsingBlock:^(NSUInteger idx, BOOL *stop) 
-    {
-        [regionUsages removeObjectAtIndex:idx - subtractor];
-        
-        // When we delete a region, the indices decrement from that point onwards.
-        
-        ++subtractor;
-    }];
+     {
+         RegionUsage* ru = [regionUsages objectAtIndex:idx];
+         NSString* regionName = [ru getName];
+         
+         NSPredicate* predicate = [NSPredicate predicateWithFormat:@"NOT name BEGINSWITH %@", regionName];
+         [regions filterUsingPredicate:predicate];
+     }];
+}
+
+
+// User provides a new name for an existing region.
+
+- (void) edit: (NSString*) name At: (NSInteger) index
+{
+    RegionUsage* regionUsage = [regionUsages objectAtIndex:index];
+
+    [regionUsage setName:name];
 }
 
 
@@ -103,7 +204,6 @@ double const HZ37_defaultSampleRate = 0.0;
         if ([[tracksLUT objectForKey:[region trackName]] boolValue] == FALSE) 
         {
             continue;
-            //
         }
         
         // If region starts before user selection or ends after user selection,
@@ -129,7 +229,13 @@ double const HZ37_defaultSampleRate = 0.0;
             continue;
         }
         
+        // Get the name.
+        
         NSString* regionName = [region name];
+        
+        // Store it in a container that might grow with more names in case we find similar regions.
+        
+        NSMutableArray* regionNames = [[NSMutableArray alloc] initWithObjects:regionName, nil];
         
         // If so desired, regions that start with "Fade" can be skipped.
         // Probably only semi-dangerous if a song is called "Fade to Grey" by Visage.
@@ -183,12 +289,11 @@ double const HZ37_defaultSampleRate = 0.0;
             regionName = [regionName substringToIndex:lengthMinusTwo];
         }
         
-        
         // Add or combine it.
         
         if (combineSimilar) 
         {
-            // See if we already have this region. If so add times together.
+            // See if we already have this region. If so add times and names together.
             
             NSInteger count = [regionUsages count];
             
@@ -201,6 +306,10 @@ double const HZ37_defaultSampleRate = 0.0;
                     // Add existing length to current length.
                     
                     regionLength += regionUsage.getLength;
+                    
+                    // Add its name(s) to our collection.
+                    
+                    [regionNames addObjectsFromArray:[regionUsage getOriginalNames]];
                     
                     // Delete the existing object.
                     
@@ -217,9 +326,9 @@ double const HZ37_defaultSampleRate = 0.0;
         //
         // 1) We don't combine similar regions.
         // 2) We do combine similar regions but no existing object was found.
-        // 3) We do combine similar regiond and the existing object was found, added and deleted.
+        // 3) We do combine similar regions and the existing object was found, added and deleted.
         
-        RegionUsage* regionUsage = [[RegionUsage alloc] initWith:regionName LengthInFrames:regionLength];
+        RegionUsage* regionUsage = [[RegionUsage alloc] initWith:regionName OriginalNames:regionNames LengthInFrames:regionLength];
         [regionUsages addObject:regionUsage];
     }
     
@@ -245,7 +354,7 @@ double const HZ37_defaultSampleRate = 0.0;
             }
         }
         
-        // Remove those items in reverse orser so our index values dodn't get messed up.
+        // Remove those items in reverse order so our index values don't get messed up.
         
         count = [indices count];
         
@@ -276,6 +385,27 @@ double const HZ37_defaultSampleRate = 0.0;
 - (NSInteger) getFrameRate
 {
     return frameRate;
+}
+
+
+// Helper function for combineManually. Returns the isMono of
+// a region with from regionNames.
+
+- (BOOL) getIsMono: (NSArray*) regionNames
+{
+    // We assume the first element is representative for all the regions.
+    
+    NSString* regionName = [regionNames objectAtIndex:0];
+    
+    for (Region* r in regions) 
+    {
+        if ([[r name] isEqualToString:regionName]) 
+        {
+            return [r isMono];
+        }
+    }
+    
+    return TRUE;
 }
 
 
@@ -331,11 +461,60 @@ double const HZ37_defaultSampleRate = 0.0;
 }
 
 
+// Helper function for combineManually. Returns the earliest startframe of all the regions in regionNames.
+
+- (NSInteger) getEarliestStartFrame: (NSArray*) regionNames
+{
+    // Start pessimistic.
+    
+    NSInteger returnValue = NSIntegerMax;
+    
+    for (NSString* regionName in regionNames) 
+    {
+        for (Region* r in regions) 
+        {
+            if ([[r name] isEqualToString:regionName])
+            {
+                NSInteger sf = [r startFrame];
+                
+                if (sf < returnValue) 
+                {
+                    returnValue = sf;
+                }
+            }
+        }
+    }
+    
+    return returnValue;
+}
+
+
 // Return session filename.
 
 - (NSString*) getTitle
 {
     return [sessionFileName lastPathComponent];
+}
+
+
+// Helper function for combineManually. Returns the track of
+// a region with from regionNames.
+
+- (NSString*) getTrack: (NSArray*) regionNames
+{
+    // We guess the first element is representative of all elements.
+    
+    NSString* regionName = [regionNames objectAtIndex:0];
+    
+    for (Region* r in regions) 
+    {
+        if ([[r name] isEqualToString:regionName]) 
+        {
+            return [r trackName];
+        }
+    }
+    
+    return @"";
 }
 
 
@@ -345,6 +524,26 @@ double const HZ37_defaultSampleRate = 0.0;
 - (NSArray*) getTracks
 {
     return tracks;
+}
+
+
+// Helper function for combineManually. Returns the longest string that's
+// common for s1 and s2, as evaulated from the start. Case insensitive.
+
+- (NSString*) greatestCommonStringFrom: (NSString*) s1 And: (NSString*) s2
+{
+    NSUInteger len = MIN ([s1 length], [s2 length]);
+    NSUInteger idx;
+    
+    for (idx = 0; idx < len; ++idx) 
+    {
+        if ([[s1 lowercaseString] characterAtIndex:idx] != [[s2 lowercaseString] characterAtIndex:idx]) 
+        {
+            break;
+        }
+    }
+     
+    return [s1 substringToIndex:idx];
 }
 
 
@@ -485,7 +684,7 @@ double const HZ37_defaultSampleRate = 0.0;
             // Instantiate a new Region object with the above.
             
             Region* region = [[Region alloc] initWithName:regionName TrackName:trackName StartFrame:regionStartFrame StopFrame:regionStopFrame Length:regionLength IsMono:isMono];
-            
+                        
             // Add it to container that holds all region data.
             
             [regions addObject:region];
@@ -531,6 +730,8 @@ double const HZ37_defaultSampleRate = 0.0;
 {
     RegionUsage* regionUsage = [regionUsages objectAtIndex:index];
     
+    //NSLog(@"name [%@] len [%ld]", [regionUsage getName], [regionUsage getLength]);
+    
     return [regionUsage getName];
 }
 
@@ -542,6 +743,41 @@ double const HZ37_defaultSampleRate = 0.0;
     RegionUsage* regionUsage = [regionUsages objectAtIndex:index];
     
     return [regionUsage getLength];
+}
+
+
+// Internal helper function for combineManually() method.
+// Removes a single region from the regions container
+// and returns the length.
+
+- (NSInteger) removeRegionWithName: (NSString*) name
+{   
+    NSInteger lengthToReturn = 0;
+
+    NSInteger count = [regions count];
+    
+    NSInteger idx = 0;
+    
+    for (idx = 0; idx < count; ++idx) 
+    {
+        Region* r = [regions objectAtIndex:idx];
+        
+        if ([[r name] isEqualToString:name]) 
+        {
+            lengthToReturn = [r length];
+            break;
+        }
+    }
+    
+    // Done scanning. If we are not out of bounds, delete this item.
+    
+    if (idx < count) 
+    {
+        [regions removeObjectAtIndex:idx];
+        //NSLog(@"REM: [%ld][%@]", idx, name);
+    }
+    
+    return lengthToReturn; 
 }
 
 

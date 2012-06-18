@@ -23,6 +23,11 @@
     
     NSString* name;
     
+    // In order to let the user combine similar regions manually,
+    // we must have a way to refer back to the original names.
+    
+    NSMutableArray* originalNames;
+        
     // Length in frames. Possibly added from different regions (see comment above).
     
     NSInteger length;
@@ -30,8 +35,10 @@
 
 - (NSComparisonResult) compareName: (RegionUsage*) f;
 - (NSComparisonResult) compareLength: (RegionUsage*) f;
-- (id) initWith: (NSString*) theName LengthInFrames: (NSInteger) theLength;
+- (id) initWith: (NSString*) theName OriginalNames: (NSArray*) theOriginalNames LengthInFrames: (NSInteger) theLength;
 - (NSInteger) getLength;
 - (NSString*) getName;
+- (NSArray*) getOriginalNames;
+- (void) setName: (NSString*) newName;
 
 @end

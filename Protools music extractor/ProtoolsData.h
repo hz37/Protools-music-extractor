@@ -68,20 +68,27 @@
 @property (readwrite) double sampleRate;
 @property (readwrite, copy) NSString* sessionFileName;
 
+- (void) combineManually: (NSIndexSet*) indices;
 - (void) deleteRows: (NSIndexSet*) indices;
+- (void) edit: (NSString*) name At: (NSInteger) index;
 - (BOOL) extractHMSF:(NSString*) inputString Hours: (NSInteger*) h Mins: (NSInteger*) m Secs: (NSInteger*) s Frames: (NSInteger*) f;
 - (void) generateListing;
 - (NSInteger) getFrameRate;
+- (BOOL) getIsMono: (NSArray*) regionNamea;
 - (NSString*) getRegionUsages: (BOOL) includeFrames;
 - (NSArray*) getRegionUsagesRaw;
 - (NSArray*) getRegions;
 - (void) getSessionBoundaries: (NSInteger*) sessionStart SessionEnd: (NSInteger*) sessionEnd;
+- (NSInteger) getEarliestStartFrame: (NSArray*) regionNames;
 - (NSString*) getTitle;
+- (NSString*) getTrack: (NSArray*) regionNames;
 - (NSArray*) getTracks;
+- (NSString*) greatestCommonStringFrom: (NSString*) s1 And: (NSString*) s2;
 - (void) loadFileWithName: (NSString*) fileName;
 - (NSInteger) regionUsageCount;
 - (NSString*) regionUsageNameAtIndex: (NSInteger) index;
 - (NSInteger) regionUsageTimeAtIndex: (NSInteger) index;
+- (NSInteger) removeRegionWithName: (NSString*) name;
 - (void) reset;
 - (void) setCombineSimilar: (BOOL) newState;
 - (void) setIgnoreFade: (BOOL) newState;
