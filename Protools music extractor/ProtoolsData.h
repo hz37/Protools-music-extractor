@@ -84,7 +84,7 @@
 - (NSString*) getTrack: (NSArray*) regionNames;
 - (NSArray*) getTracks;
 - (NSString*) greatestCommonStringFrom: (NSString*) s1 And: (NSString*) s2;
-- (void) loadFileWithName: (NSString*) fileName;
+- (bool) loadFileWithName: (NSString*) fileName;
 - (NSInteger) regionUsageCount;
 - (NSString*) regionUsageNameAtIndex: (NSInteger) index;
 - (NSInteger) regionUsageTimeAtIndex: (NSInteger) index;

@@ -37,11 +37,11 @@
          continueAfterRunningActions = "No"
          isPathRelative = "1"
          filePath = "Protools music extractor/HZ37_AppDelegate.m"
-         timestampString = "361720157.39388"
+         timestampString = "391809036.722398"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "958"
-         endingLineNumber = "958"
+         startingLineNumber = "968"
+         endingLineNumber = "968"
          landmarkName = "-textToFrames:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -51,11 +51,11 @@
          continueAfterRunningActions = "No"
          isPathRelative = "1"
          filePath = "Protools music extractor/HZ37_AppDelegate.m"
-         timestampString = "361720157.39388"
+         timestampString = "391809036.722398"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "959"
-         endingLineNumber = "959"
+         startingLineNumber = "969"
+         endingLineNumber = "969"
          landmarkName = "-textToFrames:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -78,26 +78,12 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          isPathRelative = "1"
-         filePath = "Protools music extractor/ProtoolsData.h"
-         timestampString = "353251183.032342"
-         startingColumnNumber = "9223372036854775807"
-         endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "59"
-         endingLineNumber = "59"
-         landmarkName = "@interface ProtoolsData"
-         landmarkType = "2">
-      </FileBreakpoint>
-      <FileBreakpoint
-         shouldBeEnabled = "No"
-         ignoreCount = "0"
-         continueAfterRunningActions = "No"
-         isPathRelative = "1"
          filePath = "Protools music extractor/PrintView.m"
-         timestampString = "353659228.723808"
+         timestampString = "392992319.493555"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "91"
-         endingLineNumber = "91"
+         startingLineNumber = "97"
+         endingLineNumber = "97"
          landmarkName = "-knowsPageRange:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -107,11 +93,11 @@
          continueAfterRunningActions = "No"
          isPathRelative = "1"
          filePath = "Protools music extractor/HZ37_AppDelegate.m"
-         timestampString = "361709191.342842"
+         timestampString = "391809036.722398"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "552"
-         endingLineNumber = "552"
+         startingLineNumber = "559"
+         endingLineNumber = "559"
          landmarkName = "-openPreferences:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -121,13 +107,13 @@
          continueAfterRunningActions = "No"
          isPathRelative = "1"
          filePath = "Protools music extractor/ProtoolsData.m"
-         timestampString = "361720157.39388"
+         timestampString = "361890486.844367"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "579"
-         endingLineNumber = "579"
-         landmarkName = "-loadFileWithName:"
-         landmarkType = "5">
+         startingLineNumber = "582"
+         endingLineNumber = "582"
+         landmarkName = "@implementation ProtoolsData"
+         landmarkType = "3">
       </FileBreakpoint>
       <FileBreakpoint
          shouldBeEnabled = "No"
@@ -219,11 +205,11 @@
          continueAfterRunningActions = "No"
          isPathRelative = "1"
          filePath = "Protools music extractor/ProtoolsData.m"
-         timestampString = "361720157.39388"
+         timestampString = "391788324.308361"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "760"
-         endingLineNumber = "760"
+         startingLineNumber = "1060"
+         endingLineNumber = "1060"
          landmarkName = "-removeRegionWithName:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -233,11 +219,11 @@
          continueAfterRunningActions = "No"
          isPathRelative = "1"
          filePath = "Protools music extractor/ProtoolsData.m"
-         timestampString = "361720157.39388"
+         timestampString = "391788324.308361"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "768"
-         endingLineNumber = "768"
+         startingLineNumber = "1068"
+         endingLineNumber = "1068"
          landmarkName = "-removeRegionWithName:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -247,11 +233,11 @@
          continueAfterRunningActions = "No"
          isPathRelative = "1"
          filePath = "Protools music extractor/HZ37_AppDelegate.m"
-         timestampString = "361709191.342842"
+         timestampString = "391809036.722398"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "733"
-         endingLineNumber = "733"
+         startingLineNumber = "743"
+         endingLineNumber = "743"
          landmarkName = "-selectAllStereoTracks:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -267,6 +253,147 @@
          startingLineNumber = "101"
          endingLineNumber = "101"
          landmarkName = "-combineManually:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         isPathRelative = "1"
+         filePath = "Protools music extractor/ProtoolsData.m"
+         timestampString = "361890486.844367"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "709"
+         endingLineNumber = "709"
+         landmarkName = "@implementation ProtoolsData"
+         landmarkType = "3">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         isPathRelative = "1"
+         filePath = "Protools music extractor/ProtoolsData.m"
+         timestampString = "361890486.844367"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "714"
+         endingLineNumber = "714"
+         landmarkName = "@implementation ProtoolsData"
+         landmarkType = "3">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "Protools music extractor/ProtoolsData.h"
+         timestampString = "373117560.491217"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "28"
+         endingLineNumber = "28"
+         landmarkName = "@interface ProtoolsData"
+         landmarkType = "2">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "Protools music extractor/PrintView.h"
+         timestampString = "391781102.38929"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "12"
+         endingLineNumber = "12">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "Protools music extractor/ProtoolsData.h"
+         timestampString = "391781360.083873"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "10"
+         endingLineNumber = "10">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "Protools music extractor/ProtoolsData.h"
+         timestampString = "391781368.987756"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "20"
+         endingLineNumber = "20"
+         landmarkName = "@interface ProtoolsData"
+         landmarkType = "2">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "Protools music extractor/HZ37_AppDelegate.m"
+         timestampString = "391809036.722398"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "619"
+         endingLineNumber = "619"
+         landmarkName = "-processFileWithName:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "Protools music extractor/ProtoolsData.m"
+         timestampString = "391786928.260991"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "981"
+         endingLineNumber = "981"
+         landmarkName = "-loadFileWithName:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "Protools music extractor/ProtoolsData.m"
+         timestampString = "391786962.478039"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "983"
+         endingLineNumber = "983"
+         landmarkName = "-loadFileWithName:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "Protools music extractor/ProtoolsData.m"
+         timestampString = "391788324.308361"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "1086"
+         endingLineNumber = "1086"
+         landmarkName = "-reset"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "Protools music extractor/ProtoolsData.m"
+         timestampString = "391787733.244648"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "990"
+         endingLineNumber = "990"
+         landmarkName = "-loadFileWithName:"
          landmarkType = "5">
       </FileBreakpoint>
    </FileBreakpoints>

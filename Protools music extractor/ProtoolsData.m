@@ -191,7 +191,7 @@ double const HZ37_defaultSampleRate = 0.0;
     
     // These are extensions after which we can ignore string data.
     
-    NSArray* extensionToIgnore = [[NSArray alloc] initWithObjects:@".aif", @".mp3", @".m4a", @".wav", nil];
+    NSArray* extensionToIgnore = [[NSArray alloc] initWithObjects:@".aif", @".cda", @".mp3", @".m4a", @".wav", nil];
     
     //
     // PASS ONE: REDUCE ON NAMES.
@@ -567,7 +567,10 @@ double const HZ37_defaultSampleRate = 0.0;
     return self;
 }
 
+/*
 
+ OLD CODE that assumed tab delimitation, which broke with Protools 10.2.0
+ 
 // loadFileWithName loads the Protools text export file and parses it into
 // separate elements.
 
@@ -652,6 +655,7 @@ double const HZ37_defaultSampleRate = 0.0;
             else if([element1 isEqualToString: @"TIME CODE FORMAT:"] || [element1 isEqualToString: @"TIMECODE FORMAT:"])
             {
                 frameRate = [element2 integerValue]; 
+//                NSLog(@"TC SCANNED %ld", frameRate);
             }
             else if([element1 isEqualToString: @"SAMPLE RATE:"])
             {
@@ -659,12 +663,14 @@ double const HZ37_defaultSampleRate = 0.0;
             }
         }
         
+        // PROTOOLS < 10.2.0 HAD 6 ELEMENTS PER LINE
         // We are only interested in regions at channel 1. In the case of mono regions, that's all
         // we get anyway. In the case if stereo items: the region on channel 2 has the same name
         // and we want to count them once.
         
         else if ((lineElementsCount == 6) && ([@"1" isEqualToString:[lineElements objectAtIndex:0]])) 
         {
+            
             // Gather info we need to construct a Region object.
             // TODO: This section could do with more error checking.
             
@@ -694,6 +700,50 @@ double const HZ37_defaultSampleRate = 0.0;
             startFrame = MIN(regionStartFrame, startFrame);
             stopFrame = MAX(regionStopFrame, stopFrame);
         }
+        
+        // PROTOOLS >= 10.2.0 HAS 7 ELEMENTS PER LINE
+        // We are only interested in regions at channel 1. In the case of mono regions, that's all
+        // we get anyway. In the case if stereo items: the region on channel 2 has the same name
+        // and we want to count them once.
+        
+        else if ((lineElementsCount == 7) && ([@"1" isEqualToString:[lineElements objectAtIndex:0]])) 
+        {
+            // Gather info we need to construct a Region object.
+            // TODO: This section could do with more error checking.
+            
+            NSString* regionName = [lineElements objectAtIndex:2];
+            
+            NSLog(@"REGION [%@]", regionName);
+            
+            NSInteger hours, minutes, seconds, frames;
+            
+            [self extractHMSF:[lineElements objectAtIndex:3] Hours:&hours Mins:&minutes Secs:&seconds Frames:&frames];
+            NSInteger regionStartFrame = (3600 * frameRate * hours + 60 * frameRate * minutes + frameRate * seconds + frames);
+            
+            [self extractHMSF:[lineElements objectAtIndex:4] Hours:&hours Mins:&minutes Secs:&seconds Frames:&frames];
+            NSInteger regionStopFrame = (3600 * frameRate * hours + 60 * frameRate * minutes + frameRate * seconds + frames);
+            
+            [self extractHMSF:[lineElements objectAtIndex:5] Hours:&hours Mins:&minutes Secs:&seconds Frames:&frames];
+            NSInteger regionLength = (3600 * frameRate * hours + 60 * frameRate * minutes + frameRate * seconds + frames);
+            
+            // There now is a state element. If this states "Muted", we ignore this region (because it has been muted)
+            
+            if ([[lineElements objectAtIndex:6] isEqualToString:@"Unmuted"]) 
+            {
+                // Instantiate a new Region object with the above.
+                
+                Region* region = [[Region alloc] initWithName:regionName TrackName:trackName StartFrame:regionStartFrame StopFrame:regionStopFrame Length:regionLength IsMono:isMono];
+                
+                // Add it to container that holds all region data.
+                
+                [regions addObject:region];
+                
+                // See if we need to update our session limits.
+                
+                startFrame = MIN(regionStartFrame, startFrame);
+                stopFrame = MAX(regionStopFrame, stopFrame);
+            }
+        }
     }
     
     // In the odd case of an empty session (one with no regions), we haven't updated
@@ -704,15 +754,247 @@ double const HZ37_defaultSampleRate = 0.0;
         startFrame = stopFrame = 0;
     }
     
+ */
+    
+    // A last check if all went fine.
+    
+//    if (frameRate /* still */ == HZ37_defaultFrameRate || sampleRate /* still */ == HZ37_defaultSampleRate) 
+  //  {
+    //    NSRunAlertPanel(@"Error", @"File wasn't read properly", @"Too bad", nil, nil);
+
+      //  [self reset];
+    //}
+//}
+
+
+// loadFileWithName loads the Protools text export file and parses it into
+// separate elements. NEW CODE 20-06-2012 which uses regular expressions.
+
+- (bool) loadFileWithName: (NSString*) fileName
+{
+    // Check if file exists.
+    
+    NSFileManager* fileManager = [NSFileManager new];
+    
+    if (![fileManager fileExistsAtPath:fileName]) 
+    {
+        NSRunAlertPanel(@"Error", @"File not found", @"Too bad", nil, nil);
+        
+        return false;
+    }
+    
+    // Erase existing data.
+    
+    [self reset];
+    
+    // Read entire contents of file into an NSString.
+    // NSASCIIStringEncoding turned out to work for Protools text exports
+    // (used to be NSUTF8StringEncoding which failed for some files).
+    
+    NSError* error;
+    
+    NSString* stringFromFileAtPath = [[NSString alloc]
+                                      initWithContentsOfFile:fileName
+                                      encoding:NSASCIIStringEncoding
+                                      error:&error];   
+    
+    if (stringFromFileAtPath == nil) 
+    {
+        NSRunAlertPanel(@"Error", @"File could not be read", @"Too bad", nil, nil);
+        
+        return false;
+    }
+    
+    // File was read. Now we go through it line by line.
+    
+    sessionFileName = fileName;
+    
+    NSArray* lines = [stringFromFileAtPath componentsSeparatedByString:@"\n"];
+    
+    // Going though the file sequentially we move from track to track.
+    // trackName will remember the current track we are parsing.
+    
+    NSString* trackName;
+    
+    // Tracks are either mono or stereo (we do not implement surround sound yet).
+    
+    BOOL isMono;
+    
+    // TODO: Move regexp compilation to here (does not need to be done every time in the loop).
+    
+    for (NSString* line in lines) 
+    {
+        NSError* error = nil;
+        NSRange lineRange = NSMakeRange(0, [line length]);
+        
+        // Check if this line has the samplerate.
+        // E.g.
+        // SAMPLE RATE:	48000.000000
+        
+        if (sampleRate == /* still */ HZ37_defaultSampleRate) 
+        {
+            NSRegularExpression* sampleRateRegEx = [NSRegularExpression regularExpressionWithPattern:@"^SAMPLE\\s*RATE:\\s+(\\d+)\\.\\d+$" options:NSRegularExpressionCaseInsensitive error:&error];
+            
+            NSTextCheckingResult* sampleRateMatch = [sampleRateRegEx firstMatchInString:line options:0 range:lineRange];
+            
+            if ([sampleRateMatch numberOfRanges] == 2) 
+            {
+                NSString* sampleRateString = [line substringWithRange:[sampleRateMatch rangeAtIndex:1]];
+                sampleRate = [sampleRateString doubleValue];
+            }
+        }
+
+        // Check if this line has the framerate.
+        // E.g.
+        // TIMECODE FORMAT:	25 Frame
+        
+        if (frameRate == /* still */ HZ37_defaultFrameRate)
+        {
+            NSRegularExpression* frameRateRegEx = [NSRegularExpression regularExpressionWithPattern:@"^TIME\\s*CODE\\s*FORMAT:\\s+(\\d+)\\s+.*$" options:NSRegularExpressionCaseInsensitive error:&error];
+            
+            NSTextCheckingResult* frameRateMatch = [frameRateRegEx firstMatchInString:line options:0 range:lineRange];
+            
+            if ([frameRateMatch numberOfRanges] == 2) 
+            {
+                NSString* frameRateString = [line substringWithRange:[frameRateMatch rangeAtIndex:1]];
+                frameRate = [frameRateString doubleValue];
+            }
+        }
+        
+        // Check for trackname.
+        // E.g.
+        // TRACK NAME:	Dst (Stereo)
+        
+        NSRegularExpression* stereoTrackRegEx = [NSRegularExpression regularExpressionWithPattern:@"^TRACK\\s*NAME:\\s+(.*)\\b\\(Stereo\\)$" options:NSRegularExpressionCaseInsensitive error:&error];
+        
+        NSTextCheckingResult* stereoTrackMatch = [stereoTrackRegEx firstMatchInString:line options:0 range:lineRange];
+        
+        if ([stereoTrackMatch numberOfRanges] == 2) 
+        {
+            isMono = FALSE;
+            trackName = [line substringWithRange:[stereoTrackMatch rangeAtIndex:1]];
+            [tracks addObject:[[Track alloc] initWithName:trackName Mono:isMono]];
+        }
+        else
+        {
+            // If that failed, it might be worth to check for a mono track.
+            
+            NSRegularExpression* monoTrackRegEx = [NSRegularExpression regularExpressionWithPattern:@"^TRACK\\s*NAME:\\s+(.*)$" options:NSRegularExpressionCaseInsensitive error:&error];
+            
+            NSTextCheckingResult* monoTrackMatch = [monoTrackRegEx firstMatchInString:line options:0 range:lineRange];
+            
+            if ([monoTrackMatch numberOfRanges] == 2) 
+            {
+                isMono = TRUE;
+                trackName = [line substringWithRange:[monoTrackMatch rangeAtIndex:1]];
+                [tracks addObject:[[Track alloc] initWithName:trackName Mono:isMono]];
+            }
+        }
+        
+        // Check for the < Protools version 10.2.0 6 field format.
+        
+        NSRegularExpression* regEx6 = [NSRegularExpression 
+                                      regularExpressionWithPattern:@"^1\\s+\\d+\\s+(.*)\\b\\s+(\\d{2}:\\d{2}:\\d{2}:\\d{2})\\s+(\\d{2}:\\d{2}:\\d{2}:\\d{2})\\s+(\\d{2}:\\d{2}:\\d{2}:\\d{2})$" options:NSRegularExpressionCaseInsensitive 
+                                      error:&error];
+        
+        NSTextCheckingResult* match6 = [regEx6 firstMatchInString:line options:0 /* was NSRegularExpressionCaseInsensitive */ range:lineRange];
+        
+        if ([match6 numberOfRanges] == 5) 
+        {
+            NSString* regionName = [line substringWithRange:[match6 rangeAtIndex:1]];
+            
+            NSInteger hours, minutes, seconds, frames;
+            
+            [self extractHMSF:[line substringWithRange:[match6 rangeAtIndex:2]] Hours:&hours Mins:&minutes Secs:&seconds Frames:&frames];
+            
+            NSInteger regionStartFrame = (3600 * frameRate * hours + 60 * frameRate * minutes + frameRate * seconds + frames);
+            
+            [self extractHMSF:[line substringWithRange:[match6 rangeAtIndex:3]] Hours:&hours Mins:&minutes Secs:&seconds Frames:&frames];
+            
+            NSInteger regionStopFrame = (3600 * frameRate * hours + 60 * frameRate * minutes + frameRate * seconds + frames);
+            
+            [self extractHMSF:[line substringWithRange:[match6 rangeAtIndex:4]] Hours:&hours Mins:&minutes Secs:&seconds Frames:&frames];
+            
+            NSInteger regionLength = (3600 * frameRate * hours + 60 * frameRate * minutes + frameRate * seconds + frames);
+            
+            // Instantiate a new Region object with the above.
+            
+            Region* region = [[Region alloc] initWithName:regionName TrackName:trackName StartFrame:regionStartFrame StopFrame:regionStopFrame Length:regionLength IsMono:isMono];
+            
+            // Add it to container that holds all region data.
+            
+            [regions addObject:region];
+            
+            // See if we need to update our session limits.
+            
+            startFrame = MIN(regionStartFrame, startFrame);
+            stopFrame = MAX(regionStopFrame, stopFrame);
+        }
+       
+        // Check for the >= Protools version 10.2.0 7 field format.
+        // If such a line specifies "Muted" (as opposed to "Unmuted") we can safely skip it
+        // because the user has actively muted it. This regex just won't match it, so we
+        // don't have to test for it.
+        
+        NSRegularExpression* regEx7 = [NSRegularExpression 
+                                       regularExpressionWithPattern:@"^1\\s+\\d+\\s+(.*)\\b\\s+(\\d{2}:\\d{2}:\\d{2}:\\d{2})\\s+(\\d{2}:\\d{2}:\\d{2}:\\d{2})\\s+(\\d{2}:\\d{2}:\\d{2}:\\d{2})\\s+Unmuted$" options:NSRegularExpressionCaseInsensitive 
+                                       error:&error];
+        
+        NSTextCheckingResult* match7 = [regEx7 firstMatchInString:line options:0 range:lineRange];
+        
+        if ([match7 numberOfRanges] == 5) 
+        {
+            NSString* regionName = [line substringWithRange:[match7 rangeAtIndex:1]];
+            
+            NSInteger hours, minutes, seconds, frames;
+            
+            [self extractHMSF:[line substringWithRange:[match7 rangeAtIndex:2]] Hours:&hours Mins:&minutes Secs:&seconds Frames:&frames];
+            
+            NSInteger regionStartFrame = (3600 * frameRate * hours + 60 * frameRate * minutes + frameRate * seconds + frames);
+            
+            [self extractHMSF:[line substringWithRange:[match7 rangeAtIndex:3]] Hours:&hours Mins:&minutes Secs:&seconds Frames:&frames];
+            
+            NSInteger regionStopFrame = (3600 * frameRate * hours + 60 * frameRate * minutes + frameRate * seconds + frames);
+            
+            [self extractHMSF:[line substringWithRange:[match7 rangeAtIndex:4]] Hours:&hours Mins:&minutes Secs:&seconds Frames:&frames];
+            
+            NSInteger regionLength = (3600 * frameRate * hours + 60 * frameRate * minutes + frameRate * seconds + frames);
+            
+            // Instantiate a new Region object with the above.
+            
+            Region* region = [[Region alloc] initWithName:regionName TrackName:trackName StartFrame:regionStartFrame StopFrame:regionStopFrame Length:regionLength IsMono:isMono];
+            
+            // Add it to container that holds all region data.
+            
+            [regions addObject:region];
+            
+            // See if we need to update our session limits.
+            
+            startFrame = MIN(regionStartFrame, startFrame);
+            stopFrame = MAX(regionStopFrame, stopFrame);
+        }
+    }
+    
+    // In the odd case of an empty session (one with no regions), we haven't updated
+    // our session boundaries so they are still at extreme values.
+    
+    if ([regions count] == 0) 
+    {
+        startFrame = stopFrame = 0;
+    }
     
     // A last check if all went fine.
     
     if (frameRate /* still */ == HZ37_defaultFrameRate || sampleRate /* still */ == HZ37_defaultSampleRate) 
     {
-        NSRunAlertPanel(@"Error", @"File wasn't read properly", @"Too bad", nil, nil);
-
         [self reset];
+        
+        NSRunAlertPanel(@"Error", @"File wasn't read properly", @"Too bad", nil, nil);
+        
+        return false;
     }
+    
+    return true;
 }
 
 
@@ -728,6 +1010,13 @@ double const HZ37_defaultSampleRate = 0.0;
 
 - (NSString*) regionUsageNameAtIndex: (NSInteger) index
 {
+    // Bounds check.
+    
+    if (index > [regionUsages count] - 1)
+    {
+        return nil;
+    }
+    
     RegionUsage* regionUsage = [regionUsages objectAtIndex:index];
     
     //NSLog(@"name [%@] len [%ld]", [regionUsage getName], [regionUsage getLength]);
@@ -740,6 +1029,13 @@ double const HZ37_defaultSampleRate = 0.0;
 
 - (NSInteger) regionUsageTimeAtIndex: (NSInteger) index
 {
+    // Bounds check.
+    
+    if (index > [regionUsages count] - 1)
+    {
+        return 0;
+    }
+
     RegionUsage* regionUsage = [regionUsages objectAtIndex:index];
     
     return [regionUsage getLength];
@@ -880,6 +1176,13 @@ double const HZ37_defaultSampleRate = 0.0;
 
 - (void) setTrackState: (BOOL) toValue AtIndex: (NSInteger) index
 {
+    // Bounds check;
+    
+    if (index > [tracks count] - 1)
+    {
+        return;
+    }
+    
     Track* track = [tracks objectAtIndex:index];
     
     [track setBoolValue:toValue];
@@ -898,6 +1201,13 @@ double const HZ37_defaultSampleRate = 0.0;
 
 - (NSString*) trackNameAtIndex: (NSInteger) index
 {
+    // Bounds check;
+    
+    if (index > [tracks count] - 1)
+    {
+        return nil;
+    }
+
     Track* track = [tracks objectAtIndex:index];
     
     return [track trackName];
@@ -908,6 +1218,13 @@ double const HZ37_defaultSampleRate = 0.0;
 
 - (NSNumber*) trackStateAtIndex: (NSInteger) index;
 {
+    // Bounds check;
+    
+    if (index > [tracks count] - 1)
+    {
+        return nil;
+    }
+    
     Track* track = [tracks objectAtIndex:index];
     
     return [track numberValue];

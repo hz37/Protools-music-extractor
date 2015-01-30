@@ -44,9 +44,15 @@
         // Attributes of text to be printed.
         
         attributes = [[NSMutableDictionary alloc] init];
-        NSFont* font = [NSFont fontWithName:@"Helvetica" size:12.0];
+        NSFont* font = [NSFont fontWithName:@"Helvetica" size:10.0];
         lineHeight = [font capHeight] * 1.7;
         [attributes setObject:font forKey:NSFontAttributeName];
+        
+        titleAttributes = [[NSMutableDictionary alloc] init];
+        NSFont* titleFont = [NSFont fontWithName:@"Helvetica" size:8.0];
+        [titleAttributes setObject:titleFont forKey:NSFontAttributeName];
+        NSColor* titleColor = [NSColor grayColor];
+        [titleAttributes setObject:titleColor forKey:NSForegroundColorAttributeName];
     }
     
     return self;
@@ -69,9 +75,9 @@
     [self setFrame:newFrame];
     
     // How many lines per page?
-    // Subtract 2 for title and whiteline.
+    // Subtract 10 for logo, title and whiteline.
 
-    linesPerPage = (pageRect.size.height / lineHeight) - 2;
+    linesPerPage = (pageRect.size.height / lineHeight) - 10;
     
     // Pages are 1-based.
     
@@ -122,16 +128,42 @@
     NSRect timeRect;
     
     timeRect.size.height = nameRect.size.height = lineHeight;
-    nameRect.origin.x = pageRect.origin.x;
+    nameRect.origin.x = pageRect.origin.x + 14.0;
     nameRect.size.width = 400.0;
     timeRect.origin.x = NSMaxX(nameRect);
-    timeRect.size.width = 100.0;
+    timeRect.size.width = 140.0;
     
+    // Draw the logo.
+    /*
+    NSString* logoPath = [[NSBundle mainBundle] pathForResource:@"logo-nieuw-groen" ofType:@"png"];
+    NSImage* logo = [[NSImage alloc] initWithContentsOfFile:logoPath];
+    [logo setFlipped:TRUE];
+    
+    // NSLog(@"%f %f", logo.size.width, logo.size.height);
+
+    NSRect logoRect = NSMakeRect(pageRect.origin.x, pageRect.origin.y, 449.0, 115.0);
+    
+    [logo drawInRect:logoRect fromRect:NSZeroRect operation:NSCompositeSourceAtop fraction:0.9];
+     */
+
+    NSString* logoPath = [[NSBundle mainBundle] pathForResource:@"pdf tbv muziekgegevens" ofType:@"pdf"];
+    
+    NSImage* logoImage = [[NSImage alloc] initWithContentsOfFile:logoPath];
+    [logoImage setFlipped:TRUE];
+    
+    [logoImage drawInRect:pageRect fromRect:NSZeroRect operation:NSCompositeSourceAtop fraction:1.0];
+    
+    // NSLog(@"%f %f", logoImage.size.width, logoImage.size.height);
+
     // Print the title on every page.
     
+    // Remove .txt from title.
+    
+    NSString* newTitle = [[title lastPathComponent] stringByDeletingPathExtension];
+    
     nameRect.origin.y = pageRect.origin.y;
-    [[NSString stringWithFormat:@"%@ - page %ld of %ld", title, currentPage + 1, pageCount] drawInRect:nameRect withAttributes:attributes];
-
+    [[NSString stringWithFormat:@"%@ - page %ld of %ld", newTitle, currentPage + 1, pageCount] drawInRect:nameRect withAttributes:titleAttributes];
+    
     // Next print all the lines.
     
     for (NSInteger i = 0; i < linesPerPage; ++i) 
@@ -143,13 +175,15 @@
             break;
         }
 
-        CGFloat y = pageRect.origin.y + (/* title */ 2 * lineHeight) + (i * lineHeight);
+        //CGFloat y = pageRect.origin.y + (/* title + logo  */ 8 * lineHeight) + (i * lineHeight);
         
+        CGFloat y = pageRect.origin.y + (/* title + logo  */ 5 * lineHeight) + (i * lineHeight);
+
         // Draw rect to alternate between lines.
         
         if (index % 2) 
         {
-            NSRect box = NSMakeRect(0.0, y, (nameRect.size.width + timeRect.size.width), lineHeight);
+            NSRect box = NSMakeRect(25.0, y, (nameRect.size.width + timeRect.size.width), lineHeight);
             NSBezierPath* boxPath = [NSBezierPath bezierPathWithRect:box];
             NSColor* boxColor = [NSColor colorWithSRGBRed:0.1 green:0.1 blue:0.1 alpha:0.1];
             [boxColor set];

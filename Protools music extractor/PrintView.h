@@ -14,6 +14,7 @@
 {
     NSArray* regionUsages;
     NSMutableDictionary* attributes;
+    NSMutableDictionary* titleAttributes;
     float lineHeight;
     NSRect pageRect;
     NSInteger linesPerPage;

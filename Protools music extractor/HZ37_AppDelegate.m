@@ -511,6 +511,19 @@ NSString* const HZ_SortOnName = @"SortOnName";
 
 - (IBAction) openFile: (id) sender 
 {
+    // At this point we need to empty our tables,
+    // else there will be an error in the case of an erroneous file read
+    // (e.g. a wrong file that ends with .txt)
+    // In such cases, opening a dialog presumably asks the tables to
+    // redraw themselves. Anyways, this fixed it! HZ, june 1, 2013.
+    
+    [protoolsData reset];
+    
+    [outputTable reloadData];
+    [tracksTable reloadData];
+    [self updateInfoWindow];
+    [self updateMiniUniverse];
+    
     // Create an NSOpenPanel and let user select a file or bail out.
     
     NSOpenPanel* panel = [NSOpenPanel openPanel];
@@ -593,7 +606,7 @@ From Apple forums it appears this is an OSX issue and not something
 }
 
 
-// processFileWithName gets its output from the Open... button, the menu or
+// processFileWithName gets its input from the Open... button, dropped file, the menu or
 // even the recent files menu item. It assumes the file exists and passes control
 // to the appropriate function in the ProtoolsData object (MODEL) which knows
 // what to do with it.
@@ -607,7 +620,10 @@ From Apple forums it appears this is an OSX issue and not something
 
     // Let protoolsData MODEL do the parsing.
     
-    [protoolsData loadFileWithName:fileName];
+    if(![protoolsData loadFileWithName:fileName])
+    {
+        return;
+    }
     
     // Now that the file is parsed, we can update our interface.
     
@@ -777,7 +793,7 @@ From Apple forums it appears this is an OSX issue and not something
     
     // Do nothing if no file was loaded or an error occurred or an empty file was loaded.
     
-    if (sessionStop <= sessionStart) \
+    if (sessionStop <= sessionStart)
     {
         return;
     }
@@ -972,7 +988,7 @@ From Apple forums it appears this is an OSX issue and not something
                     f += num;
                     break;
                 case 2:
-                    f+= (10 * num);
+                    f += (10 * num);
                     break;
                 case 3:
                     s += num;

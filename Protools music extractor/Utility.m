@@ -16,7 +16,7 @@ NSString* const HZ_FileDropped = @"HZFileDropped";
 @implementation Utility
 
 // Convert frames to HH:MM:SS:FF based on framerate.
-// User can specifiy whether or not frames should be included in output.
+// User can specify whether or not frames should be included in output.
 
 + (NSString*) framesToHMSF: (NSInteger) frames IncludeFrames: (BOOL) includeFrames Framerate: (NSInteger) frameRate
 {
@@ -49,7 +49,7 @@ NSString* const HZ_FileDropped = @"HZFileDropped";
         
         if(frameRate % 2)
         {
-            // Avoid off by 1 in rounding, e.g. for PAL 25 fps
+            // Avoid off by 1 in rounding, e.g. for PAL 25 fps.
             
             --frames;
         }

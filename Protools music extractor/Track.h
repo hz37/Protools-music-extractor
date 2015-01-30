@@ -14,7 +14,7 @@
 
 @interface Track : NSObject
 {
-    // The name of the track. D1, D1, M1 (Stereo), etc.
+    // The name of the track. D1, D2, M1 (Stereo), etc.
     
     NSString* trackName;
     
