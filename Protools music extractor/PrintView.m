@@ -146,12 +146,15 @@
     [logo drawInRect:logoRect fromRect:NSZeroRect operation:NSCompositeSourceAtop fraction:0.9];
      */
 
-    NSString* logoPath = [[NSBundle mainBundle] pathForResource:@"pdf tbv muziekgegevens" ofType:@"pdf"];
+//*logo    NSString* logoPath = [[NSBundle mainBundle] pathForResource:@"pdf tbv muziekgegevens" ofType:@"pdf"];
     
-    NSImage* logoImage = [[NSImage alloc] initWithContentsOfFile:logoPath];
-    [logoImage setFlipped:TRUE];
+//*logo    NSImage* logoImage = [[NSImage alloc] initWithContentsOfFile:logoPath];
+
+    //   [logoImage setFlipped:TRUE];
     
-    [logoImage drawInRect:pageRect fromRect:NSZeroRect operation:NSCompositeSourceAtop fraction:1.0];
+    // Changed 27-08-2015: deprecated setFlipped.
+    
+//*logo    [logoImage drawInRect:pageRect fromRect:NSZeroRect operation:NSCompositeSourceAtop fraction:1.0 respectFlipped:true hints:nil];
     
     // NSLog(@"%f %f", logoImage.size.width, logoImage.size.height);
 
